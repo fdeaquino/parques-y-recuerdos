@@ -11,3 +11,37 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.navbar-toggler {
+  position: relative;
+  background: transparent;
+  border: none;
+  width: 40px;
+  height: 40px;
+  /* Adjusted height to match the width */
+  display: flex;
+  /* New */
+  align-items: center;
+  /* New */
+  justify-content: center;
+  /* New */
+}
+
+.menu-icon {
+  height: 100%;
+  width: 100%;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* transform: translateY(50%); */
+  transition: transform 0.3s ease-out;  
+}
+
+.show {
+  transform: translateY(40);  
+}
+
+
