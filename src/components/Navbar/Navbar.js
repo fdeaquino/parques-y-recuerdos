@@ -13,7 +13,7 @@ const Navbar = () => {
     }
 
     return (
-        <nav className="navbar navbar-light bg-light">
+        <nav className="navbar">
             <div className='container-fluid'>
                 <Link to="/" className="navbar-logo">Parques y Recuerdos</Link>
                 <button className={`navbar-toggler menu ${isOpen ? 'openmenu' : ''}`} type='button' onClick={handleToggle}>
@@ -30,7 +30,7 @@ const Navbar = () => {
             <div className={`overlay-menu ${isOpen ? 'overlay-active' : ''}`}>
                 <div className={`collapse navbar-collapse ${isOpen ? 'show' : ''}`} id='navbarSupportedContent'>
                     <div className='home-link'>
-                        <Link className='nav-link-active' aria-current='page' to="/" onClick={closeMenu}>HOME</Link>
+                        <Link className='nav-link-active home-link-styles' aria-current='page' to="/" onClick={closeMenu}>HOME</Link>
                     </div>
 
                     <ul className={`navbar-nav me-auto mb-2 mb-lg-0 ${isOpen ? 'openmenu' : ''}`}>

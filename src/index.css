@@ -1,16 +1,16 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+/* fonts */
+/* 
+font-family: 'Castoro Titling', cursive;
+font-family: 'Cormorant Garamond', serif;
+font-family: 'Phudu', cursive;
+font-family: 'Raleway', sans-serif;
+*/
+
 
 /* ========== START NAV STYLES ========== */
 .navbar-toggler {
@@ -29,6 +29,14 @@ code {
 
 .navbar {
   justify-content: center;
+}
+
+.navbar-logo, .home-link-styles {
+  font-family: 'Castoro Titling', cursive;
+  font-size: large;
+  font-weight: 600;
+  text-decoration: none;
+  color: #FC5100;
 }
 
 .menu-icon {
