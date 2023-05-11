@@ -22,6 +22,7 @@ const InteractiveMap = () => {
             pitch: 60, // pitch in degrees
             bearing: -60 // bearing in degrees
         });
+        map.scrollZoom.disable();
         map.on('load', () => {
             // Iterate over the geoData features
             geoData.features.forEach((feature) => {

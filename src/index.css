@@ -34,7 +34,7 @@ font-family: 'Raleway', sans-serif;
 .main-content {
   display: flex;
   flex-direction: column;
-  overflowY: scroll;
+  overflow-y: scroll;
   grid-row: 2;
   /* Assigns the main content to the second row of the grid */
   grid-column: 1 / span 2;
@@ -44,17 +44,28 @@ font-family: 'Raleway', sans-serif;
 .map-container {
   /* Add your map styling here */
   grid-column: 1;
+  position: relative;
 }
 
 .writing-container {
   /* Add your writing container styling here */
   grid-column: 2;
   overflow-y: auto;
-  
+  position: absolute;
+  z-index: 1;
+  /* Provide a z-index higher than map container */
+  width: 100%;
+  /* Set width to 100% to take full width of parent */
+  background-color: #ffffff;
 }
 
 .mapRender {
   width: 100%;
+}
+
+.map-container,
+.writing-container {
+  order: -1;
 }
 
 
@@ -192,6 +203,17 @@ font-family: 'Raleway', sans-serif;
   .main-content {
     display: flex;
     flex-direction: column;
+  }
+
+  .map-container,
+  .writing-container {
+    order: 0;
+  }
+
+  .writing-container {
+    position: relative;
+    /* Make the writing container position relative on larger screens */
+    width: 50%;
   }
 }
 
