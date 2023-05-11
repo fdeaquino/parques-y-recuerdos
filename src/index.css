@@ -11,6 +11,56 @@ font-family: 'Phudu', cursive;
 font-family: 'Raleway', sans-serif;
 */
 
+/* Colors */
+/* 
+#ffffff     White
+#495228     Dark moss green
+#f2f342     Icterine (yellow)
+#fc5100     Aerospace orange 
+#002e51     Prussian Blue
+#fdd3bf     Apricot (pink/beige)
+#000000     Black
+*/
+
+/* ========== START MAIN PAGE GRID STYLES ========== */
+.app-container {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  /* Adjust this to fit your navbar and content sizes */
+  grid-template-columns: 1fr 2fr;
+  height: 100vh;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  overflowY: scroll;
+  grid-row: 2;
+  /* Assigns the main content to the second row of the grid */
+  grid-column: 1 / span 2;
+  /* Makes the main content span across the two columns */
+}
+
+.map-container {
+  /* Add your map styling here */
+  grid-column: 1;
+}
+
+.writing-container {
+  /* Add your writing container styling here */
+  grid-column: 2;
+  overflow-y: auto;
+  
+}
+
+.mapRender {
+  width: 100%;
+}
+
+
+
+/* ========== END MAIN PAGE GRID STYLES ========== */
+
 
 /* ========== START NAV STYLES ========== */
 .navbar-toggler {
@@ -29,9 +79,16 @@ font-family: 'Raleway', sans-serif;
 
 .navbar {
   justify-content: center;
+  background-color: transparent;
+  grid-row: 1;
+  /* Assigns the navbar to the first row of the grid */
+  grid-column: 1 / span 2;
+  /* Makes the navbar span across the two columns */
 }
 
-.navbar-logo, .home-link-styles {
+.home-link-styles,
+.intro-title,
+.intro-subtitle {
   font-family: 'Castoro Titling', cursive;
   font-size: large;
   font-weight: 600;
@@ -98,6 +155,47 @@ font-family: 'Raleway', sans-serif;
 
 /* ========== END NAV STYLES ========== */
 
+/* ========== START HERO STYLES ========== */
+.hero-section {
+  background-color: inherit;
+  min-height: 65vh;
+  padding: 0 2rem;
+}
+
+.intro-title {
+  font-size: x-large;
+}
+
+.intro-subtitle {
+  font-size: large;
+}
+
+.intro-paragraph {
+  font-family: 'Raleway', sans-serif;
+  font-size: medium;
+  font-weight: 600;
+  text-decoration: none;
+  color: #495228;
+  word-spacing: 4.3px;
+  line-height: 1.75rem;
+}
+
+
+/* ========== END HERO STYLES ========== */
+
+@media screen and (min-width: 992px) {
+  .app-container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+  }
+
+  .main-content {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
 /* large devices greater than or equal to 992px width */
 @media (min-width: 992px) {
   .home-link {
@@ -114,5 +212,9 @@ font-family: 'Raleway', sans-serif;
 
   .state-margins {
     margin: 0rem 2rem 0rem 2rem;
+  }
+
+  .hero-section {
+    min-height: 30vh;
   }
 }

@@ -14,13 +14,16 @@ function MainContent() {
   const isHomePage = location.pathname === "/";
 
   return (
-    <main>
-      {isHomePage ? <Hero /> : (
-        <div style={{ display: 'flex', width: '100%', height: 'calc(100vh - 60px)' }}>
+    <main className="main-content container">
+      <div className='row'>
+        <div className="map-container col-lg-6 col-md-6 col-sm-12">
           <InteractiveMap state={state} />
-          <BlogPost state={state} />
         </div>
-      )}
+        <div className="writing-container col-lg-6 col-md-6 col-sm-12">
+          {isHomePage ? <Hero /> : <BlogPost state={state} />}
+        </div>
+      </div>
+
     </main>
   );
 }
@@ -28,21 +31,16 @@ function MainContent() {
 function App() {
   return (
     <Router>
-      <div>
+      <div className="app-container">
         <Navbar />
         <Routes>
-          <Route
-            path="/"
-            element={<MainContent />}
-          />
-          <Route
-            path="/:state"
-            element={<MainContent />}
-          />
+          <Route path="/" element={<MainContent />} />
+          <Route path="/:state" element={<MainContent />} />
         </Routes>
       </div>
     </Router>
   );
 }
+
 
 export default App;

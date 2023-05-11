@@ -15,7 +15,8 @@ const Navbar = () => {
     return (
         <nav className="navbar">
             <div className='container-fluid'>
-                <Link to="/" className="navbar-logo">Parques y Recuerdos</Link>
+                {/* <Link to="/" className="navbar-logo">Parques y Recuerdos</Link> */}
+                <div></div>
                 <button className={`navbar-toggler menu ${isOpen ? 'openmenu' : ''}`} type='button' onClick={handleToggle}>
                     <svg className={`menu-icon ${isOpen ? 'open' : ''}`} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 30">
                         <g fill="#55596" fill-rule="evenodd">

@@ -49,7 +49,7 @@ const InteractiveMap = () => {
         });
 
         // Add navigation controls to the map
-        map.addControl(new mapboxgl.NavigationControl(), 'bottom-right');
+        // map.addControl(new mapboxgl.NavigationControl(), 'bottom-right');
 
         // Clean up on unmount by removing the map
         return () => map.remove();
@@ -57,7 +57,7 @@ const InteractiveMap = () => {
 
     // Render a div that will hold the map
     // The ref created is attached here
-    return <div ref={mapContainerRef} style={{ width: '40%', height: '100vh' }} />
+    return <div ref={mapContainerRef} className='mapRender' style={{  height: '100vh' }} />
 };
 
 export default InteractiveMap;
