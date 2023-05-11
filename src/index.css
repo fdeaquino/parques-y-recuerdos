@@ -12,19 +12,23 @@ code {
     monospace;
 }
 
+/* ========== START NAV STYLES ========== */
 .navbar-toggler {
+  display: block!important;
   position: relative;
   background: transparent;
   border: none;
   width: 40px;
   height: 40px;
-  /* Adjusted height to match the width */
   display: flex;
-  /* New */
   align-items: center;
-  /* New */
   justify-content: center;
-  /* New */
+  z-index: 1001;
+
+}
+
+.navbar {
+  justify-content: center;
 }
 
 .menu-icon {
@@ -37,11 +41,37 @@ code {
   flex-direction: column;
   align-items: center;
   /* transform: translateY(50%); */
-  transition: transform 0.3s ease-out;  
+  transition: transform 0.3s ease-out;
+}
+
+.overlay-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #495228;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.d-flex {
+  display: flex;
 }
 
 .show {
-  transform: translateY(40);  
+  transform: translateY(0);
 }
 
+/* ========== END NAV STYLES ========== */
 
+
+@media (min-width: 992px) {
+  .navbar-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center!important;
+  }
+}

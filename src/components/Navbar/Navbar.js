@@ -8,11 +8,15 @@ const Navbar = () => {
         setIsOpen(!isOpen);
     };
 
+    const closeMenu = () => {
+        setIsOpen(false);
+    }
+
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <nav className="navbar navbar-light bg-light">
             <div className='container-fluid'>
                 <Link to="/" className="navbar-logo">Parques y Recuerdos</Link>
-                <button className={`navbar-toggler ${isOpen ? 'toggled' : ''}`} type='button' onClick={handleToggle}>
+                <button className={`navbar-toggler menu ${isOpen ? 'openmenu' : ''}`} type='button' onClick={handleToggle}>
                     <svg className={`menu-icon ${isOpen ? 'open' : ''}`} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 30">
                         <g fill="#55596" fill-rule="evenodd">
                             <path d="M.3619 2.7864c.404-.469 1.883-.469 2.288 0 .476.552.309 7.271.309 12.526 0 5.81.095 11.595-.274 11.98-.442.46-1.941.483-2.358 0-.38-.44-.324-6.124-.324-11.91 0-5.467-.032-12.143.359-12.596"></path>
@@ -22,31 +26,36 @@ const Navbar = () => {
                     </svg>
                 </button>
             </div>
-            <div className={`collapse navbar-collapse ${isOpen ? 'show' : ''}`} id='navbarSupportedContent'>
-                <ul className='navbar-nav me-auto mb-2 mb-lg-0'>
-                    <li className='nav-item m-2'>
-                        <Link className='nav-link-active' aria-current='page' to="/california">California Parks</Link>
-                    </li>
-                    <li className='nav-item m-2'>
-                        <Link className='nav-link-active' aria-current='page' to="/colorado">Colorado Parks</Link>
-                    </li>
-                    <li className='nav-item m-2'>
-                        <Link className='nav-link-active' aria-current='page' to="/louisiana">Louisiana Parks</Link>
-                    </li>
-                    <li className='nav-item m-2'>
-                        <Link className='nav-link-active' aria-current='page' to="/new-mexico">New Mexico Parks</Link>
-                    </li>
-                    <li className='nav-item m-2'>
-                        <Link className='nav-link-active' aria-current='page' to="/new-york">New York Parks</Link>
-                    </li>
-                    <li className='nav-item m-2'>
-                        <Link className='nav-link-active' aria-current='page' to="/texas">Texas Parks</Link>
-                    </li>
-                    <li className='nav-item m-2'>
-                        <Link className='nav-link-active' aria-current='page' to="/utah">Utah Parks</Link>
-                    </li>
-                </ul>
 
+            <div className={`overlay-menu ${isOpen ? 'd-flex' : ''}`}>
+                <div className={`collapse navbar-collapse ${isOpen ? 'show' : ''}`} id='navbarSupportedContent'>
+                    <ul className={`navbar-nav me-auto mb-2 mb-lg-0 ${isOpen ? 'openmenu' : ''}`}>
+                        <li className='nav-item m-2'>
+                            <Link to="/" className="navbar-logo" onClick={closeMenu}>HOME</Link>
+                        </li>
+                        <li className='nav-item m-2'>
+                            <Link className='nav-link-active' aria-current='page' to="/california" onClick={closeMenu}>California Parks</Link>
+                        </li>
+                        <li className='nav-item m-2'>
+                            <Link className='nav-link-active' aria-current='page' to="/colorado" onClick={closeMenu}>Colorado Parks</Link>
+                        </li>
+                        <li className='nav-item m-2'>
+                            <Link className='nav-link-active' aria-current='page' to="/louisiana" onClick={closeMenu}>Louisiana Parks</Link>
+                        </li>
+                        <li className='nav-item m-2'>
+                            <Link className='nav-link-active' aria-current='page' to="/new-mexico" onClick={closeMenu}>New Mexico Parks</Link>
+                        </li>
+                        <li className='nav-item m-2'>
+                            <Link className='nav-link-active' aria-current='page' to="/new-york" onClick={closeMenu}>New York Parks</Link>
+                        </li>
+                        <li className='nav-item m-2'>
+                            <Link className='nav-link-active' aria-current='page' to="/texas" onClick={closeMenu}>Texas Parks</Link>
+                        </li>
+                        <li className='nav-item m-2'>
+                            <Link className='nav-link-active' aria-current='page' to="/utah" onClick={closeMenu}>Utah Parks</Link>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
     )
