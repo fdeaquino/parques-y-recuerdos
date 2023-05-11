@@ -27,32 +27,48 @@ const Navbar = () => {
                 </button>
             </div>
 
-            <div className={`overlay-menu ${isOpen ? 'd-flex' : ''}`}>
+            <div className={`overlay-menu ${isOpen ? 'overlay-active' : ''}`}>
                 <div className={`collapse navbar-collapse ${isOpen ? 'show' : ''}`} id='navbarSupportedContent'>
+                    <div className='home-link'>
+                        <Link className='nav-link-active' aria-current='page' to="/" onClick={closeMenu}>HOME</Link>
+                    </div>
+
                     <ul className={`navbar-nav me-auto mb-2 mb-lg-0 ${isOpen ? 'openmenu' : ''}`}>
-                        <li className='nav-item m-2'>
-                            <Link to="/" className="navbar-logo" onClick={closeMenu}>HOME</Link>
+                        
+                        <li className='nav-item state-margins'>
+                            <Link className='nav-link-active' aria-current='page' to="/california" onClick={closeMenu}>
+                                <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/FFFFFF/california.png" alt="california" />
+                            </Link>
                         </li>
-                        <li className='nav-item m-2'>
-                            <Link className='nav-link-active' aria-current='page' to="/california" onClick={closeMenu}>California Parks</Link>
+                        <li className='nav-item state-margins'>
+                            <Link className='nav-link-active' aria-current='page' to="/colorado" onClick={closeMenu}>
+                                <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/FFFFFF/colorado.png" alt="colorado" />
+                            </Link>
                         </li>
-                        <li className='nav-item m-2'>
-                            <Link className='nav-link-active' aria-current='page' to="/colorado" onClick={closeMenu}>Colorado Parks</Link>
+                        <li className='nav-item state-margins'>
+                            <Link className='nav-link-active' aria-current='page' to="/louisiana" onClick={closeMenu}>
+                                <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/FFFFFF/louisiana.png" alt="louisiana" />
+                            </Link>
                         </li>
-                        <li className='nav-item m-2'>
-                            <Link className='nav-link-active' aria-current='page' to="/louisiana" onClick={closeMenu}>Louisiana Parks</Link>
+                        <li className='nav-item state-margins'>
+                            <Link className='nav-link-active' aria-current='page' to="/new-mexico" onClick={closeMenu}>
+                                <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/FFFFFF/new-mexico.png" alt="new-mexico" />
+                            </Link>
                         </li>
-                        <li className='nav-item m-2'>
-                            <Link className='nav-link-active' aria-current='page' to="/new-mexico" onClick={closeMenu}>New Mexico Parks</Link>
+                        <li className='nav-item state-margins'>
+                            <Link className='nav-link-active' aria-current='page' to="/new-york" onClick={closeMenu}>
+                                <img width="50" height="50" src="https://img.icons8.com/ios-filled/FFFFFF/50/new-york.png" alt="new-york" />
+                            </Link>
                         </li>
-                        <li className='nav-item m-2'>
-                            <Link className='nav-link-active' aria-current='page' to="/new-york" onClick={closeMenu}>New York Parks</Link>
+                        <li className='nav-item state-margins'>
+                            <Link className='nav-link-active' aria-current='page' to="/texas" onClick={closeMenu}>
+                                <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/FFFFFF/texas.png" alt="texas" />
+                            </Link>
                         </li>
-                        <li className='nav-item m-2'>
-                            <Link className='nav-link-active' aria-current='page' to="/texas" onClick={closeMenu}>Texas Parks</Link>
-                        </li>
-                        <li className='nav-item m-2'>
-                            <Link className='nav-link-active' aria-current='page' to="/utah" onClick={closeMenu}>Utah Parks</Link>
+                        <li className='nav-item state-margins'>
+                            <Link className='nav-link-active' aria-current='page' to="/utah" onClick={closeMenu}>
+                                <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/FFFFFF/utah.png" alt="utah" />
+                            </Link>
                         </li>
                     </ul>
                 </div>
