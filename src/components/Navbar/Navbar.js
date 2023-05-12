@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -37,37 +38,37 @@ const Navbar = () => {
                     <ul className={`navbar-nav me-auto mb-2 mb-lg-0 ${isOpen ? 'openmenu' : ''}`}>
                         
                         <li className='nav-item state-margins'>
-                            <Link className='nav-link-active' aria-current='page' to="/california" onClick={closeMenu}>
+                            <Link className='nav-link-active' aria-current='page' to="/#california" onClick={closeMenu}>
                                 <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/FFFFFF/california.png" alt="california" />
                             </Link>
                         </li>
                         <li className='nav-item state-margins'>
-                            <Link className='nav-link-active' aria-current='page' to="/colorado" onClick={closeMenu}>
+                            <Link className='nav-link-active' aria-current='page' to="/#colorado" onClick={closeMenu}>
                                 <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/FFFFFF/colorado.png" alt="colorado" />
                             </Link>
                         </li>
                         <li className='nav-item state-margins'>
-                            <Link className='nav-link-active' aria-current='page' to="/louisiana" onClick={closeMenu}>
+                            <Link className='nav-link-active' aria-current='page' to="/#louisiana" onClick={closeMenu}>
                                 <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/FFFFFF/louisiana.png" alt="louisiana" />
                             </Link>
                         </li>
                         <li className='nav-item state-margins'>
-                            <Link className='nav-link-active' aria-current='page' to="/new-mexico" onClick={closeMenu}>
+                            <Link className='nav-link-active' aria-current='page' to="/#new-mexico" onClick={closeMenu}>
                                 <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/FFFFFF/new-mexico.png" alt="new-mexico" />
                             </Link>
                         </li>
                         <li className='nav-item state-margins'>
-                            <Link className='nav-link-active' aria-current='page' to="/new-york" onClick={closeMenu}>
+                            <Link className='nav-link-active' aria-current='page' to="/#new-york" onClick={closeMenu}>
                                 <img width="50" height="50" src="https://img.icons8.com/ios-filled/FFFFFF/50/new-york.png" alt="new-york" />
                             </Link>
                         </li>
                         <li className='nav-item state-margins'>
-                            <Link className='nav-link-active' aria-current='page' to="/texas" onClick={closeMenu}>
+                            <Link className='nav-link-active' aria-current='page' to="/#texas" onClick={closeMenu}>
                                 <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/FFFFFF/texas.png" alt="texas" />
                             </Link>
                         </li>
                         <li className='nav-item state-margins'>
-                            <Link className='nav-link-active' aria-current='page' to="/utah" onClick={closeMenu}>
+                            <Link className='nav-link-active' aria-current='page' to="/#utah" onClick={closeMenu}>
                                 <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/FFFFFF/utah.png" alt="utah" />
                             </Link>
                         </li>
