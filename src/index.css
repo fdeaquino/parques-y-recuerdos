@@ -3,24 +3,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* fonts */
-/* 
-font-family: 'Castoro Titling', cursive;
-font-family: 'Cormorant Garamond', serif;
-font-family: 'Phudu', cursive;
-font-family: 'Raleway', sans-serif;
-*/
-
-/* Colors */
-/* 
-#ffffff     White
-#495228     Dark moss green
-#f2f342     Icterine (yellow)
-#fc5100     Aerospace orange 
-#002e51     Prussian Blue
-#fdd3bf     Apricot (pink/beige)
-#000000     Black
-*/
 
 /* ========== START MAIN PAGE GRID STYLES ========== */
 .app-container {
@@ -57,10 +39,15 @@ font-family: 'Raleway', sans-serif;
   width: 100%;
   /* Set width to 100% to take full width of parent */
   background-color: #ffffff;
+
 }
 
 .mapRender {
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
+  height: 100%;
 }
 
 .map-container,
@@ -68,6 +55,11 @@ font-family: 'Raleway', sans-serif;
   order: -1;
 }
 
+
+/* .content {
+  position: relative;
+  z-index: 1;
+} */
 
 
 /* ========== END MAIN PAGE GRID STYLES ========== */
