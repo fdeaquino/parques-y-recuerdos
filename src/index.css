@@ -38,8 +38,10 @@ body {
   /* Provide a z-index higher than map container */
   width: 100%;
   /* Set width to 100% to take full width of parent */
-  background-color: #ffffff;
+}
 
+.content-background {
+  background-color: #ffffff;
 }
 
 .mapRender {
@@ -55,11 +57,19 @@ body {
   order: -1;
 }
 
-
 /* .content {
   position: relative;
   z-index: 1;
 } */
+
+.hidden {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
+
 
 
 /* ========== END MAIN PAGE GRID STYLES ========== */

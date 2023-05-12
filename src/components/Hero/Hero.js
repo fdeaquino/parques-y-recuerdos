@@ -4,7 +4,7 @@ import React from 'react';
 function Hero() {
     return (
         <>
-            <section className='hero-section'>
+            <section className='hero-section bg-light p-3 m-3'>
                 <h1 className='intro-title'>
                     Parques y Recuerdos:
                 </h1>
