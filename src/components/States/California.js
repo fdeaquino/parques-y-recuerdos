@@ -1,4 +1,21 @@
 import React, { useRef, useEffect } from 'react';
+import yosemiteFidel1 from '../../assets/images/california/yosemite-fidel-valley-view.webp';
+import yosemiteFidel2 from '../../assets/images/california/yosemite-fidel-valley-trail.webp';
+import yosemiteFidel3 from '../../assets/images/california/yosemite-fidel-wooded-trail.webp';
+import yosemiteRoss1 from '../../assets/images/california/yosemite-ross-high-sierras.webp';
+import yosemiteRoss2 from '../../assets/images/california/yosemite-ross-valley-view.webp';
+import brightGreenTrail from '../../assets/images/california/yosemite-bright-green-trail.webp';
+import burnedTrees from '../../assets/images/california/yosemite-burned-trees.webp';
+import cabin from '../../assets/images/california/yosemite-cabin.webp';
+import cocina from '../../assets/images/california/yosemite-cocina.webp';
+import deadTree from '../../assets/images/california/yosemite-dead-tree.webp';
+import hetchHetchyView from '../../assets/images/california/yosemite-hetch-hetchy.webp';
+import hetchHetchyTrail from '../../assets/images/california/yosemite-hetch-hetchy-trail.webp';
+import sequoias from '../../assets/images/california/yosemite-sequoias.webp';
+import swing from '../../assets/images/california/yosemite-swing.webp';
+import teslaCharging from '../../assets/images/california/yosemite-tesla-charging.webp';
+
+
 
 function CaliforniaContent({ className }) {
     const ref = useRef();
@@ -36,22 +53,58 @@ function CaliforniaContent({ className }) {
             <div className='state-section bg-light p-3 m-3 '>
                 <h4 className='intro-subtitle park-title'>Yosemite</h4>
                 <p className='intro-paragraph'>Some content I want to share about the park.</p>
-                <img className='' alt='' src='https://placehold.co/300'></img>
-                <img className='' alt='' src='https://placehold.co/300x200'></img>
-                <img className='' alt='' src='https://placehold.co/300'></img>
-                <img className='' alt='' src='https://placehold.co/300x200'></img>
-                <img className='' alt='' src='https://placehold.co/300'></img>
-                <img className='' alt='' src='https://placehold.co/300x200'></img>
+                <div className='grid'>
+                    <div className='box box--3x3'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${yosemiteFidel1})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${yosemiteRoss2})` }}></div>
+                    </div>
+                    <div className='box box--2x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${sequoias})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${swing})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${deadTree})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${yosemiteFidel2})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${brightGreenTrail})` }}></div>
+                    </div>
+                    <div className='box box--3x3'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${yosemiteRoss1})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${yosemiteFidel3})` }}></div>
+                    </div>
+                    <div className='box box--2x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${hetchHetchyView})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${hetchHetchyTrail})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${burnedTrees})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${cabin})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${teslaCharging})` }}></div>
+                    </div>
+                    <div className='box box--3x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${cocina})` }}></div>
+                    </div>                    
+                </div>
             </div>
             <div className='state-section bg-light p-3 m-3 '>
                 <h4 className='intro-subtitle park-title'>Park 2</h4>
                 <p className='intro-paragraph'>Some content I want to share about the park and about my hiking experience.</p>
-                <img className='' alt='' src='https://placehold.co/300'></img>
-                <img className='' alt='' src='https://placehold.co/300x200'></img>
-                <img className='' alt='' src='https://placehold.co/300'></img>
-                <img className='' alt='' src='https://placehold.co/300x200'></img>
-                <img className='' alt='' src='https://placehold.co/300'></img>
-                <img className='' alt='' src='https://placehold.co/300x200'></img>
+                {/* Grid and photos go here */}
             </div>
         </section>
     );

@@ -215,13 +215,111 @@ font-family: 'Raleway', sans-serif;
 
 /* ========== END HERO STYLES ========== */
 
-/* ========== START PARK SECTION STYLES ========== */
+/* ========== START PHOTO GRID STYLES ========== */
+.grid {
+  margin-top: 4em;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 4px;
+  grid-auto-flow: dense;
+}
 
+.grid .box {
+  grid-column-start: auto;
+}
 
+.grid .box .image-wrapper {
+  background-position: center;
+  background-size: cover;
+}
 
-/* ========== END PARK SECTION STYLES ========== */
+.grid .box--1x1 .image-wrapper {
+  padding-bottom: 100%;
+}
+
+.grid .box--1x2 {
+  grid-row-end: span 2;
+}
+
+.grid .box--1x2 .image-wrapper {
+  padding-bottom: 150%;
+}
+
+.grid .box--2x1 {
+  grid-column-end: span 2;
+}
+
+.grid .box--2x1 .image-wrapper {
+  padding-bottom: calc(50% - 2px);
+}
+
+.grid .box--2x2 {
+  grid-column-end: span 2;
+  grid-row-end: span 2;
+}
+
+.grid .box--2x2 .image-wrapper {
+  padding-bottom: 100%;
+}
+
+.grid .box--3x1 {
+  grid-column-end: span 3;
+}
+
+.grid .box--3x1 .image-wrapper {
+  padding-bottom: 33.33%;
+}
+
+.grid .box--3x2 {
+  grid-column-end: span 3;
+}
+
+.grid .box--3x2 .image-wrapper {
+  padding-bottom: 66.66%;
+}
+
+.grid .box--3x3 {
+  grid-column-end: span 3;
+  grid-row-end: span 3;
+}
+
+.grid .box--3x3 .image-wrapper {
+  padding-bottom: 100%;
+}
+
+/* ========== END PHOTO GRID STYLES ========== */
 
 /* ========== START MEDIA QUERY ========== */
+
+@media screen and (max-width: 767px) {
+
+  .grid .box--1x1,
+  .grid .box--1x2,
+  .grid .box--2x2,
+  .grid .box--3x3,
+  .grid .box--2x1,
+  .grid .box--3x1,
+  .grid .box--3x2 {
+    grid-column-end: span 3;
+  }
+
+  .grid .box--1x1 .image-wrapper,
+  .grid .box--1x2 .image-wrapper,
+  .grid .box--2x2 .image-wrapper,
+  .grid .box--3x3 .image-wrapper {
+    padding-bottom: 100%;
+  }
+
+  .grid .box--2x1 .image-wrapper,
+  .grid .box--3x1 .image-wrapper,
+  .grid .box--3x2 .image-wrapper {
+    padding-bottom: 66.66%;
+  }
+}
+
+
+
 
 @media screen and (min-width: 992px) {
   .app-container {
