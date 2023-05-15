@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
-import { BrowserRouter as Router, Routes, Route, useLocation, useParams } from 'react-router-dom';
+import React, { useEffect, useState } from 'react';
+import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import { Element } from 'react-scroll';
 
 import InteractiveMap from './components/InteractiveMap/InteractiveMap';
 import Navbar from './components/Navbar/Navbar';
@@ -15,28 +16,63 @@ import UtahContent from './components/States/Utah';
 function MainContent({ activeState, setActiveState }) {
   const location = useLocation();
 
-  // Check if the current route is the home page
   const isHomePage = location.pathname === "/";
 
-  // Get the current hash, remove the '#' character, and convert it to lowercase
-  const hash = window.location.hash.slice(1).toLowerCase();
+  const states = ['california', 'colorado', 'louisiana', 'newmexico', 'newyork', 'texas', 'utah'];
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const visibleState = states.find((state) => {
+        const element = document.getElementById(state);
+        const rect = element.getBoundingClientRect();
+        const isVisible = rect.top >= 0 && rect.top <= window.innerHeight;
+        return isVisible;
+      });
+
+      if (visibleState && visibleState !== activeState) {
+        console.log("Updating active state to", visibleState); // Add this line
+        setActiveState(visibleState);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, [activeState, setActiveState]);
+
 
   return (
     <main className="main-content container">
       <div className='row'>
         <div className="map-container col-lg-6 col-md-6 col-sm-12">
-          <InteractiveMap state={hash} />
+          <InteractiveMap state={activeState} />
         </div>
         <div className="writing-container col-lg-6 col-md-6 col-sm-12">
           {isHomePage ? <Hero /> : null}
+          <Element name='california'>
+            <CaliforniaContent className={isHomePage || activeState === 'california' ? 'visible' : 'hidden'} setActiveState={setActiveState}/>
+          </Element>
+          <Element name='colorado'>
+            <ColoradoContent className={isHomePage || activeState === 'colorado' ? 'visible' : 'hidden'} setActiveState={setActiveState}/>
+          </Element>
+          <Element name='louisiana'>
+            <LouisianaContent className={isHomePage || activeState === 'louisiana' ? 'visible' : 'hidden'} setActiveState={setActiveState} />
+          </Element>
+          <Element name='newmexico'>
+            <NewMexicoContent className={isHomePage || activeState === 'newmexico' ? 'visible' : 'hidden'} setActiveState={setActiveState} />
+          </Element>
+          <Element name='newyork'>
+            <NewYorkContent className={isHomePage || activeState === 'newyork' ? 'visible' : 'hidden'} setActiveState={setActiveState} />
+          </Element>
+          <Element name='texas'>
+            <TexasContent className={isHomePage || activeState === 'texas' ? 'visible' : 'hidden'} setActiveState={setActiveState} />
+          </Element>
+          <Element name='utah'>
+            <UtahContent className={isHomePage || activeState === 'utah' ? 'visible' : 'hidden'} setActiveState={setActiveState} />
+          </Element>
 
-          <CaliforniaContent className={isHomePage || activeState === 'california' ? 'visible' : 'hidden'} />
-          <ColoradoContent className={isHomePage || activeState === 'colorado' ? 'visible' : 'hidden'} />
-          <LouisianaContent className={isHomePage || activeState === 'louisiana' ? 'visible' : 'hidden'} />
-          <NewMexicoContent className={isHomePage || activeState === 'newmexico' ? 'visible' : 'hidden'} />
-          <NewYorkContent className={isHomePage || activeState === 'newyork' ? 'visible' : 'hidden'} />
-          <TexasContent className={isHomePage || activeState === 'texas' ? 'visible' : 'hidden'} />
-          <UtahContent className={isHomePage || activeState === 'utah' ? 'visible' : 'hidden'} />
         </div>
       </div>
     </main>

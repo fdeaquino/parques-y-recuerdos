@@ -17,7 +17,7 @@ import teslaCharging from '../../assets/images/california/yosemite-tesla-chargin
 
 
 
-function CaliforniaContent({ className }) {
+function CaliforniaContent({ className, setActiveState }) {
     const ref = useRef();
 
     useEffect(() => {
@@ -25,6 +25,7 @@ function CaliforniaContent({ className }) {
             ([entry]) => {
                 if (entry.isIntersecting) {
                     window.history.replaceState(null, null, "#california");
+                    setActiveState("california");
                 }
             },
             { threshold: 0.1 }
@@ -41,7 +42,7 @@ function CaliforniaContent({ className }) {
                 observer.unobserve(currentRef);
             }
         };
-    }, []);
+    }, [setActiveState]);
 
     return (
         <section className={`${className}`} id="california" ref={ref}>
@@ -51,7 +52,7 @@ function CaliforniaContent({ className }) {
                 </p>
             </div>
             <div className='state-section bg-light p-3 m-3 '>
-                <h4 className='intro-subtitle park-title'>Yosemite</h4>
+                <h4 className='intro-subtitle park-title'>Yosemite N.P.</h4>
                 <p className='intro-paragraph'>Some content I want to share about the park.</p>
                 <div className='grid'>
                     <div className='box box--3x3'>
