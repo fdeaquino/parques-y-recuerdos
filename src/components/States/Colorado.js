@@ -40,7 +40,17 @@ function ColoradoContent({ className, setActiveState }) {
 
             </div>
             <div className='park-section last-park bg-light p-3 m-3 '>
-                <h4 className='intro-subtitle park-title'>Park 2</h4>
+                <h4 className='intro-subtitle park-title'>Mesa Verde N.P.</h4>
+                <p className='intro-paragraph'>Some content I want to share about the park and about my hiking experience.</p>
+                {/* Grid and photos go here */}
+            </div>
+            <div className='park-section last-park bg-light p-3 m-3 '>
+                <h4 className='intro-subtitle park-title'>Garden of the Gods</h4>
+                <p className='intro-paragraph'>Some content I want to share about the park and about my hiking experience.</p>
+                {/* Grid and photos go here */}
+            </div>
+            <div className='park-section last-park bg-light p-3 m-3 '>
+                <h4 className='intro-subtitle park-title'>Red Rocks Ampitheatre and Park</h4>
                 <p className='intro-paragraph'>Some content I want to share about the park and about my hiking experience.</p>
                 {/* Grid and photos go here */}
             </div>

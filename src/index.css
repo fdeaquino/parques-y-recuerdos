@@ -190,7 +190,7 @@ font-family: 'Raleway', sans-serif;
   background-color: inherit;
   min-height: 65vh;
   padding: 0 2rem;
-  margin-bottom: 60vh!important;
+  margin-bottom: 70vh!important;
 }
 
 .intro-title {
@@ -296,7 +296,7 @@ section p {
 
 /* ========== START STATE SECTION STYLES ========== */
 
-.state-section, .last-park {
+.state-section, .park-section, .last-park {
   margin-bottom: 80vh!important;
 }
 

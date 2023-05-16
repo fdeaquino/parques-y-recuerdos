@@ -12,8 +12,22 @@ const InteractiveMap = ({ state }) => {
 
     const stateViews = {
         'welcome': { center: [-90, 40], zoom: 2 },
-        'california': { center: [-119.4179, 36.7783], zoom: 5 },
+
+        'california': { center: [-119.4179, 35.7783], zoom: 4.6 },
+        'yosemite': { center: [-119.5783, 37.7851], zoom: 10 }, 
+        'griffith': { center: [-118.2942, 34.1366], zoom: 11 },
+        'goldenGate': { center: [-122.4862, 37.7694], zoom: 13 },
+        'salesforce': { center: [-122.3970, 37.7899], zoom: 16 },
+
+
+
         'colorado': { center: [-105.7821, 39.5501], zoom: 5 },
+        'rockyMountains': { center: [-105.6836, 40.3428], zoom: 10 },
+        'gardenOfTheGods': { center: [-104.8719, 38.8674], zoom: 14 },
+        'mesaVerde': { center: [-108.4911, 37.2309], zoom: 10 },
+        'redRocks': { center: [-105.2059, 39.6653], zoom: 15 },
+
+
         'louisiana': { center: [-91.9623, 30.9843], zoom: 5.5 },
         'newmexico': { center: [-106.4454, 34.5199], zoom: 5 },
         'newyork': { center: [-76.0060, 41.7128], zoom: 5.2 },
