@@ -190,6 +190,7 @@ font-family: 'Raleway', sans-serif;
   background-color: inherit;
   min-height: 65vh;
   padding: 0 2rem;
+  margin-bottom: 60vh!important;
 }
 
 .intro-title {
@@ -209,6 +210,10 @@ font-family: 'Raleway', sans-serif;
   color: #000000;
   word-spacing: 4.3px;
   line-height: 1.75rem;
+}
+
+section p {
+  margin-bottom: 0!important;
 }
 
 
@@ -288,6 +293,15 @@ font-family: 'Raleway', sans-serif;
 }
 
 /* ========== END PHOTO GRID STYLES ========== */
+
+/* ========== START STATE SECTION STYLES ========== */
+
+.state-section, .last-park {
+  margin-bottom: 80vh!important;
+}
+
+/* ========== END STATE SECTION STYLES ========== */
+
 
 /* ========== START MEDIA QUERY ========== */
 

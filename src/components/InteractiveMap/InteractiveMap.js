@@ -12,9 +12,14 @@ const InteractiveMap = ({ state }) => {
 
     const stateViews = {
         'california': { center: [-119.4179, 36.7783], zoom: 5 },
-        'colorado': { center: [-105.7821, 39.5501], zoom: 6 }
-        // TODO: add more states below
+        'colorado': { center: [-105.7821, 39.5501], zoom: 5 },
+        'louisiana': { center: [-91.9623, 30.9843], zoom: 5.5 },
+        'newmexico': { center: [-106.4454, 34.5199], zoom: 5 },
+        'newyork': { center: [-76.0060, 41.7128], zoom: 5.2 },
+        'texas': { center: [-99.9018, 27.9686], zoom: 4.3 },
+        'utah': { center: [-111.5910, 38.3209], zoom: 5.3 }
     }
+
 
     // Uses the useEffeect hook to run this code once after the component mounts
     useEffect(() => {
@@ -23,8 +28,8 @@ const InteractiveMap = ({ state }) => {
         map.current = new mapboxgl.Map({
             container: mapContainerRef.current,
             style: 'mapbox://styles/mapbox/outdoors-v12',
-            center: stateViews[state]?.center || [-70, 35],
-            zoom: stateViews[state]?.zoom || 3,
+            center: stateViews[state]?.center || [-90, 40],
+            zoom: stateViews[state]?.zoom || 2,
             pitch: 2, // pitch in degrees
             bearing: 2 // bearing in degrees
         });
