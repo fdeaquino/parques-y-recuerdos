@@ -11,7 +11,7 @@ function LouisianaContent({ className, setActiveState }) {
                     setActiveState("louisiana")
                 }
             },
-            { threshold: 0.1 }
+            { threshold: 0.02 }
         );
 
         const currentRef = ref.current;

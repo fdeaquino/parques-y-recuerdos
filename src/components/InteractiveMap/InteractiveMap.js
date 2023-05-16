@@ -11,6 +11,7 @@ const InteractiveMap = ({ state }) => {
     const map = useRef(null); // Create a ref for the map instance
 
     const stateViews = {
+        'welcome': { center: [-90, 40], zoom: 2 },
         'california': { center: [-119.4179, 36.7783], zoom: 5 },
         'colorado': { center: [-105.7821, 39.5501], zoom: 5 },
         'louisiana': { center: [-91.9623, 30.9843], zoom: 5.5 },

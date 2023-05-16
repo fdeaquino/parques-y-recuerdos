@@ -18,19 +18,19 @@ function MainContent({ activeState, setActiveState }) {
 
   const isHomePage = location.pathname === "/";
 
-  const states = ['california', 'colorado', 'louisiana', 'newmexico', 'newyork', 'texas', 'utah'];
+  const states = ['welcome', 'california', 'colorado', 'louisiana', 'newmexico', 'newyork', 'texas', 'utah'];
 
   useEffect(() => {
     const handleScroll = () => {
       const visibleState = states.find((state) => {
-        const element = document.getElementById(state);
+        const element = document.querySelector(`[name=${state}]`)
         const rect = element.getBoundingClientRect();
         const isVisible = rect.top >= 0 && rect.top <= window.innerHeight;
         return isVisible;
       });
 
       if (visibleState && visibleState !== activeState) {
-        console.log("Updating active state to", visibleState); // Add this line
+        console.log("Updating active state to", visibleState);
         setActiveState(visibleState);
       }
     };
@@ -50,12 +50,16 @@ function MainContent({ activeState, setActiveState }) {
           <InteractiveMap state={activeState} />
         </div>
         <div className="writing-container col-lg-6 col-md-6 col-sm-12">
-          {isHomePage ? <Hero /> : null}
+          {isHomePage ?
+            <Element name='welcome'>
+              <Hero setActiveState={setActiveState} />  
+            </Element>
+            : null}
           <Element name='california'>
-            <CaliforniaContent className={isHomePage || activeState === 'california' ? 'visible' : 'hidden'} setActiveState={setActiveState}/>
+            <CaliforniaContent className={isHomePage || activeState === 'california' ? 'visible' : 'hidden'} setActiveState={setActiveState} />
           </Element>
           <Element name='colorado'>
-            <ColoradoContent className={isHomePage || activeState === 'colorado' ? 'visible' : 'hidden'} setActiveState={setActiveState}/>
+            <ColoradoContent className={isHomePage || activeState === 'colorado' ? 'visible' : 'hidden'} setActiveState={setActiveState} />
           </Element>
           <Element name='louisiana'>
             <LouisianaContent className={isHomePage || activeState === 'louisiana' ? 'visible' : 'hidden'} setActiveState={setActiveState} />

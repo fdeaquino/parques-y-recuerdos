@@ -28,7 +28,7 @@ function CaliforniaContent({ className, setActiveState }) {
                     setActiveState("california");
                 }
             },
-            { threshold: 0.1 }
+            { threshold: 0.02 }
         );
 
         const currentRef = ref.current;

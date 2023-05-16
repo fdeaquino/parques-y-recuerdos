@@ -11,7 +11,7 @@ function TexasContent({ className, setActiveState }) {
                     setActiveState("texas")
                 }
             },
-            { threshold: 0.1 }
+            { threshold: 0.02 }
         );
 
         const currentRef = ref.current;
