@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 // import { Link } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 
-const Navbar = ({ setActiveState }) => {
+const Navbar = ({ setSelectedState }) => {
     const [isOpen, setIsOpen] = useState(false);
 
     const handleToggle = () => {
@@ -38,37 +38,37 @@ const Navbar = ({ setActiveState }) => {
                     <ul className={`navbar-nav me-auto mb-2 mb-lg-0 ${isOpen ? 'openmenu' : ''}`}>
 
                         <li className='nav-item state-margins'>
-                            <Link className='nav-link-active' aria-current='page' to="/california" onClick={() => { setActiveState('california'); closeMenu(); }}>
+                            <Link className='nav-link-active' aria-current='page' to="/california" onClick={() => { setSelectedState('california'); closeMenu(); }}>
                                 <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/FFFFFF/california.png" alt="california" />
                             </Link>
                         </li>
                         <li className='nav-item state-margins'>
-                            <Link className='nav-link-active' aria-current='page' to="/colorado" onClick={() => { setActiveState('colorado'); closeMenu(); }}>
+                            <Link className='nav-link-active' aria-current='page' to="/colorado" onClick={() => { setSelectedState('colorado'); closeMenu(); }}>
                                 <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/FFFFFF/colorado.png" alt="colorado" />
                             </Link>
                         </li>
                         <li className='nav-item state-margins'>
-                            <Link className='nav-link-active' aria-current='page' to="/louisiana" onClick={() => { setActiveState('louisiana'); closeMenu(); }}>
+                            <Link className='nav-link-active' aria-current='page' to="/louisiana" onClick={() => { setSelectedState('louisiana'); closeMenu(); }}>
                                 <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/FFFFFF/louisiana.png" alt="louisiana" />
                             </Link>
                         </li>
                         <li className='nav-item state-margins'>
-                            <Link className='nav-link-active' aria-current='page' to="/newmexico" onClick={() => { setActiveState('newmexico'); closeMenu(); }}>
+                            <Link className='nav-link-active' aria-current='page' to="/newmexico" onClick={() => { setSelectedState('newmexico'); closeMenu(); }}>
                                 <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/FFFFFF/new-mexico.png" alt="new mexico" />
                             </Link>
                         </li>
                         <li className='nav-item state-margins'>
-                            <Link className='nav-link-active' aria-current='page' to="/newyork" onClick={() => { setActiveState('newyork'); closeMenu(); }}>
+                            <Link className='nav-link-active' aria-current='page' to="/newyork" onClick={() => { setSelectedState('newyork'); closeMenu(); }}>
                                 <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/FFFFFF/new-york.png" alt="new york" />
                             </Link>
                         </li>
                         <li className='nav-item state-margins'>
-                            <Link className='nav-link-active' aria-current='page' to="/texas" onClick={() => { setActiveState('texas'); closeMenu(); }}>
+                            <Link className='nav-link-active' aria-current='page' to="/texas" onClick={() => { setSelectedState('texas'); closeMenu(); }}>
                                 <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/FFFFFF/texas.png" alt="texas" />
                             </Link>
                         </li>
                         <li className='nav-item state-margins'>
-                            <Link className='nav-link-active' aria-current='page' to="/utah" onClick={() => { setActiveState('utah'); closeMenu(); }}>
+                            <Link className='nav-link-active' aria-current='page' to="/utah" onClick={() => { setSelectedState('utah'); closeMenu(); }}>
                                 <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/FFFFFF/utah.png" alt="utah" />
                             </Link>
                         </li>

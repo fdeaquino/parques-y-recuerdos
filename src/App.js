@@ -13,7 +13,7 @@ import NewYorkContent from './components/States/NewYork';
 import TexasContent from './components/States/Texas';
 import UtahContent from './components/States/Utah';
 
-function MainContent({ activeState, setActiveState }) {
+function MainContent({ activeState, setActiveState, selectedState }) {
   const location = useLocation();
 
   const isHomePage = location.pathname === "/";
@@ -56,7 +56,7 @@ function MainContent({ activeState, setActiveState }) {
             </Element>
             : null}
           <Element name='california'>
-            <CaliforniaContent className={isHomePage || activeState === 'california' ? 'visible' : 'hidden'} setActiveState={setActiveState} />
+            <CaliforniaContent className={isHomePage || selectedState === 'california' ? 'visible' : 'hidden'} setActiveState={setActiveState} />
           </Element>
           <Element name='colorado'>
             <ColoradoContent className={isHomePage || activeState === 'colorado' ? 'visible' : 'hidden'} setActiveState={setActiveState} />
@@ -86,14 +86,15 @@ function MainContent({ activeState, setActiveState }) {
 
 function App() {
   const [activeState, setActiveState] = useState('');
+  const [selectedState, setSelectedState] = useState('');
 
   return (
     <Router>
       <div className="app-container">
-        <Navbar setActiveState={setActiveState} />
+        <Navbar setSelectedState={setSelectedState} />
         <Routes>
-          <Route path="/" element={<MainContent activeState={activeState} setActiveState={setActiveState} />} />
-          <Route path="/:state" element={<MainContent activeState={activeState} setActiveState={setActiveState} />} />
+          <Route path="/" element={<MainContent activeState={activeState} setActiveState={setActiveState} selectedState={selectedState} />} />
+          <Route path="/:state" element={<MainContent activeState={activeState} setActiveState={setActiveState} selectedState={selectedState}/>} />
         </Routes>
       </div>
     </Router>
