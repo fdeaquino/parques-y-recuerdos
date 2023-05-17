@@ -20,10 +20,11 @@ import teslaCharging from '../../assets/images/california/yosemite-tesla-chargin
 function CaliforniaContent({ className, setActiveState }) {
     const californiaRef = useRef();
     const yosemiteRef = useRef();
-    const griffithRef = useRef();
     const goldenGateRef = useRef();
     const presidioRef = useRef();
     const salesforceRef = useRef();
+    const griffithRef = useRef();
+
     // TODO: 1. Add more refs for other parks if any
 
 
@@ -48,15 +49,6 @@ function CaliforniaContent({ className, setActiveState }) {
             { threshold: 0.02 }
         );
 
-        const griffithObserver = new IntersectionObserver(
-            ([entry]) => {
-                if (entry.isIntersecting) {
-                    window.history.replaceState(null, null, "#griffith");
-                    setActiveState("griffith");
-                }
-            },
-            { threshold: 0.02 }
-        );
 
         const goldenGateObserver = new IntersectionObserver(
             ([entry]) => {
@@ -88,14 +80,25 @@ function CaliforniaContent({ className, setActiveState }) {
             { threshold: 0.02 }
         );
 
+        const griffithObserver = new IntersectionObserver(
+            ([entry]) => {
+                if (entry.isIntersecting) {
+                    window.history.replaceState(null, null, "#griffith");
+                    setActiveState("griffith");
+                }
+            },
+            { threshold: 0.02 }
+        );
+
         // TODO: 2. Add observers for other parks if any
 
         const currentCaliforniaRef = californiaRef.current;
         const currentYosemiteRef = yosemiteRef.current;
-        const currentGriffithRef = griffithRef.current;
         const currentGoldenGateRef = goldenGateRef.current;
         const currentSalesforceRef = salesforceRef.current;
         const currentPresidioRef = presidioRef.current;
+        const currentGriffithRef = griffithRef.current;
+
 
         // TODO: 3. Add const variable above
 
@@ -105,9 +108,6 @@ function CaliforniaContent({ className, setActiveState }) {
         if (currentYosemiteRef) {
             yosemiteObserver.observe(currentYosemiteRef);
         }
-        if (currentGriffithRef) {
-            griffithObserver.observe(currentGriffithRef)
-        }
         if (currentGoldenGateRef) {
             goldenGateObserver.observe(currentGoldenGateRef)
         }
@@ -116,6 +116,9 @@ function CaliforniaContent({ className, setActiveState }) {
         }
         if (currentPresidioRef) {
             presidioObserver.observe(currentPresidioRef)
+        }
+        if (currentGriffithRef) {
+            griffithObserver.observe(currentGriffithRef)
         }
 
         // TODO: 4. Add if statement to observe ref for new parks if any
@@ -127,9 +130,6 @@ function CaliforniaContent({ className, setActiveState }) {
             if (currentYosemiteRef) {
                 yosemiteObserver.unobserve(currentYosemiteRef);
             }
-            if (currentGriffithRef) {
-                griffithObserver.unobserve(currentGriffithRef);
-            }
             if (currentGoldenGateRef) {
                 goldenGateObserver.unobserve(currentGoldenGateRef);
             }
@@ -138,6 +138,9 @@ function CaliforniaContent({ className, setActiveState }) {
             }
             if (currentPresidioRef) {
                 presidioObserver.unobserve(currentPresidioRef)
+            }
+            if (currentGriffithRef) {
+                griffithObserver.unobserve(currentGriffithRef);
             }
 
             // TODO: 5. Add if statement to unobserve refs for new parks if any
@@ -199,13 +202,8 @@ function CaliforniaContent({ className, setActiveState }) {
                     </div>
                     <div className='box box--3x2'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${cocina})` }}></div>
-                    </div>                    
+                    </div>
                 </div>
-            </div>
-            <div className='park-section bg-light p-3 m-3' ref={griffithRef}>
-                <h4 className='intro-subtitle park-title'>Griffith Park</h4>
-                <p className='intro-paragraph'>Some content I want to share about the park and about my hiking experience.</p>
-                {/* Grid and photos go here */}
             </div>
             <div className='park-section bg-light p-3 m-3' ref={goldenGateRef}>
                 <h4 className='intro-subtitle park-title'>Golden Gate Park</h4>
@@ -219,6 +217,11 @@ function CaliforniaContent({ className, setActiveState }) {
             </div>
             <div className='park-section last-park bg-light p-3 m-3' ref={salesforceRef}>
                 <h4 className='intro-subtitle park-title'>Salesforce Park</h4>
+                <p className='intro-paragraph'>Some content I want to share about the park and about my hiking experience.</p>
+                {/* Grid and photos go here */}
+            </div>
+            <div className='park-section bg-light p-3 m-3' ref={griffithRef}>
+                <h4 className='intro-subtitle park-title'>Griffith Park</h4>
                 <p className='intro-paragraph'>Some content I want to share about the park and about my hiking experience.</p>
                 {/* Grid and photos go here */}
             </div>
