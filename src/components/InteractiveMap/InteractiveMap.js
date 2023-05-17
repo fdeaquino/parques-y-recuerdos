@@ -24,10 +24,10 @@ const InteractiveMap = ({ state }) => {
 
 
         'colorado': { center: [-105.7821, 38.3501], zoom: 5 },
-        'rockyMountains': { center: [-105.6836, 40.3428], zoom: 10 },
+        'rockyMountains': { center: [-105.6236, 40.3128], zoom: 10.23 },
         'gardenOfTheGods': { center: [-104.8775, 38.8690], zoom: 13.4 },
-        'mesaVerde': { center: [-108.4911, 37.2309], zoom: 10 },
-        'redRocks': { center: [-105.2059, 39.6653], zoom: 15 },
+        'mesaVerde': { center: [-108.4911, 37.1709], zoom: 11 },
+        'redRocks': { center: [-105.2000, 39.6633], zoom: 13.5 },
 
 
         'louisiana': { center: [-91.9623, 30.9843], zoom: 5.5 },
