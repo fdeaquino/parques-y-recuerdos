@@ -38,6 +38,20 @@ const Navbar = ({ setSelectedState }) => {
                     </div>
 
                     <ul className={`navbar-nav me-auto mb-2 mb-lg-0 ${isOpen ? 'openmenu' : ''}`}>
+                        <li className='nav-item state-margins'>
+                            <Link
+                                className={`nav-link-active ${location.pathname === '/arizona' ? 'active' : ''}`}
+                                aria-current='page'
+                                to="/arizona"
+                                onClick={() => { setSelectedState('arizona'); closeMenu(); }}
+                            >
+                                <img
+                                    width="50"
+                                    height="50"
+                                    src={`https://img.icons8.com/ios-filled/50/${location.pathname === '/arizona' ? 'f2f342' : 'FFFFFF'}/arizona.png`}
+                                    alt="arizona" />
+                            </Link>
+                        </li>
 
                         <li className='nav-item state-margins'>
                             <Link

@@ -11,7 +11,13 @@ const InteractiveMap = ({ state }) => {
     const map = useRef(null); // Create a ref for the map instance
 
     const stateViews = {
-        'welcome': { center: [-90, 40], zoom: 2 },
+        'welcome': { center: [-98, 40], zoom: 2.3 },
+
+        'arizona': { center: [-111.9307, 33.0489], zoom: 4.9 },
+        'sedona': { center: [-111.7999, 34.8097], zoom: 10.9 },
+        'saguaro': { center: [-110.940, 32.1992], zoom: 8.7 },
+
+
 
         'california': { center: [-119.4179, 35.7783], zoom: 4.6 },
         'yosemite': { center: [-119.5783, 37.7851], zoom: 10 }, 
@@ -30,10 +36,10 @@ const InteractiveMap = ({ state }) => {
         'redRocks': { center: [-105.2000, 39.6633], zoom: 13.5 },
 
 
-        'louisiana': { center: [-91.9623, 30.9843], zoom: 5.5 },
-        'newmexico': { center: [-106.4454, 34.5199], zoom: 5 },
+        'louisiana': { center: [-91.9623, 29.9843], zoom: 5.7 },
+        'newmexico': { center: [-106.4454, 30], zoom: 5.4 },
         'newyork': { center: [-76.0060, 41.7128], zoom: 5.2 },
-        'texas': { center: [-99.9018, 27.9686], zoom: 4.3 },
+        'texas': { center: [-99.9018, 28.9686], zoom: 4.5 },
         'utah': { center: [-111.5910, 38.3209], zoom: 5.3 }
     }
 
@@ -47,7 +53,7 @@ const InteractiveMap = ({ state }) => {
             style: 'mapbox://styles/mapbox/outdoors-v12',
             center: stateViews[state]?.center || [-90, 40],
             zoom: stateViews[state]?.zoom || 2,
-            pitch: 2, // pitch in degrees
+            pitch: 50, // pitch in degrees
             bearing: 2 // bearing in degrees
         });
         map.current.scrollZoom.disable();

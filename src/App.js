@@ -5,6 +5,7 @@ import { Element } from 'react-scroll';
 import InteractiveMap from './components/InteractiveMap/InteractiveMap';
 import Navbar from './components/Navbar/Navbar';
 import Hero from './components/Hero/Hero';
+import ArizonaContent from './components/States/Arizona';
 import CaliforniaContent from './components/States/California';
 import ColoradoContent from './components/States/Colorado';
 import LouisianaContent from './components/States/Louisiana';
@@ -18,7 +19,7 @@ function MainContent({ activeState, setActiveState, selectedState }) {
 
   const isHomePage = location.pathname === "/";
 
-  const states = ['welcome', 'california', 'colorado', 'louisiana', 'newmexico', 'newyork', 'texas', 'utah'];
+  const states = ['welcome', 'arizona', 'california', 'colorado', 'louisiana', 'newmexico', 'newyork', 'texas', 'utah'];
 
   useEffect(() => {
     const handleScroll = () => {
@@ -52,9 +53,12 @@ function MainContent({ activeState, setActiveState, selectedState }) {
         <div className="writing-container col-lg-6 col-md-6 col-sm-12">
           {isHomePage ?
             <Element name='welcome'>
-              <Hero setActiveState={setActiveState} />  
+              <Hero setActiveState={setActiveState} />
             </Element>
             : null}
+          <Element name='arizona'>
+            <ArizonaContent className={isHomePage || selectedState === 'arizona' ? 'visible' : 'hidden'} setActiveState={setActiveState} />
+          </Element>
           <Element name='california'>
             <CaliforniaContent className={isHomePage || selectedState === 'california' ? 'visible' : 'hidden'} setActiveState={setActiveState} />
           </Element>
@@ -94,7 +98,7 @@ function App() {
         <Navbar setSelectedState={setSelectedState} />
         <Routes>
           <Route path="/" element={<MainContent activeState={activeState} setActiveState={setActiveState} selectedState={selectedState} />} />
-          <Route path="/:state" element={<MainContent activeState={activeState} setActiveState={setActiveState} selectedState={selectedState}/>} />
+          <Route path="/:state" element={<MainContent activeState={activeState} setActiveState={setActiveState} selectedState={selectedState} />} />
         </Routes>
       </div>
     </Router>
