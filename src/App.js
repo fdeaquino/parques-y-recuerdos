@@ -59,22 +59,22 @@ function MainContent({ activeState, setActiveState, selectedState }) {
             <CaliforniaContent className={isHomePage || selectedState === 'california' ? 'visible' : 'hidden'} setActiveState={setActiveState} />
           </Element>
           <Element name='colorado'>
-            <ColoradoContent className={isHomePage || activeState === 'colorado' ? 'visible' : 'hidden'} setActiveState={setActiveState} />
+            <ColoradoContent className={isHomePage || selectedState === 'colorado' ? 'visible' : 'hidden'} setActiveState={setActiveState} />
           </Element>
           <Element name='louisiana'>
-            <LouisianaContent className={isHomePage || activeState === 'louisiana' ? 'visible' : 'hidden'} setActiveState={setActiveState} />
+            <LouisianaContent className={isHomePage || selectedState === 'louisiana' ? 'visible' : 'hidden'} setActiveState={setActiveState} />
           </Element>
           <Element name='newmexico'>
-            <NewMexicoContent className={isHomePage || activeState === 'newmexico' ? 'visible' : 'hidden'} setActiveState={setActiveState} />
+            <NewMexicoContent className={isHomePage || selectedState === 'newmexico' ? 'visible' : 'hidden'} setActiveState={setActiveState} />
           </Element>
           <Element name='newyork'>
-            <NewYorkContent className={isHomePage || activeState === 'newyork' ? 'visible' : 'hidden'} setActiveState={setActiveState} />
+            <NewYorkContent className={isHomePage || selectedState === 'newyork' ? 'visible' : 'hidden'} setActiveState={setActiveState} />
           </Element>
           <Element name='texas'>
-            <TexasContent className={isHomePage || activeState === 'texas' ? 'visible' : 'hidden'} setActiveState={setActiveState} />
+            <TexasContent className={isHomePage || selectedState === 'texas' ? 'visible' : 'hidden'} setActiveState={setActiveState} />
           </Element>
           <Element name='utah'>
-            <UtahContent className={isHomePage || activeState === 'utah' ? 'visible' : 'hidden'} setActiveState={setActiveState} />
+            <UtahContent className={isHomePage || selectedState === 'utah' ? 'visible' : 'hidden'} setActiveState={setActiveState} />
           </Element>
 
         </div>

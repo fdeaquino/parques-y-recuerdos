@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from 'react';
-import { useActionData } from 'react-router-dom';
+// import { useActionData } from 'react-router-dom';
 
 function ColoradoContent({ className, setActiveState }) {
     const coloradoRef = useRef();
