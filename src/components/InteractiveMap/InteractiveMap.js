@@ -40,9 +40,9 @@ const InteractiveMap = ({ state }) => {
         'povertyPoint': { center: [-91.4079, 32.6340], zoom: 13.6 },
 
 
-        'newmexico': { center: [-106.4454, 30], zoom: 5.4 },
-        'chacoCulture': { center: [-107.9640, 36.0608], zoom: 13 },
-        'whiteSands': { center: [-106.3758, 32.7799], zoom: 13 },
+        'newmexico': { center: [-106.1999, 33.3], zoom: 5.2 },
+        'chacoCulture': { center: [-107.9580, 36.0608], zoom: 13 },
+        'whiteSands': { center: [-106.3158, 32.7799], zoom: 11 },
 
 
         'newyork': { center: [-76.0060, 41.7128], zoom: 5.2 },
