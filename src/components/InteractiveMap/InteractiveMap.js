@@ -46,11 +46,11 @@ const InteractiveMap = ({ state }) => {
 
 
         'newyork': { center: [-76.0060, 41.7128], zoom: 5.2 },
-        'highlineNYC': { center: [-74.0048, 40.7480], zoom: 15 },
-        'centralPark': { center: [-73.9654, 40.7829], zoom: 14 },
-        'mountArab': { center: [-74.4642, 44.3206], zoom: 14 },
-        'cantonIslandPark': { center: [-75.1691, 44.5956], zoom: 15 },
-        'otterCreekPreserve': { center: [-75.9182, 44.3359], zoom: 15 },
+        'highlineNYC': { center: [-74.0048, 40.7480], zoom: 14 },
+        'centralPark': { center: [-73.9684, 40.7809], zoom: 13 },
+        'mountArab': { center: [-74.5932, 44.2058], zoom: 13.5 },
+        'cantonIslandPark': { center: [-75.175, 44.5956], zoom: 15 },
+        'otterCreekPreserve': { center: [-75.9182, 44.326], zoom: 14 },
 
 
         'texas': { center: [-99.9018, 28.9686], zoom: 4.5 },
