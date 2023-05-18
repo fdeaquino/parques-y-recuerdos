@@ -18,6 +18,7 @@ const InteractiveMap = ({ state }) => {
         'saguaro': { center: [-110.940, 32.1992], zoom: 8.7 },
         'horseshoeBend': { center: [-111.5171, 36.8796], zoom: 13 },
 
+
         'california': { center: [-119.4179, 35.7783], zoom: 4.6 },
         'yosemite': { center: [-119.5783, 37.7851], zoom: 10 }, 
         'goldenGate': { center: [-122.4807, 37.7694], zoom: 12 },
@@ -34,12 +35,15 @@ const InteractiveMap = ({ state }) => {
         'mesaVerde': { center: [-108.4911, 37.1709], zoom: 11 },
         'redRocks': { center: [-105.2000, 39.6633], zoom: 13.5 },
 
+
         'louisiana': { center: [-91.9623, 29.9843], zoom: 5.7 },
-        'povertyPoint': { center: [-91.4089, 32.6394], zoom: 13 },
+        'povertyPoint': { center: [-91.4079, 32.6340], zoom: 13.6 },
+
 
         'newmexico': { center: [-106.4454, 30], zoom: 5.4 },
         'chacoCulture': { center: [-107.9640, 36.0608], zoom: 13 },
         'whiteSands': { center: [-106.3758, 32.7799], zoom: 13 },
+
 
         'newyork': { center: [-76.0060, 41.7128], zoom: 5.2 },
         'highlineNYC': { center: [-74.0048, 40.7480], zoom: 15 },
@@ -47,6 +51,7 @@ const InteractiveMap = ({ state }) => {
         'mountArab': { center: [-74.4642, 44.3206], zoom: 14 },
         'cantonIslandPark': { center: [-75.1691, 44.5956], zoom: 15 },
         'otterCreekPreserve': { center: [-75.9182, 44.3359], zoom: 15 },
+
 
         'texas': { center: [-99.9018, 28.9686], zoom: 4.5 },
         'huntsvilleStatePark': { center: [-95.5236, 30.6173], zoom: 13 },
@@ -68,6 +73,7 @@ const InteractiveMap = ({ state }) => {
         'mountBonnell': { center: [-97.7737, 30.3211], zoom: 15 },
         'bigBend': { center: [-103.25, 29.25], zoom: 10 },
         'guadalupeMountains': { center: [-104.8723, 31.8912], zoom: 11 },
+
 
         'utah': { center: [-111.5910, 38.3209], zoom: 5.3 },
         'zionNationalPark': { center: [-113.0263, 37.2982], zoom: 11 },
