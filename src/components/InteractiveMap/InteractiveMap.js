@@ -24,6 +24,9 @@ const InteractiveMap = ({ state }) => {
         'presidio': { center: [-122.4667, 37.7985], zoom: 12.5 },
         'salesforce': { center: [-122.3970, 37.7891], zoom: 16 },
         'griffith': { center: [-118.2942, 34.1366], zoom: 11.8 },
+        'santaMonicaBeach': { center: [-118.4900, 34.0030], zoom: 13.2 },
+        'harborIslandPark': { center: [-117.2035, 32.7257], zoom: 13 },
+
 
         'colorado': { center: [-105.7821, 38.3501], zoom: 5 },
         'rockyMountains': { center: [-105.6236, 40.3128], zoom: 10.23 },
