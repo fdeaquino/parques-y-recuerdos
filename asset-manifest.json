@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/parques-y-recuerdos/static/css/main.754ec346.css",
+    "main.js": "/parques-y-recuerdos/static/js/main.3695719d.js",
+    "static/js/787.4d3bc7eb.chunk.js": "/parques-y-recuerdos/static/js/787.4d3bc7eb.chunk.js",
+    "static/media/yosemite-bright-green-trail.webp": "/parques-y-recuerdos/static/media/yosemite-bright-green-trail.af389c1df91889aadc20.webp",
+    "static/media/yosemite-fidel-wooded-trail.webp": "/parques-y-recuerdos/static/media/yosemite-fidel-wooded-trail.568e9f4b0a201b2dc486.webp",
+    "static/media/yosemite-swing.webp": "/parques-y-recuerdos/static/media/yosemite-swing.b385bc433d65afb29b81.webp",
+    "static/media/yosemite-fidel-valley-trail.webp": "/parques-y-recuerdos/static/media/yosemite-fidel-valley-trail.ce315d49f884a5f4c0de.webp",
+    "static/media/yosemite-sequoias.webp": "/parques-y-recuerdos/static/media/yosemite-sequoias.caaf0ce268a06d4c6181.webp",
+    "static/media/yosemite-cabin.webp": "/parques-y-recuerdos/static/media/yosemite-cabin.78bc590454f83116aa81.webp",
+    "static/media/yosemite-hetch-hetchy.webp": "/parques-y-recuerdos/static/media/yosemite-hetch-hetchy.ce91434e94605086ba0b.webp",
+    "static/media/yosemite-fidel-valley-view.webp": "/parques-y-recuerdos/static/media/yosemite-fidel-valley-view.46362f116cf01c4003d1.webp",
+    "static/media/yosemite-dead-tree.webp": "/parques-y-recuerdos/static/media/yosemite-dead-tree.c5d4d95a6756620d911a.webp",
+    "static/media/yosemite-hetch-hetchy-trail.webp": "/parques-y-recuerdos/static/media/yosemite-hetch-hetchy-trail.d4fff06b43ef208bdaae.webp",
+    "static/media/yosemite-ross-valley-view.webp": "/parques-y-recuerdos/static/media/yosemite-ross-valley-view.5f9ad3b5902706b24204.webp",
+    "static/media/yosemite-cocina.webp": "/parques-y-recuerdos/static/media/yosemite-cocina.a3f886aca5346ed0b903.webp",
+    "static/media/yosemite-tesla-charging.webp": "/parques-y-recuerdos/static/media/yosemite-tesla-charging.dd8b939a874ac1280d8d.webp",
+    "static/media/yosemite-ross-high-sierras.webp": "/parques-y-recuerdos/static/media/yosemite-ross-high-sierras.91ed3faaf5f20ff10823.webp",
+    "static/media/yosemite-burned-trees.webp": "/parques-y-recuerdos/static/media/yosemite-burned-trees.67f189acab73b0b85542.webp",
+    "index.html": "/parques-y-recuerdos/index.html",
+    "main.754ec346.css.map": "/parques-y-recuerdos/static/css/main.754ec346.css.map",
+    "main.3695719d.js.map": "/parques-y-recuerdos/static/js/main.3695719d.js.map",
+    "787.4d3bc7eb.chunk.js.map": "/parques-y-recuerdos/static/js/787.4d3bc7eb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.754ec346.css",
+    "static/js/main.3695719d.js"
+  ]
+}
