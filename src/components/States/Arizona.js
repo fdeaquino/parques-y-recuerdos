@@ -2,8 +2,9 @@ import React, { useRef, useEffect } from 'react';
 
 function ArizonaContent({ className, setActiveState }) {
     const arizonaRef = useRef();
-    const sedonaRef = useRef ();
-    const saguaroRef = useRef ();
+    const sedonaRef = useRef();
+    const saguaroRef = useRef();
+    const horseshoeBendRef = useRef();
 
     // TODO: 1. Add more refs for other parks if any
 
@@ -38,11 +39,22 @@ function ArizonaContent({ className, setActiveState }) {
             { threshold: 0.02 }
         );
 
+        const horseshoeBendObserver = new IntersectionObserver(
+            ([entry]) => {
+                if (entry.isIntersecting) {
+                    window.history.replaceState(null, null, "#horseshoeBend");
+                    setActiveState("horseshoeBend");
+                }
+            },
+            { threshold: 0.02 }
+        );
+
         // TODO: 2. Add observers for other parks if any
 
         const currentArizonaRef = arizonaRef.current;
         const currentSedonaRef = sedonaRef.current;
         const currentSaguaroRef = saguaroRef.current;
+        const currentHorseshoeBendRef = horseshoeBendRef.current;
 
         // TODO: 3. Add const variable above
 
@@ -54,6 +66,9 @@ function ArizonaContent({ className, setActiveState }) {
         }
         if (currentSaguaroRef) {
             saguaroObserver.observe(currentSaguaroRef);
+        }
+        if (currentHorseshoeBendRef) {
+            horseshoeBendObserver.observe(currentHorseshoeBendRef);
         }
 
         // TODO: 4. Add if statement to observe ref for new parks if any
@@ -67,6 +82,9 @@ function ArizonaContent({ className, setActiveState }) {
             }
             if (currentSaguaroRef) {
                 saguaroObserver.unobserve(currentSaguaroRef)
+            }
+            if (currentHorseshoeBendRef) {
+                horseshoeBendObserver.unobserve(currentHorseshoeBendRef)
             }
 
             // TODO: 5. Add if statement to unobserve refs for new parks if any
@@ -89,6 +107,12 @@ function ArizonaContent({ className, setActiveState }) {
             </div>
             <div className='park-section bg-light p-3 m-3' ref={saguaroRef}>
                 <h4 className='intro-subtitle park-title'>Saguaro N.P.</h4>
+                <p className='intro-paragraph'>Some content I want to share about the park.</p>
+                {/* Grid and photos go here */}
+
+            </div>
+            <div className='park-section bg-light p-3 m-3' ref={horseshoeBendRef}>
+                <h4 className='intro-subtitle park-title'>Horseshoe Bend</h4>
                 <p className='intro-paragraph'>Some content I want to share about the park.</p>
                 {/* Grid and photos go here */}
 
