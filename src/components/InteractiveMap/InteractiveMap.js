@@ -1,6 +1,7 @@
-import React, { useEffect, useRef } from 'react';
-import mapboxgl from 'mapbox-gl';
+import React, { useEffect, useRef, useMemo } from 'react';
 import { geoData } from './geoData'; // import geoData
+const mapboxgl = window.mapboxgl;
+
 
 // Set the Mapbox access token from environment variable
 mapboxgl.accessToken = process.env.REACT_APP_MAPBOX_ACCESS_TOKEN;
@@ -10,7 +11,7 @@ const InteractiveMap = ({ state }) => {
     const mapContainerRef = useRef(null);
     const map = useRef(null); // Create a ref for the map instance
 
-    const stateViews = {
+    const stateViews = useMemo(() => ({
         'welcome': { center: [-98, 40], zoom: 2.3 },
 
         'arizona': { center: [-111.9307, 33.0489], zoom: 4.9 },
@@ -20,7 +21,7 @@ const InteractiveMap = ({ state }) => {
 
 
         'california': { center: [-119.4179, 35.7783], zoom: 4.6 },
-        'yosemite': { center: [-119.5783, 37.7851], zoom: 10 }, 
+        'yosemite': { center: [-119.5783, 37.7851], zoom: 10 },
         'goldenGate': { center: [-122.4807, 37.7694], zoom: 12 },
         'presidio': { center: [-122.4667, 37.7985], zoom: 12.5 },
         'salesforce': { center: [-122.3970, 37.7891], zoom: 16 },
@@ -75,7 +76,7 @@ const InteractiveMap = ({ state }) => {
         'utah': { center: [-111.5910, 38.3209], zoom: 5.3 },
         'zionNationalPark': { center: [-113.0263, 37.2982], zoom: 11 },
         'bryceCanyon': { center: [-112.1670, 37.5930], zoom: 11 },
-    }
+    }), []);
 
 
     // Uses the useEffeect hook to run this code once after the component mounts
@@ -132,7 +133,7 @@ const InteractiveMap = ({ state }) => {
             const view = stateViews[state];
             map.current.flyTo({ center: view.center, zoom: view.zoom, speed: 0.4 });
         }
-    }, [state]);
+    }, [state, stateViews]);
 
     // Render a div that will hold the map
     // The ref created is attached here
