@@ -1,30 +1,42 @@
 {
   "files": {
     "main.css": "/parques-y-recuerdos/static/css/main.754ec346.css",
-    "main.js": "/parques-y-recuerdos/static/js/main.5cdacd26.js",
+    "main.js": "/parques-y-recuerdos/static/js/main.c7430311.js",
     "static/js/787.4d3bc7eb.chunk.js": "/parques-y-recuerdos/static/js/787.4d3bc7eb.chunk.js",
     "static/media/yosemite-bright-green-trail.webp": "/parques-y-recuerdos/static/media/yosemite-bright-green-trail.af389c1df91889aadc20.webp",
     "static/media/yosemite-fidel-wooded-trail.webp": "/parques-y-recuerdos/static/media/yosemite-fidel-wooded-trail.568e9f4b0a201b2dc486.webp",
     "static/media/yosemite-swing.webp": "/parques-y-recuerdos/static/media/yosemite-swing.b385bc433d65afb29b81.webp",
     "static/media/yosemite-fidel-valley-trail.webp": "/parques-y-recuerdos/static/media/yosemite-fidel-valley-trail.ce315d49f884a5f4c0de.webp",
+    "static/media/sedona-frost.webp": "/parques-y-recuerdos/static/media/sedona-frost.fb08413fc1b9703731ac.webp",
+    "static/media/sedona-cacti.webp": "/parques-y-recuerdos/static/media/sedona-cacti.cd72ec40160a6fdad944.webp",
+    "static/media/sedona-dry-tree.webp": "/parques-y-recuerdos/static/media/sedona-dry-tree.a62dd0d1d0eb567eab70.webp",
     "static/media/yosemite-sequoias.webp": "/parques-y-recuerdos/static/media/yosemite-sequoias.caaf0ce268a06d4c6181.webp",
+    "static/media/sedona-bobcat.webp": "/parques-y-recuerdos/static/media/sedona-bobcat.2a45bb846033aae9f720.webp",
+    "static/media/sedona-cloud-vortex.webp": "/parques-y-recuerdos/static/media/sedona-cloud-vortex.6ea28e4ce4cd6d0e3e19.webp",
     "static/media/yosemite-cabin.webp": "/parques-y-recuerdos/static/media/yosemite-cabin.78bc590454f83116aa81.webp",
+    "static/media/sedona-trail-steps.webp": "/parques-y-recuerdos/static/media/sedona-trail-steps.3e79f599ce566e355cc1.webp",
     "static/media/yosemite-hetch-hetchy.webp": "/parques-y-recuerdos/static/media/yosemite-hetch-hetchy.ce91434e94605086ba0b.webp",
+    "static/media/sedona-trail-2.webp": "/parques-y-recuerdos/static/media/sedona-trail-2.88e9415a4186cb65cb76.webp",
+    "static/media/sedona-trail.webp": "/parques-y-recuerdos/static/media/sedona-trail.a70a33763c8867252a0f.webp",
+    "static/media/sedona-ocotillo.webp": "/parques-y-recuerdos/static/media/sedona-ocotillo.34f2c805e385043d39c7.webp",
     "static/media/yosemite-fidel-valley-view.webp": "/parques-y-recuerdos/static/media/yosemite-fidel-valley-view.46362f116cf01c4003d1.webp",
     "static/media/yosemite-dead-tree.webp": "/parques-y-recuerdos/static/media/yosemite-dead-tree.c5d4d95a6756620d911a.webp",
     "static/media/yosemite-hetch-hetchy-trail.webp": "/parques-y-recuerdos/static/media/yosemite-hetch-hetchy-trail.d4fff06b43ef208bdaae.webp",
     "static/media/yosemite-ross-valley-view.webp": "/parques-y-recuerdos/static/media/yosemite-ross-valley-view.5f9ad3b5902706b24204.webp",
+    "static/media/sedona-airport-view.webp": "/parques-y-recuerdos/static/media/sedona-airport-view.880dc51fb7bd55003fc9.webp",
     "static/media/yosemite-cocina.webp": "/parques-y-recuerdos/static/media/yosemite-cocina.a3f886aca5346ed0b903.webp",
     "static/media/yosemite-tesla-charging.webp": "/parques-y-recuerdos/static/media/yosemite-tesla-charging.dd8b939a874ac1280d8d.webp",
+    "static/media/sedona-neighborhood.webp": "/parques-y-recuerdos/static/media/sedona-neighborhood.82ba35283f3f9f88536b.webp",
     "static/media/yosemite-ross-high-sierras.webp": "/parques-y-recuerdos/static/media/yosemite-ross-high-sierras.91ed3faaf5f20ff10823.webp",
+    "static/media/sedona-together.webp": "/parques-y-recuerdos/static/media/sedona-together.ec32e20fd4b54c6a41e7.webp",
     "static/media/yosemite-burned-trees.webp": "/parques-y-recuerdos/static/media/yosemite-burned-trees.67f189acab73b0b85542.webp",
     "index.html": "/parques-y-recuerdos/index.html",
     "main.754ec346.css.map": "/parques-y-recuerdos/static/css/main.754ec346.css.map",
-    "main.5cdacd26.js.map": "/parques-y-recuerdos/static/js/main.5cdacd26.js.map",
+    "main.c7430311.js.map": "/parques-y-recuerdos/static/js/main.c7430311.js.map",
     "787.4d3bc7eb.chunk.js.map": "/parques-y-recuerdos/static/js/787.4d3bc7eb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.754ec346.css",
-    "static/js/main.5cdacd26.js"
+    "static/js/main.c7430311.js"
   ]
 }
