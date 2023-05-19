@@ -189,7 +189,7 @@ function CaliforniaContent({ className, setActiveState }) {
                 </p>
             </div>
             <div className='park-section bg-light p-3 m-3' ref={yosemiteRef}>
-                <h4 className='intro-subtitle park-title'>Yosemite N.P.</h4>
+                <h4 className='intro-subtitle park-title'>Yosemite National Park</h4>
                 <p className='intro-paragraph'>Some content I want to share about the park.</p>
                 <div className='grid'>
                     <div className='box box--3x3'>

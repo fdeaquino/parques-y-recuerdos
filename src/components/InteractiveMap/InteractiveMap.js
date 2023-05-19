@@ -74,7 +74,8 @@ const InteractiveMap = ({ state }) => {
         'sanAntonioMissions': { center: [-98.47, 29.3620], zoom: 12 },
 
         'utah': { center: [-111.5910, 38.3209], zoom: 5.3 },
-        'zionNationalPark': { center: [-113.0263, 37.2982], zoom: 11 },
+        'arches': { center: [-109.6, 38.7331], zoom: 11 },
+        'zion': { center: [-113.0263, 37.2982], zoom: 11 },
         'bryceCanyon': { center: [-112.1670, 37.5930], zoom: 11 },
     }), []);
 
