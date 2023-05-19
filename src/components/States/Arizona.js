@@ -1,4 +1,27 @@
 import React, { useRef, useEffect } from 'react';
+import sedonaAirportView from '../../assets/images/arizona/sedona-airport-view.webp';
+import sedonaBobcat from '../../assets/images/arizona/sedona-bobcat.webp';
+import sedonaCacti from '../../assets/images/arizona/sedona-cacti.webp';
+import sedonaCloudVortex from '../../assets/images/arizona/sedona-cloud-vortex.webp';
+import sedonaDryTree from '../../assets/images/arizona/sedona-dry-tree.webp';
+import sedonaFrost from '../../assets/images/arizona/sedona-frost.webp';
+import sedonaNeighborhood from '../../assets/images/arizona/sedona-neighborhood.webp';
+import sedonaOcotillo from '../../assets/images/arizona/sedona-ocotillo.webp';
+import sedonaTogether from '../../assets/images/arizona/sedona-together.webp';
+import sedonaTrail1 from '../../assets/images/arizona/sedona-trail.webp';
+import sedonaTrail2 from '../../assets/images/arizona/sedona-trail-2.webp';
+import sedonaTrailSteps from '../../assets/images/arizona/sedona-trail-steps.webp';
+
+
+
+
+
+
+
+
+
+
+
 
 function ArizonaContent({ className, setActiveState }) {
     const arizonaRef = useRef();
@@ -103,6 +126,44 @@ function ArizonaContent({ className, setActiveState }) {
                 <h4 className='intro-subtitle park-title'>Sedona</h4>
                 <p className='intro-paragraph'>Some content I want to share about the park.</p>
                 {/* Grid and photos go here */}
+                <div className='grid'>
+                    <div className='box box--3x3'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${sedonaTogether})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${sedonaAirportView})` }}></div>
+                    </div>
+                    <div className='box box--2x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${sedonaBobcat})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${sedonaCacti})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${sedonaCloudVortex})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${sedonaDryTree})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${sedonaFrost})` }}></div>
+                    </div>
+                    <div className='box box--3x3'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${sedonaNeighborhood})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${sedonaOcotillo})` }}></div>
+                    </div>
+                    <div className='box box--2x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${sedonaTrail1})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${sedonaTrail2})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${sedonaTrailSteps})` }}></div>
+                    </div>
+                </div>
 
             </div>
             <div className='park-section bg-light p-3 m-3' ref={saguaroRef}>
