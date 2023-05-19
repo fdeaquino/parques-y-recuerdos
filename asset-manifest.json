@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/parques-y-recuerdos/static/css/main.754ec346.css",
-    "main.js": "/parques-y-recuerdos/static/js/main.3695719d.js",
+    "main.js": "/parques-y-recuerdos/static/js/main.e4d88ada.js",
     "static/js/787.4d3bc7eb.chunk.js": "/parques-y-recuerdos/static/js/787.4d3bc7eb.chunk.js",
     "static/media/yosemite-bright-green-trail.webp": "/parques-y-recuerdos/static/media/yosemite-bright-green-trail.af389c1df91889aadc20.webp",
     "static/media/yosemite-fidel-wooded-trail.webp": "/parques-y-recuerdos/static/media/yosemite-fidel-wooded-trail.568e9f4b0a201b2dc486.webp",
@@ -20,11 +20,11 @@
     "static/media/yosemite-burned-trees.webp": "/parques-y-recuerdos/static/media/yosemite-burned-trees.67f189acab73b0b85542.webp",
     "index.html": "/parques-y-recuerdos/index.html",
     "main.754ec346.css.map": "/parques-y-recuerdos/static/css/main.754ec346.css.map",
-    "main.3695719d.js.map": "/parques-y-recuerdos/static/js/main.3695719d.js.map",
+    "main.e4d88ada.js.map": "/parques-y-recuerdos/static/js/main.e4d88ada.js.map",
     "787.4d3bc7eb.chunk.js.map": "/parques-y-recuerdos/static/js/787.4d3bc7eb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.754ec346.css",
-    "static/js/main.3695719d.js"
+    "static/js/main.e4d88ada.js"
   ]
 }
