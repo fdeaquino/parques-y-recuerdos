@@ -38,6 +38,17 @@ import presidioPalaceFineArts2 from '../../assets/images/california/presidio-pal
 import presidioRoss from '../../assets/images/california/presidio-ross.webp';
 import presidioShadows from '../../assets/images/california/presidio-shadows.webp';
 import presidioSunset from '../../assets/images/california/presidio-sunset.webp';
+import sfParkLogo from '../../assets/images/california/sf-park-logo.webp';
+import sfParkMonkeyTree from '../../assets/images/california/sf-park-monkey-tree.webp';
+import sfParkOrangeFlower from '../../assets/images/california/sf-park-orange-flower.webp';
+import sfParkPurpleFlower from '../../assets/images/california/sf-park-purple-flowers.webp';
+import sfParkRoughPlant from '../../assets/images/california/sf-park-rough-plant.webp';
+import sfParkSlack from '../../assets/images/california/sf-park-slack.webp';
+import sfParkTowers1 from '../../assets/images/california/sf-park-towers-1.webp';
+import sfParkTowers2 from '../../assets/images/california/sf-park-towers-2.webp';
+import sfParkTrail from '../../assets/images/california/sf-park-trail.webp';
+import sfParkTrailblazer from '../../assets/images/california/sf-park-trailblazer.webp';
+import sfParkTree from '../../assets/images/california/sf-park-tree.webp';
 
 
 
@@ -354,6 +365,41 @@ function CaliforniaContent({ className, setActiveState }) {
                 <h4 className='intro-subtitle park-title'>Salesforce Park</h4>
                 <p className='intro-paragraph'>Some content I want to share about the park and about my hiking experience.</p>
                 {/* Grid and photos go here */}
+                <div className='grid'>
+                    <div className='box box--3x3'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${sfParkLogo})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${sfParkTowers1})` }}></div>
+                    </div>
+                    <div className='box box--2x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${sfParkPurpleFlower})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${sfParkRoughPlant})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${sfParkTrail})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${sfParkTree})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${sfParkTrailblazer})` }}></div>
+                    </div>
+                    <div className='box box--3x3'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${sfParkTowers2})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${sfParkSlack})` }}></div>
+                    </div>
+                    <div className='box box--2x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${sfParkMonkeyTree})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${sfParkOrangeFlower})` }}></div>
+                    </div>
+                </div>
             </div>
             <div className='park-section bg-light p-3 m-3' ref={griffithRef}>
                 <h4 className='intro-subtitle park-title'>Griffith Park</h4>
