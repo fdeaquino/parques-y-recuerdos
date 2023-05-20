@@ -49,6 +49,15 @@ import sfParkTowers2 from '../../assets/images/california/sf-park-towers-2.webp'
 import sfParkTrail from '../../assets/images/california/sf-park-trail.webp';
 import sfParkTrailblazer from '../../assets/images/california/sf-park-trailblazer.webp';
 import sfParkTree from '../../assets/images/california/sf-park-tree.webp';
+import griffithHollywoodSign from '../../assets/images/california/griffith-hollywood-sign.webp';
+import griffithHorses from '../../assets/images/california/griffith-horses.webp';
+import griffithMap from '../../assets/images/california/griffith-map.webp';
+import griffithPinkFlowers from '../../assets/images/california/griffith-pink-flowers.webp';
+import griffithTrail1 from '../../assets/images/california/griffith-trail1.webp';
+import griffithTrail2 from '../../assets/images/california/griffith-trail2.webp';
+import griffithTrail3 from '../../assets/images/california/griffith-trail3.webp';
+import griffithTrail4 from '../../assets/images/california/griffith-trail4.webp';
+import griffithTrail5 from '../../assets/images/california/griffith-trail5.webp';
 
 
 
@@ -405,6 +414,35 @@ function CaliforniaContent({ className, setActiveState }) {
                 <h4 className='intro-subtitle park-title'>Griffith Park</h4>
                 <p className='intro-paragraph'>Some content I want to share about the park and about my hiking experience.</p>
                 {/* Grid and photos go here */}
+                <div className='grid'>
+                    <div className='box box--3x3'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${griffithHollywoodSign})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${griffithMap})` }}></div>
+                    </div>
+                    <div className='box box--2x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${griffithTrail1})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${griffithTrail2})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${griffithHorses})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${griffithTrail3})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${griffithTrail4})` }}></div>
+                    </div>
+                    <div className='box box--3x3'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${griffithTrail5})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${griffithPinkFlowers})` }}></div>
+                    </div>
+                </div>
             </div>
             <div className='park-section bg-light p-3 m-3' ref={santaMonicaBeachRef}>
                 <h4 className='intro-subtitle park-title'>Santa Monica State Beach </h4>
