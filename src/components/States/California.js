@@ -14,6 +14,20 @@ import hetchHetchyTrail from '../../assets/images/california/yosemite-hetch-hetc
 import sequoias from '../../assets/images/california/yosemite-sequoias.webp';
 import swing from '../../assets/images/california/yosemite-swing.webp';
 import teslaCharging from '../../assets/images/california/yosemite-tesla-charging.webp';
+import ggFerrisWheel from '../../assets/images/california/gg-ferris-wheel-view.webp';
+import ggFidel from '../../assets/images/california/gg-fidel.webp';
+import ggFog from '../../assets/images/california/gg-fog.webp';
+import ggGarden from '../../assets/images/california/gg-garden.webp';
+import ggHiddenShrine from '../../assets/images/california/gg-hidden-shrine.webp';
+import ggPinkFlowers from '../../assets/images/california/gg-pink-flowers.webp';
+import ggPlants from '../../assets/images/california/gg-plants.webp';
+import ggPurpleFlowers from '../../assets/images/california/gg-purple-flower.webp';
+import ggShrineCloseup from '../../assets/images/california/gg-shrine-closeup.webp';
+import ggTrail1 from '../../assets/images/california/gg-trail-1.webp';
+import ggTrail2 from '../../assets/images/california/gg-trail-2.webp';
+import ggWindmill from '../../assets/images/california/gg-windmill.webp';
+import ggZTree from '../../assets/images/california/gg-z-tree.webp';
+
 
 
 
@@ -243,6 +257,47 @@ function CaliforniaContent({ className, setActiveState }) {
                 <h4 className='intro-subtitle park-title'>Golden Gate Park</h4>
                 <p className='intro-paragraph'>Some content I want to share about the park and about my hiking experience.</p>
                 {/* Grid and photos go here */}
+                <div className='grid'>
+                    <div className='box box--3x3'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${ggFidel})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${ggTrail1})` }}></div>
+                    </div>
+                    <div className='box box--2x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${ggWindmill})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${ggPinkFlowers})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${ggShrineCloseup})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${ggTrail2})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${ggZTree})` }}></div>
+                    </div>
+                    <div className='box box--3x3'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${ggPlants})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${ggHiddenShrine})` }}></div>
+                    </div>
+                    <div className='box box--2x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${ggFog})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${ggGarden})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${ggFerrisWheel})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${ggPurpleFlowers})` }}></div>
+                    </div>
+                </div>
             </div>
             <div className='park-section bg-light p-3 m-3' ref={presidioRef}>
                 <h4 className='intro-subtitle park-title'>Presidio of San Francisco</h4>
