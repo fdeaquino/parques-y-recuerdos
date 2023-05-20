@@ -58,6 +58,10 @@ import griffithTrail2 from '../../assets/images/california/griffith-trail2.webp'
 import griffithTrail3 from '../../assets/images/california/griffith-trail3.webp';
 import griffithTrail4 from '../../assets/images/california/griffith-trail4.webp';
 import griffithTrail5 from '../../assets/images/california/griffith-trail5.webp';
+import griffithObservatoryView1 from '../../assets/images/california/griffith-observatory-view1.webp';
+import griffithObservatoryView2 from '../../assets/images/california/griffith-observatory-view2.webp';
+import griffithObservatory1 from '../../assets/images/california/griffith-observatory1.webp';
+import griffithObservatory2 from '../../assets/images/california/griffith-observatory2.webp';
 
 
 
@@ -441,6 +445,18 @@ function CaliforniaContent({ className, setActiveState }) {
                     </div>
                     <div className='box box--1x1'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${griffithPinkFlowers})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${griffithObservatoryView1})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${griffithObservatoryView2})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${griffithObservatory1})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${griffithObservatory2})` }}></div>
                     </div>
                 </div>
             </div>
