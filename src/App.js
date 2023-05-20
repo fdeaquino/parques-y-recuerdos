@@ -1,18 +1,18 @@
-import React, { useEffect, useState } from 'react';
+import React, { Suspense, useEffect, useState } from 'react';
 import { HashRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import { Element } from 'react-scroll';
 
-import InteractiveMap from './components/InteractiveMap/InteractiveMap';
-import Navbar from './components/Navbar/Navbar';
-import Hero from './components/Hero/Hero';
-import ArizonaContent from './components/States/Arizona';
-import CaliforniaContent from './components/States/California';
-import ColoradoContent from './components/States/Colorado';
-import LouisianaContent from './components/States/Louisiana';
-import NewMexicoContent from './components/States/NewMexico';
-import NewYorkContent from './components/States/NewYork';
-import TexasContent from './components/States/Texas';
-import UtahContent from './components/States/Utah';
+const InteractiveMap = React.lazy(() => import('./components/InteractiveMap/InteractiveMap'));
+const Navbar = React.lazy(() => import('./components/Navbar/Navbar'));
+const Hero = React.lazy(() => import('./components/Hero/Hero'));
+const ArizonaContent = React.lazy(() => import('./components/States/Arizona'));
+const CaliforniaContent = React.lazy(() => import('./components/States/California'));
+const ColoradoContent = React.lazy(() => import('./components/States/Colorado'));
+const LouisianaContent = React.lazy(() => import('./components/States/Louisiana'));
+const NewMexicoContent = React.lazy(() => import('./components/States/NewMexico'));
+const NewYorkContent = React.lazy(() => import('./components/States/NewYork'));
+const TexasContent = React.lazy(() => import('./components/States/Texas'));
+const UtahContent = React.lazy(() => import('./components/States/Utah'));
 
 function MainContent({ activeState, setActiveState, selectedState }) {
   const location = useLocation();
@@ -48,37 +48,64 @@ function MainContent({ activeState, setActiveState, selectedState }) {
     <main className="main-content container">
       <div className='row'>
         <div className="map-container col-lg-6 col-md-6 col-sm-12">
-          <InteractiveMap state={activeState} />
-        </div>
+          <Suspense fallback={<div>Loading map...</div>}>
+            <InteractiveMap state={activeState} />
+          </Suspense>        </div>
         <div className="writing-container col-lg-6 col-md-6 col-sm-12">
           {isHomePage ?
             <Element name='welcome'>
-              <Hero setActiveState={setActiveState} />
+              <Suspense fallback={<div>Loading Hero...</div>}>
+                <Hero setActiveState={setActiveState} />
+              </Suspense>
             </Element>
             : null}
+
           <Element name='arizona'>
-            <ArizonaContent className={isHomePage || selectedState === 'arizona' ? 'visible' : 'hidden'} setActiveState={setActiveState} />
+            <Suspense fallback={<div>Loading Arizona parks...</div>}>
+              <ArizonaContent className={isHomePage || selectedState === 'arizona' ? 'visible' : 'hidden'} setActiveState={setActiveState} />
+            </Suspense>
           </Element>
+
           <Element name='california'>
-            <CaliforniaContent className={isHomePage || selectedState === 'california' ? 'visible' : 'hidden'} setActiveState={setActiveState} />
+            <Suspense fallback={<div>Loading California parks...</div>}>
+              <CaliforniaContent className={isHomePage || selectedState === 'california' ? 'visible' : 'hidden'} setActiveState={setActiveState} />
+            </Suspense>
           </Element>
+
           <Element name='colorado'>
-            <ColoradoContent className={isHomePage || selectedState === 'colorado' ? 'visible' : 'hidden'} setActiveState={setActiveState} />
+            <Suspense fallback={<div>Loading Colorado parks...</div>}>
+              <ColoradoContent className={isHomePage || selectedState === 'colorado' ? 'visible' : 'hidden'} setActiveState={setActiveState} />
+            </Suspense>
           </Element>
+
           <Element name='louisiana'>
-            <LouisianaContent className={isHomePage || selectedState === 'louisiana' ? 'visible' : 'hidden'} setActiveState={setActiveState} />
+            <Suspense fallback={<div>Loading Louisiana parks...</div>}>
+              <LouisianaContent className={isHomePage || selectedState === 'louisiana' ? 'visible' : 'hidden'} setActiveState={setActiveState} />
+            </Suspense>
           </Element>
+
           <Element name='newmexico'>
-            <NewMexicoContent className={isHomePage || selectedState === 'newmexico' ? 'visible' : 'hidden'} setActiveState={setActiveState} />
+            <Suspense fallback={<div>Loading New Mexico parks...</div>}>
+              <NewMexicoContent className={isHomePage || selectedState === 'newmexico' ? 'visible' : 'hidden'} setActiveState={setActiveState} />
+            </Suspense>
           </Element>
+
           <Element name='newyork'>
-            <NewYorkContent className={isHomePage || selectedState === 'newyork' ? 'visible' : 'hidden'} setActiveState={setActiveState} />
+            <Suspense fallback={<div>Loading New York parks...</div>}>
+              <NewYorkContent className={isHomePage || selectedState === 'newyork' ? 'visible' : 'hidden'} setActiveState={setActiveState} />
+            </Suspense>
           </Element>
+
           <Element name='texas'>
-            <TexasContent className={isHomePage || selectedState === 'texas' ? 'visible' : 'hidden'} setActiveState={setActiveState} />
+            <Suspense fallback={<div>Loading Texas parks...</div>}>
+              <TexasContent className={isHomePage || selectedState === 'texas' ? 'visible' : 'hidden'} setActiveState={setActiveState} />
+            </Suspense>
           </Element>
+
           <Element name='utah'>
-            <UtahContent className={isHomePage || selectedState === 'utah' ? 'visible' : 'hidden'} setActiveState={setActiveState} />
+            <Suspense fallback={<div>Loading Utah parks...</div>}>
+              <UtahContent className={isHomePage || selectedState === 'utah' ? 'visible' : 'hidden'} setActiveState={setActiveState} />
+            </Suspense>
           </Element>
 
         </div>
@@ -95,7 +122,9 @@ function App() {
   return (
     <Router>
       <div className="app-container">
-        <Navbar setSelectedState={setSelectedState} />
+        <Suspense fallback={<div>Loading Navbar...</div>}>
+          <Navbar setSelectedState={setSelectedState} />
+        </Suspense>
         <Routes>
           <Route path="/" element={<MainContent activeState={activeState} setActiveState={setActiveState} selectedState={selectedState} />} />
           <Route path="/:state" element={<MainContent activeState={activeState} setActiveState={setActiveState} selectedState={selectedState} />} />

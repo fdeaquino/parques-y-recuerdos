@@ -35,15 +35,6 @@ import hsBendTrail2 from '../../assets/images/arizona/hsBend-trail2.webp';
 
 
 
-
-
-
-
-
-
-
-
-
 function ArizonaContent({ className, setActiveState }) {
     const arizonaRef = useRef();
     const sedonaRef = useRef();
