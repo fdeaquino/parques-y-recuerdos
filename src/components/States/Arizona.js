@@ -11,6 +11,27 @@ import sedonaTogether from '../../assets/images/arizona/sedona-together.webp';
 import sedonaTrail1 from '../../assets/images/arizona/sedona-trail.webp';
 import sedonaTrail2 from '../../assets/images/arizona/sedona-trail-2.webp';
 import sedonaTrailSteps from '../../assets/images/arizona/sedona-trail-steps.webp';
+import saguaroCarved from '../../assets/images/arizona/saguaro-carved.webp';
+import saguaroCholla from '../../assets/images/arizona/saguaro-cholla-cacti.webp';
+import saguaroCreekRock from '../../assets/images/arizona/saguaro-creek-rock.webp';
+import saguaroEntrance from '../../assets/images/arizona/saguaro-entrance.webp';
+import saguaroFidel from '../../assets/images/arizona/saguaro-fidel.webp';
+import saguaroRoss from '../../assets/images/arizona/saguaro-ross.webp';
+import saguaroThreeSis from '../../assets/images/arizona/saguaro-three-sisters.webp';
+import saguaroTrail1 from '../../assets/images/arizona/saguaro-trail-1.webp';
+import saguaroTrail2 from '../../assets/images/arizona/saguaro-trail-2.webp';
+import saguaroValleyView1 from '../../assets/images/arizona/saguaro-valley-view-1.webp';
+import saguaroValleyView2 from '../../assets/images/arizona/saguaro-valley-view-2.webp';
+import hsBendFence from '../../assets/images/arizona/hsBend-fence.webp';
+import hsBendFidel from '../../assets/images/arizona/hsBend-fidel.webp';
+import hsBendLookout from '../../assets/images/arizona/hsBend-lookout.webp';
+import hsBendPeekingSun from '../../assets/images/arizona/hsBend-peeking-sun.webp';
+import hsBendPhotographer from '../../assets/images/arizona/hsBend-photographer.webp';
+import hsBendRiverView from '../../assets/images/arizona/hsBend-river-view.webp';
+import hsBendRoss from '../../assets/images/arizona/hsBend-ross.webp';
+import hsBendShadows from '../../assets/images/arizona/hsBend-shadows.webp';
+import hsBendTrail1 from '../../assets/images/arizona/hsBend-trail1.webp';
+import hsBendTrail2 from '../../assets/images/arizona/hsBend-trail2.webp';
 
 
 
@@ -170,12 +191,79 @@ function ArizonaContent({ className, setActiveState }) {
                 <h4 className='intro-subtitle park-title'>Saguaro National Park</h4>
                 <p className='intro-paragraph'>Some content I want to share about the park.</p>
                 {/* Grid and photos go here */}
+                <div className='grid'>
+                    <div className='box box--3x3'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${saguaroFidel})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${saguaroEntrance})` }}></div>
+                    </div>
+                    <div className='box box--2x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${saguaroThreeSis})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${saguaroValleyView1})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${saguaroCholla})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${saguaroCarved})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${saguaroCreekRock})` }}></div>
+                    </div>
+                    <div className='box box--3x3'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${saguaroRoss})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${saguaroTrail1})` }}></div>
+                    </div>
+                    <div className='box box--2x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${saguaroValleyView2})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${saguaroTrail2})` }}></div>
+                    </div>
+                </div>
 
             </div>
             <div className='park-section bg-light p-3 m-3' ref={horseshoeBendRef}>
                 <h4 className='intro-subtitle park-title'>Horseshoe Bend</h4>
                 <p className='intro-paragraph'>Some content I want to share about the park.</p>
                 {/* Grid and photos go here */}
+                <div className='grid'>
+                    <div className='box box--3x3'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${hsBendRiverView})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${hsBendTrail1})` }}></div>
+                    </div>
+                    <div className='box box--2x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${hsBendShadows})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${hsBendPeekingSun})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${hsBendLookout})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${hsBendPhotographer})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${hsBendRoss})` }}></div>
+                    </div>
+                    <div className='box box--3x3'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${hsBendFence})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${hsBendTrail2})` }}></div>
+                    </div>
+                    <div className='box box--2x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${hsBendFidel})` }}></div>
+                    </div>
+                </div>
 
             </div>
         </section>
