@@ -27,6 +27,17 @@ import ggTrail1 from '../../assets/images/california/gg-trail-1.webp';
 import ggTrail2 from '../../assets/images/california/gg-trail-2.webp';
 import ggWindmill from '../../assets/images/california/gg-windmill.webp';
 import ggZTree from '../../assets/images/california/gg-z-tree.webp';
+import presidioFidel from '../../assets/images/california/presidio-fidel.webp';
+import presidioGGTrees1 from '../../assets/images/california/presidio-gg-trees1.webp';
+import presidioGGTrees2 from '../../assets/images/california/presidio-gg-trees-2.webp';
+import presidioGG1 from '../../assets/images/california/presidio-gg1.webp';
+import presidioGG2 from '../../assets/images/california/presidio-gg2.webp';
+import presidioImmPoint from '../../assets/images/california/presidio-imm-point.webp';
+import presidioPalaceFineArts1 from '../../assets/images/california/presidio-palace-fine-arts1.webp';
+import presidioPalaceFineArts2 from '../../assets/images/california/presidio-palace-fine-arts2.webp';
+import presidioRoss from '../../assets/images/california/presidio-ross.webp';
+import presidioShadows from '../../assets/images/california/presidio-shadows.webp';
+import presidioSunset from '../../assets/images/california/presidio-sunset.webp';
 
 
 
@@ -303,6 +314,41 @@ function CaliforniaContent({ className, setActiveState }) {
                 <h4 className='intro-subtitle park-title'>Presidio of San Francisco</h4>
                 <p className='intro-paragraph'>Some content I want to share about the park and about my hiking experience.</p>
                 {/* Grid and photos go here */}
+                <div className='grid'>
+                    <div className='box box--3x3'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${presidioImmPoint})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${presidioFidel})` }}></div>
+                    </div>
+                    <div className='box box--2x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${presidioGGTrees1})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${presidioShadows})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${presidioRoss})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${presidioGG1})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${presidioGGTrees2})` }}></div>
+                    </div>
+                    <div className='box box--3x3'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${presidioGG2})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${presidioSunset})` }}></div>
+                    </div>
+                    <div className='box box--2x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${presidioPalaceFineArts1})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${presidioPalaceFineArts2})` }}></div>
+                    </div>
+                </div>
             </div>
             <div className='park-section last-park bg-light p-3 m-3' ref={salesforceRef}>
                 <h4 className='intro-subtitle park-title'>Salesforce Park</h4>
