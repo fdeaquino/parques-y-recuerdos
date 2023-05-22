@@ -1,4 +1,19 @@
 import React, { useRef, useEffect } from 'react';
+import povertyPointTogether from '../../assets/images/louisiana/poverty-point-together.webp';
+import povertyPoint1 from '../../assets/images/louisiana/poverty-point1.webp';
+import povertyPoint2 from '../../assets/images/louisiana/poverty-point2.webp';
+import povertyPoint3 from '../../assets/images/louisiana/poverty-point3.webp';
+import povertyPoint4 from '../../assets/images/louisiana/poverty-point4.webp';
+import povertyPoint5 from '../../assets/images/louisiana/poverty-point5.webp';
+import povertyPoint6 from '../../assets/images/louisiana/poverty-point6.webp';
+import povertyPoint7 from '../../assets/images/louisiana/poverty-point7.webp';
+import povertyPoint8 from '../../assets/images/louisiana/poverty-point8.webp';
+import povertyPoint9 from '../../assets/images/louisiana/poverty-point9.webp';
+import povertyPoint10 from '../../assets/images/louisiana/poverty-point10.webp';
+import povertyPoint11 from '../../assets/images/louisiana/poverty-point11.webp';
+import povertyPoint12 from '../../assets/images/louisiana/poverty-point12.webp';
+
+
 
 function LouisianaContent({ className, setActiveState }) {
     const louisianaRef = useRef();
@@ -67,13 +82,50 @@ function LouisianaContent({ className, setActiveState }) {
                 <h4 className='intro-subtitle park-title'>Poverty Point World Heritage Site</h4>
                 <p className='intro-paragraph'>Some content I want to share about the park.</p>
                 {/* Grid and photos go here */}
-
+                <div className='grid'>
+                    <div className='box box--3x3'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${povertyPoint1})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${povertyPoint11})` }}></div>
+                    </div>
+                    <div className='box box--2x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${povertyPointTogether})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${povertyPoint8})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${povertyPoint6})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${povertyPoint7})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${povertyPoint3})` }}></div>
+                    </div>
+                    <div className='box box--3x3'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${povertyPoint5})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${povertyPoint4})` }}></div>
+                    </div>
+                    <div className='box box--2x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${povertyPoint9})` }}></div>
+                    </div>
+                    <div className='box box--2x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${povertyPoint10})` }}></div>
+                    </div><div className='box box--2x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${povertyPoint12})` }}></div>
+                    </div><div className='box box--2x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${povertyPoint2})` }}></div>
+                    </div>
+                </div>
             </div>
-            <div className='park-section last-park bg-light p-3 m-3 '>
+            {/* <div className='park-section last-park bg-light p-3 m-3 '>
                 <h4 className='intro-subtitle park-title'>Park 2</h4>
                 <p className='intro-paragraph'>Some content I want to share about the park and about my hiking experience.</p>
-                {/* Grid and photos go here */}
-            </div>
+            </div> */}
         </section>
     );
 }
