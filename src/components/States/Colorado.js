@@ -1,5 +1,30 @@
 import React, { useRef, useEffect } from 'react';
 // import { useActionData } from 'react-router-dom';
+import estesElk from '../../assets/images/colorado/estes-elk.webp';
+import estesPicnic from '../../assets/images/colorado/estes-picnic.webp';
+import estesValleyTrail1 from '../../assets/images/colorado/estes-valley-trail1.webp';
+import estesValleyTrail2 from '../../assets/images/colorado/estes-valley-trail2.webp';
+import rockiesFirstTime1 from '../../assets/images/colorado/rockies-first-time-1.webp';
+import rockiesFirstTime2 from '../../assets/images/colorado/rockies-first-time-2.webp';
+import rockiesPine from '../../assets/images/colorado/rockies-pine.webp';
+import rockiesPuppy from '../../assets/images/colorado/rockies-puppy.webp';
+import rockiesRoss from '../../assets/images/colorado/rockies-ross.webp';
+import rockiesSunset from '../../assets/images/colorado/rockies-sunset.webp';
+import mesaVerde1 from '../../assets/images/colorado/mesa-verde-1.webp';
+import mesaVerde2 from '../../assets/images/colorado/mesa-verde-2.webp';
+import mesaVerde3 from '../../assets/images/colorado/mesa-verde-3.webp';
+import mesaVerde4 from '../../assets/images/colorado/mesa-verde-4.webp';
+import mesaVerde5 from '../../assets/images/colorado/mesa-verde-5.webp';
+import mesaVerde6 from '../../assets/images/colorado/mesa-verde-6.webp';
+import mesaVerde7 from '../../assets/images/colorado/mesa-verde-7.webp';
+import mesaVerde8 from '../../assets/images/colorado/mesa-verde-8.webp';
+import mesaVerde9 from '../../assets/images/colorado/mesa-verde-9.webp';
+import mesaVerde10 from '../../assets/images/colorado/mesa-verde-10.webp';
+import mesaVerde11 from '../../assets/images/colorado/mesa-verde-11.webp';
+import mesaVerdeTogether from '../../assets/images/colorado/mesa-verde-ross-fidel.webp';
+import mesaVerdeRoss from '../../assets/images/colorado/mesa-verde-ross.webp';
+
+
 
 function ColoradoContent({ className, setActiveState }) {
     const coloradoRef = useRef();
@@ -21,7 +46,7 @@ function ColoradoContent({ className, setActiveState }) {
             },
             { threshold: 0 }
         );
-        
+
         const rockyMountainsObserver = new IntersectionObserver(
             ([entry]) => {
                 if (entry.isIntersecting) {
@@ -52,7 +77,7 @@ function ColoradoContent({ className, setActiveState }) {
             { threshold: 0.02 }
         );
 
-        const redRocksObserver = new IntersectionObserver (
+        const redRocksObserver = new IntersectionObserver(
             ([entry]) => {
                 if (entry.isIntersecting) {
                     window.history.replaceState(null, null, '#redRocks');
@@ -61,7 +86,7 @@ function ColoradoContent({ className, setActiveState }) {
             },
             { threshold: 0.02 }
         );
-        
+
 
         // TODO: 2. Add observers for other parks if any
 
@@ -126,12 +151,85 @@ function ColoradoContent({ className, setActiveState }) {
                 <h4 className='intro-subtitle park-title'>Rocky Mountains National Park</h4>
                 <p className='intro-paragraph'>Some content I want to share about the park.</p>
                 {/* Grid and photos go here */}
+                <div className='grid'>
+                    <div className='box box--3x3'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${rockiesFirstTime2})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${rockiesFirstTime1})` }}></div>
+                    </div>
+                    <div className='box box--2x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${rockiesSunset})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${estesPicnic})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${estesValleyTrail1})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${estesValleyTrail2})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${estesElk})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${rockiesPine})` }}></div>
+                    </div>
+                    <div className='box box--3x3'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${rockiesRoss})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${rockiesPuppy})` }}></div>
+                    </div>
+                </div>
 
             </div>
             <div className='park-section bg-light p-3 m-3' ref={mesaVerdeRef}>
                 <h4 className='intro-subtitle park-title'>Mesa Verde National Park</h4>
                 <p className='intro-paragraph'>Some content I want to share about the park and about my hiking experience.</p>
                 {/* Grid and photos go here */}
+                <div className='grid'>
+                    <div className='box box--3x3'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${mesaVerdeTogether})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${mesaVerde1})` }}></div>
+                    </div>
+                    <div className='box box--2x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${mesaVerde2})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${mesaVerde3})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${mesaVerde4})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${mesaVerde5})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${mesaVerde6})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${mesaVerde7})` }}></div>
+                    </div>
+                    <div className='box box--3x3'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${mesaVerde8})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${mesaVerde9})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${mesaVerde10})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${mesaVerde11})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${mesaVerdeRoss})` }}></div>
+                    </div>
+                </div>
             </div>
             <div className='park-section bg-light p-3 m-3' ref={gardenOfTheGodsRef}>
                 <h4 className='intro-subtitle park-title'>Garden of the Gods</h4>

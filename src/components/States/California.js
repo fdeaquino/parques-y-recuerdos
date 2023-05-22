@@ -82,7 +82,7 @@ function CaliforniaContent({ className, setActiveState }) {
     const salesforceRef = useRef();
     const griffithRef = useRef();
     const santaMonicaBeachRef = useRef();
-    const harborIslandParkRef = useRef();
+    // const harborIslandParkRef = useRef();
 
     // TODO: 1. Add more refs for other parks if any
 
@@ -158,14 +158,14 @@ function CaliforniaContent({ className, setActiveState }) {
             }
         );
 
-        const harborIslandParkObserver = new IntersectionObserver(
-            ([entry]) => {
-                if (entry.isIntersecting) {
-                    window.history.replaceState(null, null, "#harborIslandPark");
-                    setActiveState("harborIslandPark")
-                }
-            }
-        );
+        // const harborIslandParkObserver = new IntersectionObserver(
+        //     ([entry]) => {
+        //         if (entry.isIntersecting) {
+        //             window.history.replaceState(null, null, "#harborIslandPark");
+        //             setActiveState("harborIslandPark")
+        //         }
+        //     }
+        // );
 
         // TODO: 2. Add observers for other parks if any
 
@@ -176,7 +176,7 @@ function CaliforniaContent({ className, setActiveState }) {
         const currentPresidioRef = presidioRef.current;
         const currentGriffithRef = griffithRef.current;
         const currentSantaMonicaBeachRef = santaMonicaBeachRef.current;
-        const currentHarborIslandParkRef = harborIslandParkRef.current;
+        // const currentHarborIslandParkRef = harborIslandParkRef.current;
 
 
         // TODO: 3. Add const variable above
@@ -202,9 +202,9 @@ function CaliforniaContent({ className, setActiveState }) {
         if (currentSantaMonicaBeachRef) {
             santaMonicaBeachObserver.observe(currentSantaMonicaBeachRef)
         }
-        if (currentHarborIslandParkRef) {
-            harborIslandParkObserver.observe(currentHarborIslandParkRef)
-        }
+        // if (currentHarborIslandParkRef) {
+        //     harborIslandParkObserver.observe(currentHarborIslandParkRef)
+        // }
 
         // TODO: 4. Add if statement to observe ref for new parks if any
 
@@ -230,9 +230,9 @@ function CaliforniaContent({ className, setActiveState }) {
             if (currentSantaMonicaBeachRef) {
                 santaMonicaBeachObserver.unobserve(currentSantaMonicaBeachRef);
             }
-            if (currentHarborIslandParkRef) {
-                harborIslandParkObserver.unobserve(currentHarborIslandParkRef);
-            }
+            // if (currentHarborIslandParkRef) {
+            //     harborIslandParkObserver.unobserve(currentHarborIslandParkRef);
+            // }
 
             // TODO: 5. Add if statement to unobserve refs for new parks if any
         };
@@ -499,11 +499,10 @@ function CaliforniaContent({ className, setActiveState }) {
                     </div>
                 </div>
             </div>
-            <div className='park-section bg-light p-3 m-3' ref={harborIslandParkRef}>
+            {/* <div className='park-section bg-light p-3 m-3' ref={harborIslandParkRef}>
                 <h4 className='intro-subtitle park-title'>Harbor Island Park</h4>
                 <p className='intro-paragraph'>Some content I want to share about the park and about my hiking experience.</p>
-                {/* Grid and photos go here */}
-            </div>
+            </div> */}
         </section>
     );
 }
