@@ -23,6 +23,28 @@ import mesaVerde10 from '../../assets/images/colorado/mesa-verde-10.webp';
 import mesaVerde11 from '../../assets/images/colorado/mesa-verde-11.webp';
 import mesaVerdeTogether from '../../assets/images/colorado/mesa-verde-ross-fidel.webp';
 import mesaVerdeRoss from '../../assets/images/colorado/mesa-verde-ross.webp';
+import gotgSign from '../../assets/images/colorado/gotg-sign.webp';
+import gotgTogether from '../../assets/images/colorado/gotg-together.webp';
+import gotgFidel from '../../assets/images/colorado/gtog-fidel.webp';
+import gotg1 from '../../assets/images/colorado/gotg-1.webp';
+import gotg2 from '../../assets/images/colorado/gotg-2.webp';
+import gotg3 from '../../assets/images/colorado/gotg-3.webp';
+import gotg4 from '../../assets/images/colorado/gotg-4.webp';
+import gotg5 from '../../assets/images/colorado/gotg-5.webp';
+import redRocks1 from '../../assets/images/colorado/redRocks1.webp';
+import redRocks2 from '../../assets/images/colorado/redRocks2.webp';
+import redRocks3 from '../../assets/images/colorado/redRocks3.webp';
+import redRocks4 from '../../assets/images/colorado/redRocks4.webp';
+import redRocks5 from '../../assets/images/colorado/redRocks5.webp';
+import redRocks6 from '../../assets/images/colorado/redRocks6.webp';
+import redRocks7 from '../../assets/images/colorado/redRocks7.webp';
+import redRocks8 from '../../assets/images/colorado/redRocks8.webp';
+import redRocks9 from '../../assets/images/colorado/redRocks9.webp';
+import redRocks10 from '../../assets/images/colorado/redRocks10.webp';
+import redRocks11 from '../../assets/images/colorado/redRocks11.webp';
+import redRocks12 from '../../assets/images/colorado/redRocks12.webp';
+import redRocks13 from '../../assets/images/colorado/redRocks13.webp';
+import redRocks14 from '../../assets/images/colorado/redRocks14.webp';
 
 
 
@@ -235,11 +257,77 @@ function ColoradoContent({ className, setActiveState }) {
                 <h4 className='intro-subtitle park-title'>Garden of the Gods</h4>
                 <p className='intro-paragraph'>Some content I want to share about the park and about my hiking experience.</p>
                 {/* Grid and photos go here */}
+                <div className='grid'>
+                    <div className='box box--3x3'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${gotgSign})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${gotg1})` }}></div>
+                    </div>
+                    <div className='box box--2x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${gotg2})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${gotgTogether})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${gotg3})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${gotgFidel})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${gotg4})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${gotg5})` }}></div>
+                    </div>
+
+                </div>
             </div>
             <div className='park-section last-park bg-light p-3 m-3' ref={redRocksRef}>
                 <h4 className='intro-subtitle park-title'>Red Rocks Ampitheatre and Park</h4>
                 <p className='intro-paragraph'>Some content I want to share about the park and about my hiking experience.</p>
                 {/* Grid and photos go here */}
+                <div className='grid'>
+                    <div className='box box--3x3'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${redRocks1})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${redRocks2})` }}></div>
+                    </div>
+                    <div className='box box--2x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${redRocks3})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${redRocks4})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${redRocks5})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${redRocks6})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${redRocks7})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${redRocks8})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${redRocks9})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${redRocks10})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${redRocks11})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${redRocks12})` }}></div>
+                    </div>
+
+                </div>
             </div>
         </section>
     );
