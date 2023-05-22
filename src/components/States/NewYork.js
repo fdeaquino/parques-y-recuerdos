@@ -19,7 +19,7 @@ function NewYorkContent({ className, setActiveState }) {
                     setActiveState("newyork")
                 }
             },
-            { threshold: 0.02 }
+            { threshold: 0 }
         );
         
         const highlineNYCObserver = new IntersectionObserver(

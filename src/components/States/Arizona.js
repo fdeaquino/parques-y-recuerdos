@@ -52,7 +52,7 @@ function ArizonaContent({ className, setActiveState }) {
                     setActiveState("arizona")
                 }
             },
-            { threshold: 0.02 }
+            { threshold: 0 }
         );
 
         const sedonaObserver = new IntersectionObserver(

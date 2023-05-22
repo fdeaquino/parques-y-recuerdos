@@ -19,7 +19,7 @@ function UtahContent({ className, setActiveState }) {
                     setActiveState("utah")
                 }
             },
-            { threshold: 0.02 }
+            { threshold: 0 }
         );
         const archesObserver = new IntersectionObserver(
             ([entry]) => {

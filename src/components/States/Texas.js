@@ -32,7 +32,7 @@ function TexasContent({ className, setActiveState }) {
                     setActiveState("texas")
                 }
             },
-            { threshold: 0.02 }
+            { threshold: 0 }
         );
 
         const bigBendObserver = new IntersectionObserver(

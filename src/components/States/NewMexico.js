@@ -16,7 +16,7 @@ function NewMexicoContent({ className, setActiveState }) {
                     setActiveState("newmexico")
                 }
             },
-            { threshold: 0.02 }
+            { threshold: 0 }
         );
 
         const whiteSandsObserver = new IntersectionObserver(

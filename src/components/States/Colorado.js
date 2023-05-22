@@ -19,7 +19,7 @@ function ColoradoContent({ className, setActiveState }) {
                     setActiveState("colorado")
                 }
             },
-            { threshold: 0.02 }
+            { threshold: 0 }
         );
         
         const rockyMountainsObserver = new IntersectionObserver(

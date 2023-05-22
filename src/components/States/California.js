@@ -62,6 +62,14 @@ import griffithObservatoryView1 from '../../assets/images/california/griffith-ob
 import griffithObservatoryView2 from '../../assets/images/california/griffith-observatory-view2.webp';
 import griffithObservatory1 from '../../assets/images/california/griffith-observatory1.webp';
 import griffithObservatory2 from '../../assets/images/california/griffith-observatory2.webp';
+import santaMonicaBeach1 from '../../assets/images/california/santa-monica-1.webp';
+import santaMonicaBeach2 from '../../assets/images/california/santa-monica-2.webp';
+import santaMonicaBeach3 from '../../assets/images/california/santa-monica-3.webp';
+import santaMonicaBeach4 from '../../assets/images/california/santa-monica-4.webp';
+import santaMonicaBeach5 from '../../assets/images/california/santa-monica-5.webp';
+import santaMonicaBeach6 from '../../assets/images/california/santa-monica-6.webp';
+import santaMonicaBeach7 from '../../assets/images/california/santa-monica-7.webp';
+import santaMonicaBeach8 from '../../assets/images/california/santa-monica-8.webp';
 
 
 
@@ -87,7 +95,7 @@ function CaliforniaContent({ className, setActiveState }) {
                     setActiveState("california");
                 }
             },
-            { threshold: 0.02 }
+            { threshold: 0 }
         );
 
         const yosemiteObserver = new IntersectionObserver(
@@ -464,6 +472,32 @@ function CaliforniaContent({ className, setActiveState }) {
                 <h4 className='intro-subtitle park-title'>Santa Monica State Beach </h4>
                 <p className='intro-paragraph'>Some content I want to share about the park and about my hiking experience.</p>
                 {/* Grid and photos go here */}
+                <div className='grid'>
+                    <div className='box box--3x3'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${santaMonicaBeach1})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${santaMonicaBeach2})` }}></div>
+                    </div>
+                    <div className='box box--2x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${santaMonicaBeach3})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${santaMonicaBeach4})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${santaMonicaBeach5})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${santaMonicaBeach6})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${santaMonicaBeach7})` }}></div>
+                    </div>
+                    <div className='box box--3x3'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${santaMonicaBeach8})` }}></div>
+                    </div>
+                </div>
             </div>
             <div className='park-section bg-light p-3 m-3' ref={harborIslandParkRef}>
                 <h4 className='intro-subtitle park-title'>Harbor Island Park</h4>

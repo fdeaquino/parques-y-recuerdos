@@ -14,7 +14,7 @@ function LouisianaContent({ className, setActiveState }) {
                     setActiveState("louisiana")
                 }
             },
-            { threshold: 0.02 }
+            { threshold: 0 }
         );
 
         const povertyPointObserver = new IntersectionObserver(
