@@ -8,6 +8,7 @@ import highline5 from '../../assets/images/newyork/highline-5.webp';
 import highline6 from '../../assets/images/newyork/highline-6.webp';
 import highline7 from '../../assets/images/newyork/highline-7.webp';
 import highline8 from '../../assets/images/newyork/highline-8.webp';
+import highlineStatues from '../../assets/images/newyork/highline-statues.webp';
 import highlineFidelReflection from '../../assets/images/newyork/highline-fidel-reflection.webp';
 import highlineFidel from '../../assets/images/newyork/highline-fidel.webp';
 import centralPark1 from '../../assets/images/newyork/central-park-1.webp';
@@ -21,6 +22,17 @@ import centralPark8 from '../../assets/images/newyork/central-park-8.webp';
 import centralPark9 from '../../assets/images/newyork/central-park-9.webp';
 import centralPark10 from '../../assets/images/newyork/central-park-10.webp';
 import centralPark11 from '../../assets/images/newyork/central-park-11.webp';
+import mountArabFidel from '../../assets/images/newyork/mtarab-fidel.webp';
+import mountArabRoss from '../../assets/images/newyork/mtarab-ross.webp';
+import mountArabTower from '../../assets/images/newyork/mtarab-tower.webp';
+import mountArab1 from '../../assets/images/newyork/mtarab-1.webp';
+import mountArab2 from '../../assets/images/newyork/mtarab-2.webp';
+import mountArab3 from '../../assets/images/newyork/mtarab-3.webp';
+import mountArab4 from '../../assets/images/newyork/mtarab-4.webp';
+import mountArab5 from '../../assets/images/newyork/mtarab-5.webp';
+import mountArab6 from '../../assets/images/newyork/mtarab-6.webp';
+import mountArab7 from '../../assets/images/newyork/mtarab-7.webp';
+import mountArab8 from '../../assets/images/newyork/mtarab-8.webp';
 
 
 
@@ -193,6 +205,9 @@ function NewYorkContent({ className, setActiveState }) {
                     <div className='box box--1x2'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${highline8})` }}></div>
                     </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${highlineStatues})` }}></div>
+                    </div>
                     <div className='box box--3x3'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${highlineFidel})` }}></div>
                     </div>
@@ -246,6 +261,41 @@ function NewYorkContent({ className, setActiveState }) {
                 <h4 className='intro-subtitle park-title'>Mount Arab</h4>
                 <p className='intro-paragraph'>Some content I want to share about the park and about my hiking experience.</p>
                 {/* Grid and photos go here */}
+                <div className='grid'>
+                    <div className='box box--3x3'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${mountArab7})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${mountArabFidel})` }}></div>
+                    </div>
+                    <div className='box box--2x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${mountArab1})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${mountArab2})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${mountArab3})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${mountArab4})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${mountArab5})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${mountArab6})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${mountArab8})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${mountArabRoss})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${mountArabTower})` }}></div>
+                    </div>
+                </div>
             </div>
             <div className='park-section last-park bg-light p-3 m-3 ' ref={cantonIslandParkRef}>
                 <h4 className='intro-subtitle park-title'>Canton Island Park</h4>
