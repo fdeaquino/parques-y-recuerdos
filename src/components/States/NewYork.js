@@ -33,6 +33,17 @@ import mountArab5 from '../../assets/images/newyork/mtarab-5.webp';
 import mountArab6 from '../../assets/images/newyork/mtarab-6.webp';
 import mountArab7 from '../../assets/images/newyork/mtarab-7.webp';
 import mountArab8 from '../../assets/images/newyork/mtarab-8.webp';
+import cantonIslandPark1 from '../../assets/images/newyork/canton-island-park-1.webp';
+import cantonIslandPark2 from '../../assets/images/newyork/canton-island-park-2.webp';
+import cantonIslandPark3 from '../../assets/images/newyork/canton-island-park-3.webp';
+import cantonIslandPark4 from '../../assets/images/newyork/canton-island-park-4.webp';
+import otterCreekPreserve1 from '../../assets/images/newyork/otter-creek-1.webp';
+import otterCreekPreserve2 from '../../assets/images/newyork/otter-creek-2.webp';
+import otterCreekPreserve3 from '../../assets/images/newyork/otter-creek-3.webp';
+import otterCreekPreserve4 from '../../assets/images/newyork/otter-creek-4.webp';
+import otterCreekPreserve5 from '../../assets/images/newyork/otter-creek-5.webp';
+import otterCreekPreserve6 from '../../assets/images/newyork/otter-creek-6.webp';
+import otterCreekPreserve7 from '../../assets/images/newyork/otter-creek-7.webp';
 
 
 
@@ -301,11 +312,48 @@ function NewYorkContent({ className, setActiveState }) {
                 <h4 className='intro-subtitle park-title'>Canton Island Park</h4>
                 <p className='intro-paragraph'>Some content I want to share about the park and about my hiking experience.</p>
                 {/* Grid and photos go here */}
+                <div className='grid'>
+                    <div className='box box--3x3'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${cantonIslandPark1})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${cantonIslandPark2})` }}></div>
+                    </div>
+                    <div className='box box--2x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${cantonIslandPark3})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${cantonIslandPark4})` }}></div>
+                    </div>
+                </div>
             </div>
             <div className='park-section last-park bg-light p-3 m-3 ' ref={otterCreekPreserveRef}>
                 <h4 className='intro-subtitle park-title'>Otter Creek Preserve</h4>
                 <p className='intro-paragraph'>Some content I want to share about the park and about my hiking experience.</p>
                 {/* Grid and photos go here */}
+                <div className='grid'>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${otterCreekPreserve1})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${otterCreekPreserve2})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${otterCreekPreserve3})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${otterCreekPreserve4})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${otterCreekPreserve5})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${otterCreekPreserve6})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${otterCreekPreserve7})` }}></div>
+                    </div>
+                </div>
             </div>
         </section>
     );
