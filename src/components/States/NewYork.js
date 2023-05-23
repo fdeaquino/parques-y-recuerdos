@@ -1,5 +1,29 @@
 import React, { useRef, useEffect } from 'react';
 
+import highline1 from '../../assets/images/newyork/highline-1.webp';
+import highline2 from '../../assets/images/newyork/highline-2.webp';
+import highline3 from '../../assets/images/newyork/highline-3.webp';
+import highline4 from '../../assets/images/newyork/highline-4.webp';
+import highline5 from '../../assets/images/newyork/highline-5.webp';
+import highline6 from '../../assets/images/newyork/highline-6.webp';
+import highline7 from '../../assets/images/newyork/highline-7.webp';
+import highline8 from '../../assets/images/newyork/highline-8.webp';
+import highlineFidelReflection from '../../assets/images/newyork/highline-fidel-reflection.webp';
+import highlineFidel from '../../assets/images/newyork/highline-fidel.webp';
+import centralPark1 from '../../assets/images/newyork/central-park-1.webp';
+import centralPark2 from '../../assets/images/newyork/central-park-2.webp';
+import centralPark3 from '../../assets/images/newyork/central-park-3.webp';
+import centralPark4 from '../../assets/images/newyork/central-park-4.webp';
+import centralPark5 from '../../assets/images/newyork/central-park-5.webp';
+import centralPark6 from '../../assets/images/newyork/central-park-6.webp';
+import centralPark7 from '../../assets/images/newyork/central-park-7.webp';
+import centralPark8 from '../../assets/images/newyork/central-park-8.webp';
+import centralPark9 from '../../assets/images/newyork/central-park-9.webp';
+import centralPark10 from '../../assets/images/newyork/central-park-10.webp';
+import centralPark11 from '../../assets/images/newyork/central-park-11.webp';
+
+
+
 function NewYorkContent({ className, setActiveState }) {
     const newyorkRef = useRef();
     const highlineNYCRef = useRef();
@@ -21,7 +45,7 @@ function NewYorkContent({ className, setActiveState }) {
             },
             { threshold: 0 }
         );
-        
+
         const highlineNYCObserver = new IntersectionObserver(
             ([entry]) => {
                 if (entry.isIntersecting) {
@@ -144,12 +168,79 @@ function NewYorkContent({ className, setActiveState }) {
                 <h4 className='intro-subtitle park-title'>High Line Park</h4>
                 <p className='intro-paragraph'>Some content I want to share about the park.</p>
                 {/* Grid and photos go here */}
+                <div className='grid'>
+                    <div className='box box--3x3'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${highline7})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${highline6})` }}></div>
+                    </div>
+                    <div className='box box--2x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${highline5})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${highline4})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${highline3})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${highline2})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${highline1})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${highline8})` }}></div>
+                    </div>
+                    <div className='box box--3x3'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${highlineFidel})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${highlineFidelReflection})` }}></div>
+                    </div>
+                </div>
 
             </div>
             <div className='park-section last-park bg-light p-3 m-3 ' ref={centralParkRef}>
                 <h4 className='intro-subtitle park-title'>Central Park</h4>
                 <p className='intro-paragraph'>Some content I want to share about the park and about my hiking experience.</p>
                 {/* Grid and photos go here */}
+                <div className='grid'>
+                    <div className='box box--3x3'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${centralPark1})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${centralPark4})` }}></div>
+                    </div>
+                    <div className='box box--2x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${centralPark5})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${centralPark6})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${centralPark7})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${centralPark8})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${centralPark9})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${centralPark10})` }}></div>
+                    </div>
+                    <div className='box box--3x3'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${centralPark11})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${centralPark3})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${centralPark2})` }}></div>
+                    </div>
+                </div>
             </div>
             <div className='park-section last-park bg-light p-3 m-3 ' ref={mountArabRef}>
                 <h4 className='intro-subtitle park-title'>Mount Arab</h4>
