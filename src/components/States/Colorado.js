@@ -326,6 +326,12 @@ function ColoradoContent({ className, setActiveState }) {
                     <div className='box box--1x2'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${redRocks12})` }}></div>
                     </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${redRocks13})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${redRocks14})` }}></div>
+                    </div>
 
                 </div>
             </div>
