@@ -83,6 +83,18 @@ import terryHershey6 from '../../assets/images/texas/terry-hershey-6.webp';
 import terryHershey7 from '../../assets/images/texas/terry-hershey-7.webp';
 import terryHershey8 from '../../assets/images/texas/terry-hershey-8.webp';
 import terryHersheyShadows from '../../assets/images/texas/terry-hershey-shadows.webp';
+import hermannParkButterflyExhib from '../../assets/images/texas/hermann-butterfly-exhib.webp';
+import hermannPark1 from '../../assets/images/texas/hermann-1.webp';
+import hermannPark2 from '../../assets/images/texas/hermann-2.webp';
+import hermannPark3 from '../../assets/images/texas/hermann-3.webp';
+import hermannPark4 from '../../assets/images/texas/hermann-4.webp';
+import hermannPark5 from '../../assets/images/texas/hermann-5.webp';
+import hermannPark6 from '../../assets/images/texas/hermann-6.webp';
+import hermannPark7 from '../../assets/images/texas/hermann-7.webp';
+import hermannPark8 from '../../assets/images/texas/hermann-8.webp';
+import hermannPark9 from '../../assets/images/texas/hermann-9.webp';
+import hermannPark10 from '../../assets/images/texas/hermann-10.webp';
+import hermannPark11 from '../../assets/images/texas/hermann-11.webp';
 
 
 
@@ -700,14 +712,51 @@ function TexasContent({ className, setActiveState }) {
                     <div className='box box--1x1'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${terryHersheyShadows})` }}></div>
                     </div>
-            
+
                 </div>
             </div>
             <div className='park-section bg-light p-3 m-3' ref={hermannParkRef}>
                 <h4 className='intro-subtitle park-title'>Hermann Park</h4>
                 <p className='intro-paragraph'>Some content I want to share about the park.</p>
                 {/* Grid and photos go here */}
-
+                <div className='grid'>
+                    <div className='box box--3x3'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${hermannPark1})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${hermannPark2})` }}></div>
+                    </div>
+                    <div className='box box--2x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${hermannPark3})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${hermannPark4})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${hermannPark5})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${hermannParkButterflyExhib})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${hermannPark6})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${hermannPark7})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${hermannPark8})` }}></div>
+                    </div>
+                    <div className='box box--3x3'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${hermannPark9})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${hermannPark10})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${hermannPark11})` }}></div>
+                    </div>
+                </div>
             </div>
             <div className='park-section bg-light p-3 m-3' ref={sanJacintoMonumentRef}>
                 <h4 className='intro-subtitle park-title'>San Jacinto Monument</h4>
