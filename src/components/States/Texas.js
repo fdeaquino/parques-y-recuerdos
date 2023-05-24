@@ -13,6 +13,24 @@ import bigBend5 from '../../assets/images/texas/big-bend-5.webp';
 import bigBend6 from '../../assets/images/texas/big-bend-6.webp';
 import bigBend7 from '../../assets/images/texas/big-bend-7.webp';
 import bigBend8 from '../../assets/images/texas/big-bend-8.webp';
+import guadalupeElCapitan from '../../assets/images/texas/guadalupe-el-capitan.webp';
+import guadalupeFidel from '../../assets/images/texas/guadalupe-fidel.webp';
+import guadalupeLadyBugs from '../../assets/images/texas/guadalupe-lady-bugs.webp';
+import guadalupePeakTogether from '../../assets/images/texas/guadalupe-peak-together.webp';
+import guadalupePyramid from '../../assets/images/texas/guadalupe-pyramid-closeup.webp';
+import guadalupeRoss from '../../assets/images/texas/guadalupe-ross.webp';
+import guadalupeSign from '../../assets/images/texas/guadalupe-sign.webp';
+import guadalupeSnake from '../../assets/images/texas/guadalupe-snake.webp';
+import guadalupeTogether from '../../assets/images/texas/guadalupe-together.webp';
+import guadalupe1 from '../../assets/images/texas/guadalupe-1.webp';
+import guadalupe2 from '../../assets/images/texas/guadalupe-2.webp';
+import guadalupe3 from '../../assets/images/texas/guadalupe-3.webp';
+import guadalupe4 from '../../assets/images/texas/guadalupe-4.webp';
+import guadalupe5 from '../../assets/images/texas/guadalupe-5.webp';
+import guadalupe6 from '../../assets/images/texas/guadalupe-6.webp';
+import guadalupe7 from '../../assets/images/texas/guadalupe-7.webp';
+import guadalupe8 from '../../assets/images/texas/guadalupe-8.webp';
+import guadalupe9 from '../../assets/images/texas/guadalupe-9.webp';
 
 
 
@@ -382,6 +400,62 @@ function TexasContent({ className, setActiveState }) {
                 <h4 className='intro-subtitle park-title'>Guadalupe Mountains National Park</h4>
                 <p className='intro-paragraph'>Some content I want to share about the park.</p>
                 {/* Grid and photos go here */}
+                <div className='grid'>
+                    <div className='box box--3x3'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${guadalupeSign})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${guadalupeFidel})` }}></div>
+                    </div>
+                    <div className='box box--2x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${guadalupe1})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${guadalupeSnake})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${guadalupe2})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${guadalupe3})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${guadalupeRoss})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${guadalupeTogether})` }}></div>
+                    </div>
+                    <div className='box box--3x3'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${guadalupe4})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${guadalupe5})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${guadalupe6})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${guadalupe7})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${guadalupePeakTogether})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${guadalupePyramid})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${guadalupeElCapitan})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${guadalupeLadyBugs})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${guadalupe8})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${guadalupe9})` }}></div>
+                    </div>
+                </div>
 
             </div>
             <div className='park-section bg-light p-3 m-3' ref={huntsvilleStateParkRef}>
