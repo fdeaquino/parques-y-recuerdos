@@ -45,6 +45,24 @@ import memorialPark6 from '../../assets/images/texas/memorial-6.webp';
 import memorialPark7 from '../../assets/images/texas/memorial-7.webp';
 import memorialPark8 from '../../assets/images/texas/memorial-8.webp';
 import memorialPark9 from '../../assets/images/texas/memorial-9.webp';
+import buffBayouAfterRain from '../../assets/images/texas/buffbayou-tinsley-after-rain.webp';
+import buffBayouBats from '../../assets/images/texas/buffbayou-tinsley-bats.webp';
+import buffBayouCanoes from '../../assets/images/texas/buffbayou-tinsley-canoes.webp';
+import buffBayouFlowers from '../../assets/images/texas/buffbayou-tinsley-flowers.webp';
+import buffBayouLockBridge from '../../assets/images/texas/buffbayou-tinsley-lock-bridge.webp';
+import buffBayouSocialDistance from '../../assets/images/texas/buffbayou-tinsley-social-distance.webp';
+import buffBayouStatue from '../../assets/images/texas/buffbayou-tinsley-statue.webp';
+import buffBayou1 from '../../assets/images/texas/buffbayou-tinsley-1.webp';
+import buffBayou2 from '../../assets/images/texas/buffbayou-tinsley-2.webp';
+import buffBayou3 from '../../assets/images/texas/buffbayou-tinsley-3.webp';
+import buffBayou4 from '../../assets/images/texas/buffbayou-tinsley-4.webp';
+import buffBayou5 from '../../assets/images/texas/buffbayou-tinsley-5.webp';
+import buffBayou6 from '../../assets/images/texas/buffbayou-tinsley-6.webp';
+import buffBayou7 from '../../assets/images/texas/buffbayou-tinsley-7.webp';
+import buffBayou8 from '../../assets/images/texas/buffbayou-tinsley-8.webp';
+import buffBayou9 from '../../assets/images/texas/buffbayou-tinsley-9.webp';
+import buffBayou10 from '../../assets/images/texas/buffbayou-tinsley-10.webp';
+import buffBayou11 from '../../assets/images/texas/buffbayou-tinsley-11.webp';
 
 
 
@@ -532,6 +550,62 @@ function TexasContent({ className, setActiveState }) {
                 <h4 className='intro-subtitle park-title'>Buffalo Bayou + Eleanor Tinsley Park</h4>
                 <p className='intro-paragraph'>Some content I want to share about the park.</p>
                 {/* Grid and photos go here */}
+                <div className='grid'>
+                    <div className='box box--3x3'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${buffBayouStatue})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${buffBayouCanoes})` }}></div>
+                    </div>
+                    <div className='box box--2x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${buffBayou5})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${buffBayou11})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${buffBayouLockBridge})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${buffBayou9})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${buffBayou3})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${buffBayouFlowers})` }}></div>
+                    </div>
+                    <div className='box box--3x3'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${buffBayouSocialDistance})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${buffBayou1})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${buffBayou2})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${buffBayou4})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${buffBayou6})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${buffBayouBats})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${buffBayou7})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${buffBayou8})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${buffBayou10})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${buffBayouAfterRain})` }}></div>
+                    </div>
+                </div>
 
             </div>
             <div className='park-section bg-light p-3 m-3' ref={whiteOakBayouRef}>
