@@ -13,6 +13,7 @@ import bigBend5 from '../../assets/images/texas/big-bend-5.webp';
 import bigBend6 from '../../assets/images/texas/big-bend-6.webp';
 import bigBend7 from '../../assets/images/texas/big-bend-7.webp';
 import bigBend8 from '../../assets/images/texas/big-bend-8.webp';
+import bigBend9 from '../../assets/images/texas/big-bend-9.webp';
 import guadalupeElCapitan from '../../assets/images/texas/guadalupe-el-capitan.webp';
 import guadalupeFidel from '../../assets/images/texas/guadalupe-fidel.webp';
 import guadalupeLadyBugs from '../../assets/images/texas/guadalupe-lady-bugs.webp';
@@ -31,6 +32,19 @@ import guadalupe6 from '../../assets/images/texas/guadalupe-6.webp';
 import guadalupe7 from '../../assets/images/texas/guadalupe-7.webp';
 import guadalupe8 from '../../assets/images/texas/guadalupe-8.webp';
 import guadalupe9 from '../../assets/images/texas/guadalupe-9.webp';
+import memorialParkArboretum from '../../assets/images/texas/memorial-arboretum.webp';
+import memorialParkBee from '../../assets/images/texas/memorial-bee.webp';
+import memorialParkGlades from '../../assets/images/texas/memorial-glades.webp';
+import memorialParkGrasshopper from '../../assets/images/texas/memorial-grasshopper.webp';
+import memorialPark1 from '../../assets/images/texas/memorial-1.webp';
+import memorialPark2 from '../../assets/images/texas/memorial-2.webp';
+import memorialPark3 from '../../assets/images/texas/memorial-3.webp';
+import memorialPark4 from '../../assets/images/texas/memorial-4.webp';
+import memorialPark5 from '../../assets/images/texas/memorial-5.webp';
+import memorialPark6 from '../../assets/images/texas/memorial-6.webp';
+import memorialPark7 from '../../assets/images/texas/memorial-7.webp';
+import memorialPark8 from '../../assets/images/texas/memorial-8.webp';
+import memorialPark9 from '../../assets/images/texas/memorial-9.webp';
 
 
 
@@ -385,6 +399,9 @@ function TexasContent({ className, setActiveState }) {
                         <div className='image-wrapper' style={{ backgroundImage: `url(${bigBend3})` }}></div>
                     </div>
                     <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${bigBend9})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${bigBend5})` }}></div>
                     </div>
                     <div className='box box--1x1'>
@@ -468,6 +485,47 @@ function TexasContent({ className, setActiveState }) {
                 <h4 className='intro-subtitle park-title'>Memorial Park</h4>
                 <p className='intro-paragraph'>Some content I want to share about the park.</p>
                 {/* Grid and photos go here */}
+                <div className='grid'>
+                    <div className='box box--3x3'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${memorialParkGlades})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${memorialPark4})` }}></div>
+                    </div>
+                    <div className='box box--2x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${memorialPark5})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${memorialPark2})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${memorialPark1})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${memorialPark3})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${memorialPark9})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${memorialParkArboretum})` }}></div>
+                    </div>
+                    <div className='box box--3x3'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${memorialPark6})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${memorialParkGrasshopper})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${memorialParkBee})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${memorialPark8})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${memorialPark7})` }}></div>
+                    </div>
+                </div>
 
             </div>
             <div className='park-section bg-light p-3 m-3' ref={eleanorTinsleyParkRef}>
