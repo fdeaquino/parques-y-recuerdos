@@ -74,6 +74,15 @@ import whiteOak5 from '../../assets/images/texas/white-oak-5.webp';
 import whiteOak6 from '../../assets/images/texas/white-oak-6.webp';
 import whiteOak7 from '../../assets/images/texas/white-oak-7.webp';
 import whiteOak8 from '../../assets/images/texas/white-oak-8.webp';
+import terryHershey1 from '../../assets/images/texas/terry-hershey-1.webp';
+import terryHershey2 from '../../assets/images/texas/terry-hershey-2.webp';
+import terryHershey3 from '../../assets/images/texas/terry-hershey-3.webp';
+import terryHershey4 from '../../assets/images/texas/terry-hershey-4.webp';
+import terryHershey5 from '../../assets/images/texas/terry-hershey-5.webp';
+import terryHershey6 from '../../assets/images/texas/terry-hershey-6.webp';
+import terryHershey7 from '../../assets/images/texas/terry-hershey-7.webp';
+import terryHershey8 from '../../assets/images/texas/terry-hershey-8.webp';
+import terryHersheyShadows from '../../assets/images/texas/terry-hershey-shadows.webp';
 
 
 
@@ -663,7 +672,36 @@ function TexasContent({ className, setActiveState }) {
                 <h4 className='intro-subtitle park-title'>Terry Hershey Park</h4>
                 <p className='intro-paragraph'>Some content I want to share about the park.</p>
                 {/* Grid and photos go here */}
-
+                <div className='grid'>
+                    <div className='box box--3x3'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${terryHershey2})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${terryHershey7})` }}></div>
+                    </div>
+                    <div className='box box--2x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${terryHershey8})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${terryHershey1})` }}></div>
+                    </div>
+                    <div className='box box--3x3'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${terryHershey5})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${terryHershey6})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${terryHershey3})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${terryHershey4})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${terryHersheyShadows})` }}></div>
+                    </div>
+            
+                </div>
             </div>
             <div className='park-section bg-light p-3 m-3' ref={hermannParkRef}>
                 <h4 className='intro-subtitle park-title'>Hermann Park</h4>
