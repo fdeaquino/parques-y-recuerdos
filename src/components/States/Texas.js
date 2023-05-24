@@ -101,6 +101,15 @@ import sanJacinto3 from '../../assets/images/texas/sanJacinto-3.webp';
 import sanJacinto4 from '../../assets/images/texas/sanJacinto-4.webp';
 import sanJacinto5 from '../../assets/images/texas/sanJacinto-5.webp';
 import sanJacinto6 from '../../assets/images/texas/sanJacinto-6.webp';
+import southbeltHikeBike1 from '../../assets/images/texas/southbelt-hike-bike-1.webp';
+import southbeltHikeBike2 from '../../assets/images/texas/southbelt-hike-bike-2.webp';
+import southbeltHikeBike3 from '../../assets/images/texas/southbelt-hike-bike-3.webp';
+import southbeltHikeBike4 from '../../assets/images/texas/southbelt-hike-bike-4.webp';
+import southbeltHikeBike5 from '../../assets/images/texas/southbelt-hike-bike-5.webp';
+import southbeltHikeBike6 from '../../assets/images/texas/southbelt-hike-bike-6.webp';
+import southbeltHikeBike7 from '../../assets/images/texas/southbelt-hike-bike-7.webp';
+import southbeltHikeBike8 from '../../assets/images/texas/southbelt-hike-bike-8.webp';
+import southbeltHikeBike9 from '../../assets/images/texas/southbelt-hike-bike-9.webp';
 
 
 
@@ -793,7 +802,36 @@ function TexasContent({ className, setActiveState }) {
                 <h4 className='intro-subtitle park-title'>Southbelt Hike & Bike</h4>
                 <p className='intro-paragraph'>Some content I want to share about the park.</p>
                 {/* Grid and photos go here */}
+                <div className='grid'>
+                    <div className='box box--3x3'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${southbeltHikeBike1})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${southbeltHikeBike2})` }}></div>
+                    </div>
+                    <div className='box box--2x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${southbeltHikeBike3})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${southbeltHikeBike4})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${southbeltHikeBike5})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${southbeltHikeBike6})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${southbeltHikeBike7})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${southbeltHikeBike8})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${southbeltHikeBike9})` }}></div>
+                    </div>
 
+                </div>
             </div>
             <div className='park-section bg-light p-3 m-3' ref={galvestonIslandRef}>
                 <h4 className='intro-subtitle park-title'>Galveston Island Beaches and Parks</h4>
