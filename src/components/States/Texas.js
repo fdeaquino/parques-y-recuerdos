@@ -1,5 +1,21 @@
 import React, { useRef, useEffect } from 'react';
 
+import bigBendDonkeyEars from '../../assets/images/texas/big-bend-donkey-ears.webp';
+import bigBendFidel from '../../assets/images/texas/big-bend-fidel.webp';
+import bigBendHeartCactus from '../../assets/images/texas/big-bend-heart-cactus.webp';
+import bigBendRoss from '../../assets/images/texas/big-bend-ross.webp';
+import bigBendSign from '../../assets/images/texas/big-bend-sign.webp';
+import bigBend1 from '../../assets/images/texas/big-bend-1.webp';
+import bigBend2 from '../../assets/images/texas/big-bend-2.webp';
+import bigBend3 from '../../assets/images/texas/big-bend-3.webp';
+import bigBend4 from '../../assets/images/texas/big-bend-4.webp';
+import bigBend5 from '../../assets/images/texas/big-bend-5.webp';
+import bigBend6 from '../../assets/images/texas/big-bend-6.webp';
+import bigBend7 from '../../assets/images/texas/big-bend-7.webp';
+import bigBend8 from '../../assets/images/texas/big-bend-8.webp';
+
+
+
 function TexasContent({ className, setActiveState }) {
     const texasRef = useRef();
     const bigBendRef = useRef();
@@ -127,7 +143,7 @@ function TexasContent({ className, setActiveState }) {
             },
             { threshold: 0.02 }
         );
-        
+
         const galvestonIslandObserver = new IntersectionObserver(
             ([entry]) => {
                 if (entry.isIntersecting) {
@@ -319,6 +335,47 @@ function TexasContent({ className, setActiveState }) {
                 <h4 className='intro-subtitle park-title'>Big Bend National Park</h4>
                 <p className='intro-paragraph'>Some content I want to share about the park.</p>
                 {/* Grid and photos go here */}
+                <div className='grid'>
+                    <div className='box box--3x3'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${bigBend8})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${bigBendSign})` }}></div>
+                    </div>
+                    <div className='box box--2x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${bigBend2})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${bigBendHeartCactus})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${bigBendDonkeyEars})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${bigBend4})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${bigBendFidel})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${bigBend1})` }}></div>
+                    </div>
+                    <div className='box box--3x3'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${bigBendRoss})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${bigBend3})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${bigBend5})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${bigBend6})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${bigBend7})` }}></div>
+                    </div>
+                </div>
 
             </div>
             <div className='park-section bg-light p-3 m-3' ref={guadalupeMountainsRef}>
