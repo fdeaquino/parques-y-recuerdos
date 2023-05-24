@@ -116,6 +116,11 @@ import galveston3 from '../../assets/images/texas/galveston-3.webp';
 import galveston4 from '../../assets/images/texas/galveston-4.webp';
 import galveston5 from '../../assets/images/texas/galveston-5.webp';
 import galveston6 from '../../assets/images/texas/galveston-6.webp';
+import huntsvilleStatePark1 from '../../assets/images/texas/huntsville-1.webp';
+import huntsvilleStatePark2 from '../../assets/images/texas/huntsville-2.webp';
+import huntsvilleStatePark3 from '../../assets/images/texas/huntsville-3.webp';
+import huntsvilleStatePark4 from '../../assets/images/texas/huntsville-4.webp';
+import huntsvilleStatePark5 from '../../assets/images/texas/huntsville-5.webp';
 
 
 
@@ -547,10 +552,27 @@ function TexasContent({ className, setActiveState }) {
 
             </div>
             <div className='park-section bg-light p-3 m-3' ref={huntsvilleStateParkRef}>
-                <h4 className='intro-subtitle park-title'>Hunstsville State Park</h4>
+                <h4 className='intro-subtitle park-title'>Huntsville State Park</h4>
                 <p className='intro-paragraph'>Some content I want to share about the park.</p>
                 {/* Grid and photos go here */}
+                <div className='grid'>
+                    <div className='box box--3x3'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${huntsvilleStatePark1})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${huntsvilleStatePark2})` }}></div>
+                    </div>
+                    <div className='box box--2x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${huntsvilleStatePark3})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${huntsvilleStatePark4})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${huntsvilleStatePark5})` }}></div>
+                    </div>
 
+                </div>
             </div>
             <div className='park-section bg-light p-3 m-3' ref={memorialParkHoustonRef}>
                 <h4 className='intro-subtitle park-title'>Memorial Park</h4>
