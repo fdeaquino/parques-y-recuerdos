@@ -95,6 +95,12 @@ import hermannPark8 from '../../assets/images/texas/hermann-8.webp';
 import hermannPark9 from '../../assets/images/texas/hermann-9.webp';
 import hermannPark10 from '../../assets/images/texas/hermann-10.webp';
 import hermannPark11 from '../../assets/images/texas/hermann-11.webp';
+import sanJacinto1 from '../../assets/images/texas/sanJacinto-1.webp';
+import sanJacinto2 from '../../assets/images/texas/sanJacinto-2.webp';
+import sanJacinto3 from '../../assets/images/texas/sanJacinto-3.webp';
+import sanJacinto4 from '../../assets/images/texas/sanJacinto-4.webp';
+import sanJacinto5 from '../../assets/images/texas/sanJacinto-5.webp';
+import sanJacinto6 from '../../assets/images/texas/sanJacinto-6.webp';
 
 
 
@@ -762,7 +768,26 @@ function TexasContent({ className, setActiveState }) {
                 <h4 className='intro-subtitle park-title'>San Jacinto Monument</h4>
                 <p className='intro-paragraph'>Some content I want to share about the park.</p>
                 {/* Grid and photos go here */}
-
+                <div className='grid'>
+                    <div className='box box--3x3'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${sanJacinto1})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${sanJacinto2})` }}></div>
+                    </div>
+                    <div className='box box--2x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${sanJacinto3})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${sanJacinto4})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${sanJacinto5})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${sanJacinto6})` }}></div>
+                    </div>
+                </div>
             </div>
             <div className='park-section bg-light p-3 m-3' ref={southbeltHikeBikeRef}>
                 <h4 className='intro-subtitle park-title'>Southbelt Hike & Bike</h4>
