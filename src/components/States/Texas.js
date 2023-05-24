@@ -110,6 +110,12 @@ import southbeltHikeBike6 from '../../assets/images/texas/southbelt-hike-bike-6.
 import southbeltHikeBike7 from '../../assets/images/texas/southbelt-hike-bike-7.webp';
 import southbeltHikeBike8 from '../../assets/images/texas/southbelt-hike-bike-8.webp';
 import southbeltHikeBike9 from '../../assets/images/texas/southbelt-hike-bike-9.webp';
+import galveston1 from '../../assets/images/texas/galveston-1.webp';
+import galveston2 from '../../assets/images/texas/galveston-2.webp';
+import galveston3 from '../../assets/images/texas/galveston-3.webp';
+import galveston4 from '../../assets/images/texas/galveston-4.webp';
+import galveston5 from '../../assets/images/texas/galveston-5.webp';
+import galveston6 from '../../assets/images/texas/galveston-6.webp';
 
 
 
@@ -837,7 +843,27 @@ function TexasContent({ className, setActiveState }) {
                 <h4 className='intro-subtitle park-title'>Galveston Island Beaches and Parks</h4>
                 <p className='intro-paragraph'>Some content I want to share about the park.</p>
                 {/* Grid and photos go here */}
+                <div className='grid'>
+                    <div className='box box--3x3'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${galveston1})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${galveston2})` }}></div>
+                    </div>
+                    <div className='box box--2x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${galveston3})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${galveston4})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${galveston5})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${galveston6})` }}></div>
+                    </div>
 
+                </div>
             </div>
             <div className='park-section bg-light p-3 m-3' ref={zilkerParkRef}>
                 <h4 className='intro-subtitle park-title'>Zilker Park + Lady Bird Lake</h4>
