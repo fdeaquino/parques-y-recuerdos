@@ -63,6 +63,17 @@ import buffBayou8 from '../../assets/images/texas/buffbayou-tinsley-8.webp';
 import buffBayou9 from '../../assets/images/texas/buffbayou-tinsley-9.webp';
 import buffBayou10 from '../../assets/images/texas/buffbayou-tinsley-10.webp';
 import buffBayou11 from '../../assets/images/texas/buffbayou-tinsley-11.webp';
+import whiteOakBirds from '../../assets/images/texas/white-oak-birds.webp';
+import whiteOakShadows from '../../assets/images/texas/white-oak-shadows.webp';
+import whiteOakStatue from '../../assets/images/texas/white-oak-statue.webp';
+import whiteOak1 from '../../assets/images/texas/white-oak-1.webp';
+import whiteOak2 from '../../assets/images/texas/white-oak-2.webp';
+import whiteOak3 from '../../assets/images/texas/white-oak-3.webp';
+import whiteOak4 from '../../assets/images/texas/white-oak-4.webp';
+import whiteOak5 from '../../assets/images/texas/white-oak-5.webp';
+import whiteOak6 from '../../assets/images/texas/white-oak-6.webp';
+import whiteOak7 from '../../assets/images/texas/white-oak-7.webp';
+import whiteOak8 from '../../assets/images/texas/white-oak-8.webp';
 
 
 
@@ -609,10 +620,44 @@ function TexasContent({ className, setActiveState }) {
 
             </div>
             <div className='park-section bg-light p-3 m-3' ref={whiteOakBayouRef}>
-                <h4 className='intro-subtitle park-title'>White Oak Bayou</h4>
+                <h4 className='intro-subtitle park-title'>White Oak Bayou Greenway</h4>
                 <p className='intro-paragraph'>Some content I want to share about the park.</p>
                 {/* Grid and photos go here */}
-
+                <div className='grid'>
+                    <div className='box box--3x3'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${whiteOakBirds})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${whiteOak1})` }}></div>
+                    </div>
+                    <div className='box box--2x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${whiteOakShadows})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${whiteOak8})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${whiteOakStatue})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${whiteOak3})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${whiteOak5})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${whiteOak2})` }}></div>
+                    </div>
+                    <div className='box box--3x3'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${whiteOak6})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${whiteOak4})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${whiteOak7})` }}></div>
+                    </div>
+                </div>
             </div>
             <div className='park-section bg-light p-3 m-3' ref={terryHersheyParkRef}>
                 <h4 className='intro-subtitle park-title'>Terry Hershey Park</h4>
