@@ -151,6 +151,19 @@ import lbj9 from '../../assets/images/texas/lbj-9.webp';
 import lbj10 from '../../assets/images/texas/lbj-10.webp';
 import lbj11 from '../../assets/images/texas/lbj-11.webp';
 import lbj12 from '../../assets/images/texas/lbj-12.webp';
+import enchantedRockFidel1 from '../../assets/images/texas/enchanted-rock-fidel1.webp';
+import enchantedRockFidel2 from '../../assets/images/texas/enchanted-rock-fidel2.webp';
+import enchantedRockRoss from '../../assets/images/texas/enchanted-rock-ross.webp';
+import enchantedRockShadows from '../../assets/images/texas/enchanted-rock-shadows.webp';
+import enchantedRock1 from '../../assets/images/texas/enchanted-rock-1.webp';
+import enchantedRock2 from '../../assets/images/texas/enchanted-rock-2.webp';
+import enchantedRock3 from '../../assets/images/texas/enchanted-rock-3.webp';
+import enchantedRock4 from '../../assets/images/texas/enchanted-rock-4.webp';
+import enchantedRock5 from '../../assets/images/texas/enchanted-rock-5.webp';
+import enchantedRock6 from '../../assets/images/texas/enchanted-rock-6.webp';
+import enchantedRock7 from '../../assets/images/texas/enchanted-rock-7.webp';
+import enchantedRock8 from '../../assets/images/texas/enchanted-rock-8.webp';
+import enchantedRock9 from '../../assets/images/texas/enchanted-rock-9.webp';
 
 
 
@@ -1037,7 +1050,47 @@ function TexasContent({ className, setActiveState }) {
                 <h4 className='intro-subtitle park-title'>Enchanted Rock State Park</h4>
                 <p className='intro-paragraph'>Some content I want to share about the park.</p>
                 {/* Grid and photos go here */}
-
+                <div className='grid'>
+                    <div className='box box--3x3'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${enchantedRock1})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${enchantedRock2})` }}></div>
+                    </div>
+                    <div className='box box--2x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${enchantedRock3})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${enchantedRockFidel1})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${enchantedRockRoss})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${enchantedRock4})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${enchantedRockFidel2})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${enchantedRockShadows})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${enchantedRock5})` }}></div>
+                    </div>
+                    <div className='box box--3x3'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${enchantedRock6})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${enchantedRock7})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${enchantedRock8})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${enchantedRock9})` }}></div>
+                    </div>
+                </div>
             </div>
             <div className='park-section bg-light p-3 m-3' ref={pedernalesFallsRef}>
                 <h4 className='intro-subtitle park-title'>Pedernales Falls State Park</h4>
