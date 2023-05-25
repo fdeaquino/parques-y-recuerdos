@@ -170,6 +170,21 @@ import pedernalesFallsRossKamil from '../../assets/images/texas/pedernales-ross-
 import pedernalesFallsAirbnb from '../../assets/images/texas/pedernales-airbnb.webp';
 import pedernalesFalls1 from '../../assets/images/texas/pedernales-1.webp';
 import pedernalesFalls2 from '../../assets/images/texas/pedernales-2.webp';
+import sanAntonioMissionsAlamo from '../../assets/images/texas/san-antonio-missions-alamo.webp';
+import sanAntonioMissionsConcepcion from '../../assets/images/texas/san-antonio-missions-concepcion.webp';
+import sanAntonioMissionsEspada from '../../assets/images/texas/san-antonio-missions-espada.webp';
+import sanAntonioMissionsFidel from '../../assets/images/texas/san-antonio-missions-fidel.webp';
+import sanAntonioMissionsMap from '../../assets/images/texas/san-antonio-missions-map.webp';
+import sanAntonioMissionsSanJose from '../../assets/images/texas/san-antonio-missions-san-jose.webp';
+import sanAntonioMissionsSanJuan from '../../assets/images/texas/san-antonio-missions-san-juan.webp';
+import sanAntonioMissions1 from '../../assets/images/texas/san-antonio-missions-1.webp';
+import sanAntonioMissions2 from '../../assets/images/texas/san-antonio-missions-2.webp';
+import sanAntonioMissions3 from '../../assets/images/texas/san-antonio-missions-3.webp';
+import sanAntonioMissions4 from '../../assets/images/texas/san-antonio-missions-4.webp';
+import sanAntonioMissions5 from '../../assets/images/texas/san-antonio-missions-5.webp';
+import sanAntonioMissions6 from '../../assets/images/texas/san-antonio-missions-6.webp';
+import sanAntonioMissions7 from '../../assets/images/texas/san-antonio-missions-7.webp';
+import sanAntonioMissions8 from '../../assets/images/texas/san-antonio-missions-8.webp';
 
 
 
@@ -1128,6 +1143,53 @@ function TexasContent({ className, setActiveState }) {
                 <h4 className='intro-subtitle park-title'>San Antonio Missions National Historic Park</h4>
                 <p className='intro-paragraph'>Some content I want to share about the park.</p>
                 {/* Grid and photos go here */}
+                <div className='grid'>
+                    <div className='box box--3x3'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${sanAntonioMissions1})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${sanAntonioMissionsMap})` }}></div>
+                    </div>
+                    <div className='box box--2x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${sanAntonioMissions2})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${sanAntonioMissionsConcepcion})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${sanAntonioMissionsFidel})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${sanAntonioMissions7})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${sanAntonioMissions4})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${sanAntonioMissions5})` }}></div>
+                    </div>
+                    <div className='box box--3x3'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${sanAntonioMissions6})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${sanAntonioMissionsSanJose})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${sanAntonioMissions3})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${sanAntonioMissions8})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${sanAntonioMissionsSanJuan})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${sanAntonioMissionsEspada})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${sanAntonioMissionsAlamo})` }}></div>
+                    </div>
+                </div>
 
             </div>
         </section>
