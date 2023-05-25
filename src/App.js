@@ -54,7 +54,7 @@ function MainContent({ activeState, setActiveState, selectedState }) {
         <div className="writing-container col-lg-6 col-md-6 col-sm-12">
           {isHomePage ?
             <Element name='welcome'>
-              <Suspense fallback={<div>Loading Hero...</div>}>
+              <Suspense fallback={<div>Loading intro...</div>}>
                 <Hero setActiveState={setActiveState} />
               </Suspense>
             </Element>
@@ -116,7 +116,7 @@ function MainContent({ activeState, setActiveState, selectedState }) {
 
 
 function App() {
-  const [activeState, setActiveState] = useState('');
+  const [activeState, setActiveState] = useState('hero');
   const [selectedState, setSelectedState] = useState('');
 
   return (
