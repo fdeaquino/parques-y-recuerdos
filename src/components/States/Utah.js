@@ -1,5 +1,19 @@
 import React, { useRef, useEffect } from 'react';
 
+import zionFidel from '../../assets/images/utah/zion-fidel.webp';
+import zion1 from '../../assets/images/utah/zion-1.webp';
+import zion2 from '../../assets/images/utah/zion-2.webp';
+import zion3 from '../../assets/images/utah/zion-3.webp';
+import zion4 from '../../assets/images/utah/zion-4.webp';
+import zion5 from '../../assets/images/utah/zion-5.webp';
+import zion6 from '../../assets/images/utah/zion-6.webp';
+import zion7 from '../../assets/images/utah/zion-7.webp';
+import zion8 from '../../assets/images/utah/zion-8.webp';
+import zion9 from '../../assets/images/utah/zion-9.webp';
+import zion10 from '../../assets/images/utah/zion-10.webp';
+import zion11 from '../../assets/images/utah/zion-11.webp';
+
+
 function UtahContent({ className, setActiveState }) {
     const utahRef = useRef();
     const archesRef = useRef();
@@ -101,18 +115,56 @@ function UtahContent({ className, setActiveState }) {
                 <p className='intro-paragraph'>(Paragraph about the state: Recognize native lands, give my favorite history, talk about how it makes me feel. Talk about cities/towns, and places I've been to, or notable places. Try to keep it short.) ____________ Kombucha JOMO pinterest gorpcore ramps ennui, wolf cardigan pitchfork raw denim bodega boys distillery. Meh glossier shabby chic poke semiotics, sriracha single-origin coffee stumptown. Forage DIY brunch etsy. Lomo venmo squid swag lo-fi vaporware paleo chia everyday carry letterpress. Hell of polaroid meh kale chips jawn, leggings blog shabby chic skateboard offal poutine church-key.</p>
             </div>
             <div className='park-section bg-light p-3 m-3' ref={archesRef}>
-                <h4 className='intro-subtitle park-title'>Arches National Park</h4>
+                <h4 className='intro-subtitle park-title'>Zion National Park</h4>
                 <p className='intro-paragraph'>Some content I want to share about the park.</p>
                 {/* Grid and photos go here */}
+                <div className='grid'>
+                    <div className='box box--3x3'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${zion1})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${zion2})` }}></div>
+                    </div>
+                    <div className='box box--2x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${zionFidel})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${zion3})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${zion4})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${zion5})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${zion6})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${zion7})` }}></div>
+                    </div>
+                    <div className='box box--3x3'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${zion8})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${zion9})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${zion10})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${zion11})` }}></div>
+                    </div>
+                </div>
 
             </div>
             <div className='park-section bg-light p-3 m-3' ref={zionRef}>
-                <h4 className='intro-subtitle park-title'>Zion National Park</h4>
+                <h4 className='intro-subtitle park-title'>Bryce Canyon National Park</h4>
                 <p className='intro-paragraph'>Some content I want to share about the park and about my hiking experience.</p>
                 {/* Grid and photos go here */}
             </div>
             <div className='park-section bg-light p-3 m-3' ref={bryceCanyonRef}>
-                <h4 className='intro-subtitle park-title'>Bryce Canyon National Park</h4>
+                <h4 className='intro-subtitle park-title'>Arches National Park</h4>
                 <p className='intro-paragraph'>Some content I want to share about the park and about my hiking experience.</p>
                 {/* Grid and photos go here */}
             </div>
