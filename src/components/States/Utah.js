@@ -12,7 +12,19 @@ import zion8 from '../../assets/images/utah/zion-8.webp';
 import zion9 from '../../assets/images/utah/zion-9.webp';
 import zion10 from '../../assets/images/utah/zion-10.webp';
 import zion11 from '../../assets/images/utah/zion-11.webp';
-
+import bryceCanyon1 from '../../assets/images/utah/bryce-canyon-1.webp';
+import bryceCanyon2 from '../../assets/images/utah/bryce-canyon-2.webp';
+import bryceCanyon3 from '../../assets/images/utah/bryce-canyon-3.webp';
+import bryceCanyon4 from '../../assets/images/utah/bryce-canyon-4.webp';
+import bryceCanyon5 from '../../assets/images/utah/bryce-canyon-5.webp';
+import bryceCanyon6 from '../../assets/images/utah/bryce-canyon-6.webp';
+import bryceCanyon7 from '../../assets/images/utah/bryce-canyon-7.webp';
+import bryceCanyon8 from '../../assets/images/utah/bryce-canyon-8.webp';
+import bryceCanyon9 from '../../assets/images/utah/bryce-canyon-9.webp';
+import bryceCanyon10 from '../../assets/images/utah/bryce-canyon-10.webp';
+import bryceCanyon11 from '../../assets/images/utah/bryce-canyon-11.webp';
+import bryceCanyon12 from '../../assets/images/utah/bryce-canyon-12.webp';
+import bryceCanyon13 from '../../assets/images/utah/bryce-canyon-13.webp';
 
 function UtahContent({ className, setActiveState }) {
     const utahRef = useRef();
@@ -114,7 +126,7 @@ function UtahContent({ className, setActiveState }) {
                 <h3 className='intro-subtitle'>UTAH</h3>
                 <p className='intro-paragraph'>(Paragraph about the state: Recognize native lands, give my favorite history, talk about how it makes me feel. Talk about cities/towns, and places I've been to, or notable places. Try to keep it short.) ____________ Kombucha JOMO pinterest gorpcore ramps ennui, wolf cardigan pitchfork raw denim bodega boys distillery. Meh glossier shabby chic poke semiotics, sriracha single-origin coffee stumptown. Forage DIY brunch etsy. Lomo venmo squid swag lo-fi vaporware paleo chia everyday carry letterpress. Hell of polaroid meh kale chips jawn, leggings blog shabby chic skateboard offal poutine church-key.</p>
             </div>
-            <div className='park-section bg-light p-3 m-3' ref={archesRef}>
+            <div className='park-section bg-light p-3 m-3' ref={zionRef}>
                 <h4 className='intro-subtitle park-title'>Zion National Park</h4>
                 <p className='intro-paragraph'>Some content I want to share about the park.</p>
                 {/* Grid and photos go here */}
@@ -158,12 +170,55 @@ function UtahContent({ className, setActiveState }) {
                 </div>
 
             </div>
-            <div className='park-section bg-light p-3 m-3' ref={zionRef}>
+            <div className='park-section bg-light p-3 m-3' ref={bryceCanyonRef}>
                 <h4 className='intro-subtitle park-title'>Bryce Canyon National Park</h4>
                 <p className='intro-paragraph'>Some content I want to share about the park and about my hiking experience.</p>
                 {/* Grid and photos go here */}
+                <div className='grid'>
+                    <div className='box box--3x3'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${bryceCanyon1})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${bryceCanyon2})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${bryceCanyon3})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${bryceCanyon4})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${bryceCanyon5})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${bryceCanyon6})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${bryceCanyon7})` }}></div>
+                    </div>
+                    <div className='box box--3x3'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${bryceCanyon8})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${bryceCanyon9})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${bryceCanyon10})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${bryceCanyon11})` }}></div>
+                    </div>
+
+                    <div className='box box--2x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${bryceCanyon12})` }}></div>
+                    </div>
+
+                    <div className='box box--2x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${bryceCanyon13})` }}></div>
+                    </div>
+                </div>
             </div>
-            <div className='park-section bg-light p-3 m-3' ref={bryceCanyonRef}>
+            <div className='park-section bg-light p-3 m-3' ref={archesRef}>
                 <h4 className='intro-subtitle park-title'>Arches National Park</h4>
                 <p className='intro-paragraph'>Some content I want to share about the park and about my hiking experience.</p>
                 {/* Grid and photos go here */}
