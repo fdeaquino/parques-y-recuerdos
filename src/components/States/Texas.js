@@ -164,6 +164,12 @@ import enchantedRock6 from '../../assets/images/texas/enchanted-rock-6.webp';
 import enchantedRock7 from '../../assets/images/texas/enchanted-rock-7.webp';
 import enchantedRock8 from '../../assets/images/texas/enchanted-rock-8.webp';
 import enchantedRock9 from '../../assets/images/texas/enchanted-rock-9.webp';
+import pedernalesFallsAll from '../../assets/images/texas/pedernales-all-of-us.webp';
+import pedernalesFallsBunnyRock from '../../assets/images/texas/pedernales-bunny-rock.webp';
+import pedernalesFallsRossKamil from '../../assets/images/texas/pedernales-ross-kamil.webp';
+import pedernalesFallsAirbnb from '../../assets/images/texas/pedernales-airbnb.webp';
+import pedernalesFalls1 from '../../assets/images/texas/pedernales-1.webp';
+import pedernalesFalls2 from '../../assets/images/texas/pedernales-2.webp';
 
 
 
@@ -1096,6 +1102,26 @@ function TexasContent({ className, setActiveState }) {
                 <h4 className='intro-subtitle park-title'>Pedernales Falls State Park</h4>
                 <p className='intro-paragraph'>Some content I want to share about the park.</p>
                 {/* Grid and photos go here */}
+                <div className='grid'>
+                    <div className='box box--3x3'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${pedernalesFallsAll})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${pedernalesFalls1})` }}></div>
+                    </div>
+                    <div className='box box--2x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${pedernalesFalls2})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${pedernalesFallsRossKamil})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${pedernalesFallsBunnyRock})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${pedernalesFallsAirbnb})` }}></div>
+                    </div>
+                </div>
 
             </div>
             <div className='park-section bg-light p-3 m-3' ref={sanAntonioMissionsRef}>
