@@ -127,12 +127,15 @@ import ladybirdZilker2 from '../../assets/images/texas/ladybird-zilker-2.webp';
 import ladybirdZilker3 from '../../assets/images/texas/ladybird-zilker-3.webp';
 import ladybirdZilker4 from '../../assets/images/texas/ladybird-zilker-4.webp';
 import ladybirdZilker5 from '../../assets/images/texas/ladybird-zilker-5.webp';
-import ladybirdZilker6 from '../../assets/images/texas/ladybird-zilker-6.webp';
 import ladybirdZilker7 from '../../assets/images/texas/ladybird-zilker-7.webp';
 import ladybirdZilker8 from '../../assets/images/texas/ladybird-zilker-8.webp';
 import ladybirdZilker9 from '../../assets/images/texas/ladybird-zilker-9.webp';
 import ladybirdZilker10 from '../../assets/images/texas/ladybird-zilker-10.webp';
 import ladybirdZilker11 from '../../assets/images/texas/ladybird-zilker-11.webp';
+import mtBonnell1 from '../../assets/images/texas/mt-bonnell-1.webp';
+import mtBonnell2 from '../../assets/images/texas/mt-bonnell-2.webp';
+import mtBonnell3 from '../../assets/images/texas/mt-bonnell-3.webp';
+import mtBonnell4 from '../../assets/images/texas/mt-bonnell-4.webp';
 
 
 
@@ -923,9 +926,6 @@ function TexasContent({ className, setActiveState }) {
                         <div className='image-wrapper' style={{ backgroundImage: `url(${ladybirdZilker5})` }}></div>
                     </div>
                     <div className='box box--1x2'>
-                        <div className='image-wrapper' style={{ backgroundImage: `url(${ladybirdZilker6})` }}></div>
-                    </div>
-                    <div className='box box--1x2'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${ladybirdZilker7})` }}></div>
                     </div>
                     <div className='box box--1x2'>
@@ -948,7 +948,21 @@ function TexasContent({ className, setActiveState }) {
                 <h4 className='intro-subtitle park-title'>Mount Bonnell</h4>
                 <p className='intro-paragraph'>Some content I want to share about the park.</p>
                 {/* Grid and photos go here */}
+                <div className='grid'>
+                    <div className='box box--3x3'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${mtBonnell1})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${mtBonnell2})` }}></div>
+                    </div>
+                    <div className='box box--2x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${mtBonnell3})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${mtBonnell4})` }}></div>
+                    </div>
 
+                </div>
             </div>
             <div className='park-section bg-light p-3 m-3' ref={lyndonBJohnsonRef}>
                 <h4 className='intro-subtitle park-title'>Lyndon B. Johnson National and State Historic Park</h4>
