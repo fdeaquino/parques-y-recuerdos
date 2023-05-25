@@ -25,6 +25,21 @@ import bryceCanyon10 from '../../assets/images/utah/bryce-canyon-10.webp';
 import bryceCanyon11 from '../../assets/images/utah/bryce-canyon-11.webp';
 import bryceCanyon12 from '../../assets/images/utah/bryce-canyon-12.webp';
 import bryceCanyon13 from '../../assets/images/utah/bryce-canyon-13.webp';
+import arches1 from '../../assets/images/utah/arches-1.webp';
+import arches2 from '../../assets/images/utah/arches-2.webp';
+import arches3 from '../../assets/images/utah/arches-3.webp';
+import arches4 from '../../assets/images/utah/arches-4.webp';
+import arches5 from '../../assets/images/utah/arches-5.webp';
+import arches6 from '../../assets/images/utah/arches-6.webp';
+import arches7 from '../../assets/images/utah/arches-7.webp';
+import arches8 from '../../assets/images/utah/arches-8.webp';
+import arches9 from '../../assets/images/utah/arches-9.webp';
+import arches10 from '../../assets/images/utah/arches-10.webp';
+import arches11 from '../../assets/images/utah/arches-11.webp';
+import arches12 from '../../assets/images/utah/arches-12.webp';
+import arches13 from '../../assets/images/utah/arches-13.webp';
+import arches14 from '../../assets/images/utah/arches-14.webp';
+
 
 function UtahContent({ className, setActiveState }) {
     const utahRef = useRef();
@@ -222,6 +237,50 @@ function UtahContent({ className, setActiveState }) {
                 <h4 className='intro-subtitle park-title'>Arches National Park</h4>
                 <p className='intro-paragraph'>Some content I want to share about the park and about my hiking experience.</p>
                 {/* Grid and photos go here */}
+                <div className='grid'>
+                    <div className='box box--3x3'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${arches1})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${arches2})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${arches3})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${arches4})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${arches5})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${arches6})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${arches7})` }}></div>
+                    </div>
+                    <div className='box box--3x3'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${arches8})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${arches9})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${arches10})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${arches11})` }}></div>
+                    </div>
+                    <div className='box box--2x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${arches12})` }}></div>
+                    </div>
+                    <div className='box box--2x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${arches13})` }}></div>
+                    </div>
+                    <div className='box box--2x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${arches14})` }}></div>
+                    </div>
+                </div>
             </div>
         </section>
     );
