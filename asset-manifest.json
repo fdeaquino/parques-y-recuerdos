@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/parques-y-recuerdos/static/css/main.9967604f.css",
-    "main.js": "/parques-y-recuerdos/static/js/main.4023a1da.js",
+    "main.js": "/parques-y-recuerdos/static/js/main.ab8341a0.js",
     "static/js/567.93a0d06e.chunk.js": "/parques-y-recuerdos/static/js/567.93a0d06e.chunk.js",
     "static/js/363.443c0083.chunk.js": "/parques-y-recuerdos/static/js/363.443c0083.chunk.js",
     "static/js/990.38d65fd2.chunk.js": "/parques-y-recuerdos/static/js/990.38d65fd2.chunk.js",
@@ -380,7 +380,7 @@
     "static/media/poverty-point1.webp": "/parques-y-recuerdos/static/media/poverty-point1.aac6ba3634a790926c1d.webp",
     "index.html": "/parques-y-recuerdos/index.html",
     "main.9967604f.css.map": "/parques-y-recuerdos/static/css/main.9967604f.css.map",
-    "main.4023a1da.js.map": "/parques-y-recuerdos/static/js/main.4023a1da.js.map",
+    "main.ab8341a0.js.map": "/parques-y-recuerdos/static/js/main.ab8341a0.js.map",
     "567.93a0d06e.chunk.js.map": "/parques-y-recuerdos/static/js/567.93a0d06e.chunk.js.map",
     "363.443c0083.chunk.js.map": "/parques-y-recuerdos/static/js/363.443c0083.chunk.js.map",
     "990.38d65fd2.chunk.js.map": "/parques-y-recuerdos/static/js/990.38d65fd2.chunk.js.map",
@@ -396,6 +396,6 @@
   },
   "entrypoints": [
     "static/css/main.9967604f.css",
-    "static/js/main.4023a1da.js"
+    "static/js/main.ab8341a0.js"
   ]
 }
