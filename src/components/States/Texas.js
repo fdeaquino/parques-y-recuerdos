@@ -136,6 +136,22 @@ import mtBonnell1 from '../../assets/images/texas/mt-bonnell-1.webp';
 import mtBonnell2 from '../../assets/images/texas/mt-bonnell-2.webp';
 import mtBonnell3 from '../../assets/images/texas/mt-bonnell-3.webp';
 import mtBonnell4 from '../../assets/images/texas/mt-bonnell-4.webp';
+import lbjFidel from '../../assets/images/texas/lbj-fidel.webp';
+import lbjWagon from '../../assets/images/texas/lbj-wagon.webp';
+import lbjTowanka from '../../assets/images/texas/lbj-towanka.webp';
+import lbj1 from '../../assets/images/texas/lbj-1.webp';
+import lbj2 from '../../assets/images/texas/lbj-2.webp';
+import lbj3 from '../../assets/images/texas/lbj-3.webp';
+import lbj4 from '../../assets/images/texas/lbj-4.webp';
+import lbj5 from '../../assets/images/texas/lbj-5.webp';
+import lbj6 from '../../assets/images/texas/lbj-6.webp';
+import lbj7 from '../../assets/images/texas/lbj-7.webp';
+import lbj8 from '../../assets/images/texas/lbj-8.webp';
+import lbj9 from '../../assets/images/texas/lbj-9.webp';
+import lbj10 from '../../assets/images/texas/lbj-10.webp';
+import lbj11 from '../../assets/images/texas/lbj-11.webp';
+import lbj12 from '../../assets/images/texas/lbj-12.webp';
+
 
 
 
@@ -968,6 +984,53 @@ function TexasContent({ className, setActiveState }) {
                 <h4 className='intro-subtitle park-title'>Lyndon B. Johnson National and State Historic Park</h4>
                 <p className='intro-paragraph'>Some content I want to share about the park.</p>
                 {/* Grid and photos go here */}
+                <div className='grid'>
+                    <div className='box box--3x3'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${lbj1})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${lbj2})` }}></div>
+                    </div>
+                    <div className='box box--2x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${lbjFidel})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${lbjTowanka})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${lbj3})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${lbj4})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${lbj5})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${lbjWagon})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${lbj6})` }}></div>
+                    </div>
+                    <div className='box box--3x3'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${lbj7})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${lbj8})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${lbj9})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${lbj10})` }}></div>
+                    </div>
+                    <div className='box box--3x3'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${lbj11})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${lbj12})` }}></div>
+                    </div>
+                </div>
 
             </div>
             <div className='park-section bg-light p-3 m-3' ref={enchantedRockRef}>
