@@ -279,7 +279,7 @@ function ColoradoContent({ className, setActiveState }) {
                     <div className='box box--1x2'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${gotg4})` }}></div>
                     </div>
-                    <div className='box box--1x2'>
+                    <div className='box box--3x3'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${gotg5})` }}></div>
                     </div>
 
@@ -296,10 +296,10 @@ function ColoradoContent({ className, setActiveState }) {
                     <div className='box box--1x1'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${redRocks2})` }}></div>
                     </div>
-                    <div className='box box--2x2'>
+                    <div className='box box--1x1'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${redRocks3})` }}></div>
                     </div>
-                    <div className='box box--1x1'>
+                    <div className='box box--3x3'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${redRocks4})` }}></div>
                     </div>
                     <div className='box box--1x2'>
@@ -311,16 +311,16 @@ function ColoradoContent({ className, setActiveState }) {
                     <div className='box box--1x2'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${redRocks7})` }}></div>
                     </div>
-                    <div className='box box--1x2'>
+                    <div className='box box--1x1'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${redRocks8})` }}></div>
                     </div>
-                    <div className='box box--1x2'>
+                    <div className='box box--1x1'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${redRocks9})` }}></div>
                     </div>
-                    <div className='box box--1x2'>
+                    <div className='box box--3x3'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${redRocks10})` }}></div>
                     </div>
-                    <div className='box box--1x2'>
+                    <div className='box box--2x1'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${redRocks11})` }}></div>
                     </div>
                     <div className='box box--1x2'>

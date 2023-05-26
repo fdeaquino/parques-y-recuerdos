@@ -164,7 +164,7 @@ function UtahContent({ className, setActiveState }) {
                     <div className='box box--1x2'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${zion5})` }}></div>
                     </div>
-                    <div className='box box--1x2'>
+                    <div className='box box--2x2'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${zion6})` }}></div>
                     </div>
                     <div className='box box--1x2'>
@@ -179,7 +179,7 @@ function UtahContent({ className, setActiveState }) {
                     <div className='box box--1x1'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${zion10})` }}></div>
                     </div>
-                    <div className='box box--1x1'>
+                    <div className='box box--3x1'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${zion11})` }}></div>
                     </div>
                 </div>
@@ -199,7 +199,7 @@ function UtahContent({ className, setActiveState }) {
                     <div className='box box--1x1'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${bryceCanyon3})` }}></div>
                     </div>
-                    <div className='box box--1x2'>
+                    <div className='box box--3x2'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${bryceCanyon4})` }}></div>
                     </div>
                     <div className='box box--1x2'>
@@ -220,15 +220,15 @@ function UtahContent({ className, setActiveState }) {
                     <div className='box box--1x1'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${bryceCanyon10})` }}></div>
                     </div>
-                    <div className='box box--1x1'>
+                    <div className='box box--3x1'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${bryceCanyon11})` }}></div>
                     </div>
 
-                    <div className='box box--2x2'>
+                    <div className='box box--1x1'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${bryceCanyon12})` }}></div>
                     </div>
 
-                    <div className='box box--2x2'>
+                    <div className='box box--1x1'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${bryceCanyon13})` }}></div>
                     </div>
                 </div>
@@ -244,25 +244,25 @@ function UtahContent({ className, setActiveState }) {
                     <div className='box box--1x1'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${arches2})` }}></div>
                     </div>
-                    <div className='box box--1x1'>
+                    <div className='box box--3x2'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${arches3})` }}></div>
                     </div>
-                    <div className='box box--1x2'>
+                    <div className='box box--2x2'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${arches4})` }}></div>
                     </div>
-                    <div className='box box--1x2'>
+                    <div className='box box--3x2'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${arches5})` }}></div>
                     </div>
-                    <div className='box box--1x2'>
+                    <div className='box box--1x1'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${arches6})` }}></div>
                     </div>
-                    <div className='box box--1x2'>
+                    <div className='box box--1x1'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${arches7})` }}></div>
                     </div>
-                    <div className='box box--3x3'>
+                    <div className='box box--3x2'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${arches8})` }}></div>
                     </div>
-                    <div className='box box--1x1'>
+                    <div className='box box--2x2'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${arches9})` }}></div>
                     </div>
                     <div className='box box--1x1'>
@@ -271,13 +271,13 @@ function UtahContent({ className, setActiveState }) {
                     <div className='box box--1x1'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${arches11})` }}></div>
                     </div>
-                    <div className='box box--2x2'>
+                    <div className='box box--3x3'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${arches12})` }}></div>
                     </div>
-                    <div className='box box--2x2'>
+                    <div className='box box--1x1'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${arches13})` }}></div>
                     </div>
-                    <div className='box box--2x2'>
+                    <div className='box box--1x1'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${arches14})` }}></div>
                     </div>
                 </div>

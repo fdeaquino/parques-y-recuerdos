@@ -87,12 +87,6 @@ function LouisianaContent({ className, setActiveState }) {
                         <div className='image-wrapper' style={{ backgroundImage: `url(${povertyPoint1})` }}></div>
                     </div>
                     <div className='box box--1x1'>
-                        <div className='image-wrapper' style={{ backgroundImage: `url(${povertyPoint11})` }}></div>
-                    </div>
-                    <div className='box box--2x2'>
-                        <div className='image-wrapper' style={{ backgroundImage: `url(${povertyPointTogether})` }}></div>
-                    </div>
-                    <div className='box box--1x1'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${povertyPoint8})` }}></div>
                     </div>
                     <div className='box box--1x2'>
@@ -104,21 +98,27 @@ function LouisianaContent({ className, setActiveState }) {
                     <div className='box box--1x2'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${povertyPoint3})` }}></div>
                     </div>
-                    <div className='box box--3x3'>
+                    <div className='box box--1x1'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${povertyPoint5})` }}></div>
                     </div>
                     <div className='box box--1x1'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${povertyPoint4})` }}></div>
                     </div>
-                    <div className='box box--2x2'>
+                    <div className='box box--3x3'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${povertyPoint11})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${povertyPoint9})` }}></div>
                     </div>
-                    <div className='box box--2x2'>
+                    <div className='box box--1x1'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${povertyPoint10})` }}></div>
-                    </div><div className='box box--2x2'>
+                    </div><div className='box box--3x3'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${povertyPoint12})` }}></div>
-                    </div><div className='box box--2x2'>
+                    </div><div className='box box--3x3'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${povertyPoint2})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${povertyPointTogether})` }}></div>
                     </div>
                 </div>
             </div>

@@ -147,7 +147,7 @@ function NewMexicoContent({ className, setActiveState }) {
                     <div className='box box--2x2'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${whiteSandsArt})` }}></div>
                     </div>
-                    <div className='box box--2x2'>
+                    <div className='box box--1x1'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${whiteSandsFootprint})` }}></div>
 
                     </div>
@@ -190,17 +190,17 @@ function NewMexicoContent({ className, setActiveState }) {
                     <div className='box box--2x2'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${chacoCanyon7})` }}></div>
                     </div>
-                    <div className='box box--2x2'>
+                    <div className='box box--1x1'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${chacoCanyon8})` }}></div>
 
                     </div>
-                    <div className='box box--2x2'>
+                    <div className='box box--3x3'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${chacoCanyonWindow})` }}></div>
 
-                    </div><div className='box box--2x2'>
+                    </div><div className='box box--2x1'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${chacoCanyon9})` }}></div>
 
-                    </div><div className='box box--2x2'>
+                    </div><div className='box box--1x1'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${chacoCanyonSunset})` }}></div>
 
                     </div>

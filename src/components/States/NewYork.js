@@ -210,21 +210,22 @@ function NewYorkContent({ className, setActiveState }) {
                     <div className='box box--1x2'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${highline2})` }}></div>
                     </div>
-                    <div className='box box--1x2'>
-                        <div className='image-wrapper' style={{ backgroundImage: `url(${highline1})` }}></div>
-                    </div>
-                    <div className='box box--1x2'>
-                        <div className='image-wrapper' style={{ backgroundImage: `url(${highline8})` }}></div>
-                    </div>
-                    <div className='box box--1x2'>
-                        <div className='image-wrapper' style={{ backgroundImage: `url(${highlineStatues})` }}></div>
-                    </div>
                     <div className='box box--3x3'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${highlineFidel})` }}></div>
+                    </div>
+                    <div className='box box--1x2'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${highline1})` }}></div>
                     </div>
                     <div className='box box--1x1'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${highlineFidelReflection})` }}></div>
                     </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${highline8})` }}></div>
+                    </div>
+                    <div className='box box--1x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${highlineStatues})` }}></div>
+                    </div>
+                    
                 </div>
 
             </div>
@@ -254,16 +255,16 @@ function NewYorkContent({ className, setActiveState }) {
                     <div className='box box--1x2'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${centralPark9})` }}></div>
                     </div>
-                    <div className='box box--1x2'>
+                    <div className='box box--2x2'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${centralPark10})` }}></div>
                     </div>
-                    <div className='box box--3x3'>
+                    <div className='box box--1x1'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${centralPark11})` }}></div>
                     </div>
                     <div className='box box--1x1'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${centralPark3})` }}></div>
                     </div>
-                    <div className='box box--1x1'>
+                    <div className='box box--3x1'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${centralPark2})` }}></div>
                     </div>
                 </div>
@@ -276,10 +277,10 @@ function NewYorkContent({ className, setActiveState }) {
                     <div className='box box--3x3'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${mountArab7})` }}></div>
                     </div>
-                    <div className='box box--1x1'>
+                    <div className='box box--2x2'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${mountArabFidel})` }}></div>
                     </div>
-                    <div className='box box--2x2'>
+                    <div className='box box--1x1'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${mountArab1})` }}></div>
                     </div>
                     <div className='box box--1x1'>
@@ -291,16 +292,16 @@ function NewYorkContent({ className, setActiveState }) {
                     <div className='box box--1x2'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${mountArab4})` }}></div>
                     </div>
-                    <div className='box box--1x2'>
+                    <div className='box box--3x3'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${mountArab5})` }}></div>
                     </div>
-                    <div className='box box--1x1'>
+                    <div className='box box--1x2'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${mountArab6})` }}></div>
                     </div>
                     <div className='box box--1x1'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${mountArab8})` }}></div>
                     </div>
-                    <div className='box box--1x1'>
+                    <div className='box box--2x2'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${mountArabRoss})` }}></div>
                     </div>
                     <div className='box box--1x1'>
@@ -332,19 +333,19 @@ function NewYorkContent({ className, setActiveState }) {
                 <p className='intro-paragraph'>Some content I want to share about the park and about my hiking experience.</p>
                 {/* Grid and photos go here */}
                 <div className='grid'>
-                    <div className='box box--1x1'>
+                    <div className='box box--3x3'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${otterCreekPreserve1})` }}></div>
                     </div>
-                    <div className='box box--1x1'>
+                    <div className='box box--1x2'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${otterCreekPreserve2})` }}></div>
                     </div>
-                    <div className='box box--1x1'>
+                    <div className='box box--1x2'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${otterCreekPreserve3})` }}></div>
                     </div>
-                    <div className='box box--1x1'>
+                    <div className='box box--1x2'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${otterCreekPreserve4})` }}></div>
                     </div>
-                    <div className='box box--1x1'>
+                    <div className='box box--2x2'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${otterCreekPreserve5})` }}></div>
                     </div>
                     <div className='box box--1x1'>
