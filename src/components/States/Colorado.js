@@ -195,13 +195,13 @@ function ColoradoContent({ className, setActiveState }) {
                     <div className='box box--1x2'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${estesElk})` }}></div>
                     </div>
-                    <div className='box box--1x2'>
+                    <div className='box box--1x1'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${rockiesPine})` }}></div>
                     </div>
-                    <div className='box box--3x3'>
+                    <div className='box box--2x1'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${rockiesRoss})` }}></div>
                     </div>
-                    <div className='box box--1x1'>
+                    <div className='box box--3x3'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${rockiesPuppy})` }}></div>
                     </div>
                 </div>
@@ -233,7 +233,7 @@ function ColoradoContent({ className, setActiveState }) {
                     <div className='box box--1x2'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${mesaVerde6})` }}></div>
                     </div>
-                    <div className='box box--1x2'>
+                    <div className='box box--2x2'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${mesaVerde7})` }}></div>
                     </div>
                     <div className='box box--3x3'>
@@ -245,7 +245,7 @@ function ColoradoContent({ className, setActiveState }) {
                     <div className='box box--1x1'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${mesaVerde10})` }}></div>
                     </div>
-                    <div className='box box--1x1'>
+                    <div className='box box--2x1'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${mesaVerde11})` }}></div>
                     </div>
                     <div className='box box--1x1'>

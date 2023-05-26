@@ -242,8 +242,7 @@ function CaliforniaContent({ className, setActiveState }) {
         <section className={`${className}`} id="california" ref={californiaRef}>
             <div className='state-section bg-light p-3 m-3 '>
                 <h3 className='intro-subtitle'>CALIFORNIA</h3>
-                <p className='intro-paragraph'>(Paragraph about the state: Recognize native lands, give my favorite history, talk about how it makes me feel. Talk about cities/towns, and places I've been to, or notable places. Try to keep it short.) ____________ Kombucha JOMO pinterest gorpcore ramps ennui, wolf cardigan pitchfork raw denim bodega boys distillery. Meh glossier shabby chic poke semiotics, sriracha single-origin coffee stumptown. Forage DIY brunch etsy. Lomo venmo squid swag lo-fi vaporware paleo chia everyday carry letterpress. Hell of polaroid meh kale chips jawn, leggings blog shabby chic skateboard offal poutine church-key.
-                </p>
+                <p className='intro-paragraph'>Bienvenidos a California, a state as diverse as it is beautiful. Desde las playas de Santa Monica hasta las alturas majestuosas de Yosemite, you'll find a tapestry of geology y historia here. These lands, once home to Native tribes like the Miwok, Chumash, and Ohlone, tell a story of resilience and connection to the land. California’s flora is as varied as its landscapes, a testament to its rich ecosystems. Y no podemos olvidar the imprint of the Spanish missions, a network that weaves a story of faith y determinación through the state. California, con su vibrant past and dynamic present, truly is un lugar where history and nature dance together in a timeless ballet.</p>
             </div>
             <div className='park-section bg-light p-3 m-3' ref={yosemiteRef}>
                 <h4 className='intro-subtitle park-title'>Yosemite National Park</h4>
@@ -334,12 +333,13 @@ function CaliforniaContent({ className, setActiveState }) {
                     <div className='box box--1x1'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${ggGarden})` }}></div>
                     </div>
-                    <div className='box box--1x2'>
-                        <div className='image-wrapper' style={{ backgroundImage: `url(${ggFerrisWheel})` }}></div>
-                    </div>
-                    <div className='box box--1x2'>
+                    <div className='box box--1x1'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${ggPurpleFlowers})` }}></div>
                     </div>
+                    <div className='box box--2x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${ggFerrisWheel})` }}></div>
+                    </div>
+                    
                 </div>
             </div>
             <div className='park-section bg-light p-3 m-3' ref={presidioRef}>
@@ -411,10 +411,10 @@ function CaliforniaContent({ className, setActiveState }) {
                     <div className='box box--3x3'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${sfParkTowers2})` }}></div>
                     </div>
-                    <div className='box box--1x1'>
+                    <div className='box box--2x2'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${sfParkSlack})` }}></div>
                     </div>
-                    <div className='box box--2x2'>
+                    <div className='box box--1x1'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${sfParkMonkeyTree})` }}></div>
                     </div>
                     <div className='box box--1x1'>
@@ -460,7 +460,7 @@ function CaliforniaContent({ className, setActiveState }) {
                     <div className='box box--1x1'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${griffithObservatoryView2})` }}></div>
                     </div>
-                    <div className='box box--1x1'>
+                    <div className='box box--2x1'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${griffithObservatory1})` }}></div>
                     </div>
                     <div className='box box--1x1'>

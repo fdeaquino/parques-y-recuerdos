@@ -143,7 +143,7 @@ function ArizonaContent({ className, setActiveState }) {
                         <div className='image-wrapper' style={{ backgroundImage: `url(${sedonaTogether})` }}></div>
                     </div>
                     <div className='box box--1x1'>
-                        <div className='image-wrapper' style={{ backgroundImage: `url(${sedonaAirportView})` }}></div>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${sedonaTrailSteps})` }}></div>
                     </div>
                     <div className='box box--2x2'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${sedonaBobcat})` }}></div>
@@ -172,8 +172,8 @@ function ArizonaContent({ className, setActiveState }) {
                     <div className='box box--1x1'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${sedonaTrail2})` }}></div>
                     </div>
-                    <div className='box box--1x2'>
-                        <div className='image-wrapper' style={{ backgroundImage: `url(${sedonaTrailSteps})` }}></div>
+                    <div className='box box--3x3'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${sedonaAirportView})` }}></div>
                     </div>
                 </div>
 
@@ -251,7 +251,7 @@ function ArizonaContent({ className, setActiveState }) {
                     <div className='box box--1x1'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${hsBendTrail2})` }}></div>
                     </div>
-                    <div className='box box--2x2'>
+                    <div className='box box--2x1'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${hsBendFidel})` }}></div>
                     </div>
                 </div>
