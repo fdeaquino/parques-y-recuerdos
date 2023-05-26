@@ -425,7 +425,7 @@ function CaliforniaContent({ className, setActiveState }) {
             </div>
             <div className='park-section bg-light p-3 m-3' ref={griffithRef}>
                 <h4 className='intro-subtitle park-title'>Griffith Park</h4>
-                <p className='intro-paragraph'>Some content I want to share about the park and about my hiking experience.</p>
+                <p className='intro-paragraph'>Griffith Park, un verdadero tesoro en Los Angeles, ofrece un respiro de la vida urbana sin alejarte de la ciudad. Durante mi caminata, el calor del sol era palpable, reminding me to always be prepared with enough water y protector solar. A pesar de las temperaturas, cada paso en Griffith Park brought a new perspective, revealing stunning views of the city and the Hollywood sign. It's a place that shows that nature and city life can coexist, each offering their unique charm. Es aquí, under the sun of LA, where you truly feel the diverse spirit of the city.</p>
                 {/* Grid and photos go here */}
                 <div className='grid'>
                     <div className='box box--3x3'>
@@ -471,7 +471,7 @@ function CaliforniaContent({ className, setActiveState }) {
             </div>
             <div className='park-section bg-light p-3 m-3' ref={santaMonicaBeachRef}>
                 <h4 className='intro-subtitle park-title'>Santa Monica State Beach </h4>
-                <p className='intro-paragraph'>Some content I want to share about the park and about my hiking experience.</p>
+                <p className='intro-paragraph'>Santa Monica Beach, un encuentro vibrante entre la arena y el mar, es una joya de Southern California. Aquí, la suave arena se calienta bajo tus pies while the sun graces your skin, a delightful contrast to the cool kiss of the Pacific. Esta maravillosa playa, también un parque público, se presta para una multitud de actividades: desde relajarte en la arena hasta darte un chapuzón en el océano. El muelle de Santa Monica, con su carrusel que evoca nostalgia y su ambiente lleno de vida, adds its own unique charm. El parque es un tributo al compromiso de la comunidad por preservar los espacios naturales para que todos los disfruten. Al caer la tarde, the sky is set ablaze with color, an ever-changing masterpiece that beautifully ends each day. </p>
                 {/* Grid and photos go here */}
                 <div className='grid'>
                     <div className='box box--3x3'>
