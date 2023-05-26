@@ -221,7 +221,7 @@ section p {
 
 /* ========== START PHOTO GRID STYLES ========== */
 .grid {
-  margin-top: 4em;
+  margin-top: 2em;
   width: 100%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
