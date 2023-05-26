@@ -242,11 +242,11 @@ function CaliforniaContent({ className, setActiveState }) {
         <section className={`${className}`} id="california" ref={californiaRef}>
             <div className='state-section bg-light p-3 m-3 '>
                 <h3 className='intro-subtitle'>CALIFORNIA</h3>
-                <p className='intro-paragraph'>Bienvenidos a California, a state as diverse as it is beautiful. Desde las playas de Santa Monica hasta las alturas majestuosas de Yosemite, you'll find a tapestry of geology y historia here. These lands, once home to Native tribes like the Miwok, Chumash, and Ohlone, tell a story of resilience and connection to the land. California’s flora is as varied as its landscapes, a testament to its rich ecosystems. Y no podemos olvidar the imprint of the Spanish missions, a network that weaves a story of faith y determinación through the state. California, con su vibrant past and dynamic present, truly is un lugar where history and nature dance together in a timeless ballet.</p>
+                <p className='intro-paragraph'>Bienvenidos a California, a state as diverse as it is beautiful. Desde las playas de Santa Monica hasta las alturas majestuosas de Yosemite, you'll find a tapestry of geology y historia here. These lands, once home to Native tribes like the Miwok, Chumash, and Ohlone, tell a story of resilience and connection to the land. California’s flora is as varied as its landscapes, a testament to its rich ecosystems. Y no podemos olvidar the imprint of the Spanish missions, a network that weaves a story of faith y determinación through the state. California, con su vibrant past and dynamic present, truly is un lugar where history and nature dance together in a timelessly.</p>
             </div>
             <div className='park-section bg-light p-3 m-3' ref={yosemiteRef}>
                 <h4 className='intro-subtitle park-title'>Yosemite National Park</h4>
-                <p className='intro-paragraph'>Some content I want to share about the park.</p>
+                <p className='intro-paragraph'>Yosemite National Park, con sus acantilados de granito y sequoias gigantes, te sumerge in a world of natural grandeur. This land, once home to the Miwok and Paiute tribes, es un testimonio of the enduring strength of nature, from the marks of ancient glaciers to the towering sequoias. Aquí, te sentirás pequeño but profoundly connected to the land. Among its wonders, está Hetch Hetchy, a reservoir of vital importance to San Francisco, showcasing nature's role in our modern lives. El parque también offers accessible charging stations, una comodidad moderna amidst ancient surroundings. And then there's that unforgettably delicioso restaurante Mexicano nearby, an unexpected culinary gem. En Yosemite, history, nature, and modern conveniences converge, creating an experience that's as rich as it is inspiring.</p>
                 <div className='grid'>
                     <div className='box box--3x3'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${yosemiteFidel1})` }}></div>
@@ -297,7 +297,7 @@ function CaliforniaContent({ className, setActiveState }) {
             </div>
             <div className='park-section bg-light p-3 m-3' ref={goldenGateRef}>
                 <h4 className='intro-subtitle park-title'>Golden Gate Park</h4>
-                <p className='intro-paragraph'>Some content I want to share about the park and about my hiking experience.</p>
+                <p className='intro-paragraph'>Golden Gate Park, nestled in the corazón de San Francisco, is a stunning blend of natural beauty y cultura urbana. Here, amidst the bustle of the city, we found a moment of tranquility high above it all on the Ferris wheel. Con cada vuelta, the panoramic views took our breath away, revealing the park's verdant splendor and the city beyond. Dentro del parque, the Robin Williams Meadow is a touching tribute to a beloved actor who brought laughter y alegría to so many. It's a reminder of the enduring impact of art and culture in our lives. En Golden Gate Park, you'll discover that the harmony between city life and nature's beauty can create moments of wonder, reflection, and joy.</p>
                 {/* Grid and photos go here */}
                 <div className='grid'>
                     <div className='box box--3x3'>
@@ -339,12 +339,12 @@ function CaliforniaContent({ className, setActiveState }) {
                     <div className='box box--2x1'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${ggFerrisWheel})` }}></div>
                     </div>
-                    
+
                 </div>
             </div>
             <div className='park-section bg-light p-3 m-3' ref={presidioRef}>
                 <h4 className='intro-subtitle park-title'>Presidio of San Francisco</h4>
-                <p className='intro-paragraph'>Some content I want to share about the park and about my hiking experience.</p>
+                <p className='intro-paragraph'>El Presidio de San Francisco, un verdadero tesoro urbano, se destaca por su historia resonante y vistas espectaculares. Desde Immigrant Point Overlook, nos maravillamos con panoramas that felt endless, offering a canvas painted by the vast Pacific. Nuestra caminata a Marshall's Beach nos dio una vista majestuosa del Golden Gate Bridge, an iconic symbol standing tall. Y walking on the bridge, sintiendo la brisa fresca y el murmullo de las olas below, was unforgettable. A esto sumamos our paseo to the Palace of Fine Arts, un elegante toque of architecture amidst natural beauty. El Presidio, entre historia y vistas asombrosas, encapsulates the spirit of San Francisco.</p>
                 {/* Grid and photos go here */}
                 <div className='grid'>
                     <div className='box box--3x3'>
@@ -384,7 +384,8 @@ function CaliforniaContent({ className, setActiveState }) {
             </div>
             <div className='park-section last-park bg-light p-3 m-3' ref={salesforceRef}>
                 <h4 className='intro-subtitle park-title'>Salesforce Park</h4>
-                <p className='intro-paragraph'>Some content I want to share about the park and about my hiking experience.</p>
+                <p className='intro-paragraph'>
+                    En el corazón de San Francisco, encontramos Salesforce Park, un verdadero santuario urbano. Este parque, con su naturaleza vibrante y el skyline de la ciudad como telón de fondo, es un contraste tranquilo a la agitación de la ciudad. Lo que hace especial a Salesforce Park es cómo inspiró mi camino de aprendizaje en el programa Salesforce Trailhead. Esta aventura de auto-mejoramiento me llevó a empezar my Salesforce Developer Certification. Y es un plus that the Slack office is on site, una herramienta que he utilizado durante años para mantenerme conectado y organizado. Salesforce Park is more than just a park – it's a symbol of harmony between nature, technology, and personal growth.</p>
                 {/* Grid and photos go here */}
                 <div className='grid'>
                     <div className='box box--3x3'>
