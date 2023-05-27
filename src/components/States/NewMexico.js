@@ -114,7 +114,7 @@ function NewMexicoContent({ className, setActiveState }) {
             </div>
             <div className='park-section bg-light p-3 m-3' ref={whiteSandsRef}>
                 <h4 className='intro-subtitle park-title'>White Sands National Park</h4>
-                <p className='intro-paragraph'>Some content I want to share about the park.</p>
+                <p className='intro-paragraph'>Ubicado en el corazón de New Mexico, se encuentra White Sands National Park, un lugar donde una vez prosperó the Mescalero Apache. Este parque nos presenta a las raras y hermosas dunas de yeso. Cada duna es una obra de arte en constante cambio, moldeada por el viento. Paseando por estas dunas, your mind may play tricks, making you believe that you are at a beach, cuando realmente estás en un desierto de yeso. Interestingly, White Sands se encuentra cerca del sitio donde se detonó la primera bomba atómica del mundo, a testament to the diverse history of the area. Uno de los aspectos más fascinantes de White Sands son the fossil discoveries, including ancient footprints of humans. Se ha dedicado mucha investigación to uncovering these prehistoric treasures, and artist renditions help us visualize como esos rastros fosilizados podrían haberse creado. Así, White Sands stands as a testament to nature's grandeur and the constant evolution of life.</p>
                 {/* Grid and photos go here */}
                 <div className='grid'>
                     <div className='box box--3x3'>
@@ -157,7 +157,7 @@ function NewMexicoContent({ className, setActiveState }) {
 
             <div className='park-section bg-light p-3 m-3' ref={chacoCultureRef}>
                 <h4 className='intro-subtitle park-title'>Chaco Culture National Historic Park</h4>
-                <p className='intro-paragraph'>Some content I want to share about the park and about my hiking experience.</p>
+                <p className='intro-paragraph'>En el recóndito corazón de New Mexico, Chaco Culture National Historic Park aguarda pacientemente a los exploradores dispuestos a descubrir su historia. La cultura ancestral Puebloan dejó aquí su huella, construyendo a civilization that still whispers its tales. A pesar de su desolación y low visitation, este parque es un verdadero tesoro escondido en el cañón. We had the chance to experience an unforgettable sunset, una puesta de sol that no photograph could truly capture. Interesantemente, this site shares cultural ties with Mesa Verde National Park, ambos lugares nos enseñan sobre una era long past. The park's geology has played a key role in preserving these ancient homes, permitiéndonos echar un vistazo into an epoch a millennium past.</p>
                 {/* Grid and photos go here */}
                 <div className='grid'>
                     <div className='box box--3x3'>
