@@ -1018,7 +1018,7 @@ function TexasContent({ className, setActiveState }) {
             </div>
             <div className='park-section bg-light p-3 m-3' ref={lyndonBJohnsonRef}>
                 <h4 className='intro-subtitle park-title'>Lyndon B. Johnson National and State Historic Park</h4>
-                <p className='intro-paragraph'>Some content I want to share about the park.</p>
+                <p className='intro-paragraph'>En el centro del Texas Hill Country, se encuentra el Lyndon B. Johnson State and National Historic Park, a testament to one of our nation's past leaders. Durante mi visita in spring, the weather was perfect, invitándonos a explorar el parque. El presidente Johnson, antes de entrar en política, was a humble teacher for niños Mexicanos-Americanos in South Texas. Esta conexión personal me made me feel closer to his story. Además, the park is home to an authentic German-Texan farmhouse, un recuerdo de los primeros colonizadores alemanes. His wife, Lady Bird, deja su huella here too as a defender of Texas's wildflowers and natural beauty. El parque también alberga the Texas White House y el avión presidencial, ambos impresionantes. The family cemetery is here too, offering a peaceful respite. Este lugar fue hogar to the Tonkawa people, quienes se auto denominaban 'The Most Human of People'.</p>
                 {/* Grid and photos go here */}
                 <div className='grid'>
                     <div className='box box--3x3'>
@@ -1071,7 +1071,7 @@ function TexasContent({ className, setActiveState }) {
             </div>
             <div className='park-section bg-light p-3 m-3' ref={enchantedRockRef}>
                 <h4 className='intro-subtitle park-title'>Enchanted Rock State Park</h4>
-                <p className='intro-paragraph'>Some content I want to share about the park.</p>
+                <p className='intro-paragraph'>Enchanted Rock State Park, un rincón mágico in the Texas Hill Country, es un must-visit spot. Recuerdo la visita que hice con Ross when a wind storm was sweeping through Texas. Fue una experiencia singular, with the weather being extremely pleasant. Ni calor, but very windy - casi pierdo my hat hiking to the top! Esta vez, exploramos the base of Enchanted Rock, un área que no había visto before. My only regret es que se me olvido quitarme mi mascarilla, un recuerdo of the pandemic. This park's popularity requires a reserva to visit, y cada momento spent spent aquí, feeling the magic of the rock, es totalmente worth it.</p>
                 {/* Grid and photos go here */}
                 <div className='grid'>
                     <div className='box box--3x3'>
@@ -1117,7 +1117,7 @@ function TexasContent({ className, setActiveState }) {
             </div>
             <div className='park-section bg-light p-3 m-3' ref={pedernalesFallsRef}>
                 <h4 className='intro-subtitle park-title'>Pedernales Falls State Park</h4>
-                <p className='intro-paragraph'>Some content I want to share about the park.</p>
+                <p className='intro-paragraph'>En un trip con amigos a Fredricksburg, tomamos un desvío a Pedernales Falls State Park, un trozo del Hill Country que siempre invita a la aventura. Aunque el calor era casi scorching, nos lanzamos a conquistar la cima de Wolf Mountain. Las vistas were nice, pero serían aún mejor en un día más fresco. On the hike, Ross encontró una piedra pintada con un conejito rosa, un toque de whimsy in this rugged landscape. Al final del día, regresamos a nuestro Airbnb, enjoying la noche around a fire, cuando el clima era noticeably cooler. I can't wait to go back.</p>
                 {/* Grid and photos go here */}
                 <div className='grid'>
                     <div className='box box--3x3'>
@@ -1143,7 +1143,7 @@ function TexasContent({ className, setActiveState }) {
             </div>
             <div className='park-section bg-light p-3 m-3' ref={sanAntonioMissionsRef}>
                 <h4 className='intro-subtitle park-title'>San Antonio Missions National Historic Park</h4>
-                <p className='intro-paragraph'>Some content I want to share about the park.</p>
+                <p className='intro-paragraph'>Recorriendo la historia de San Antonio desde downtown hasta las misiones, te sumerges en la historia colonial española: el Parque Histórico Nacional de las Misiones de San Antonio. Estas misiones, incluyendo el Alamo, eran núcleos de comunidad y devoción. Aunque es debatible if the indigenous people were happy to convert or coerced, no cabe duda que las misiones shaped the region culturally y económicamente. Los edificios y las acequias, sistemas de irrigation que aún funcionan, son testigos de aquellas épocas. Es interesante how las misiones se alinean, cada una aportando something different: farming, ranching, and other trades. Recomendaría visitar cuando the weather is more forgiving, ya que nuestro recorrido fue en un día extremely hot. Aun así, el tour de las misiones y las acequias fue una experiencia única. Y no te pierdas la Mission Espada, mi favorita, que al atardecer, a shadow seems to draw a smile on the ground.</p>
                 {/* Grid and photos go here */}
                 <div className='grid'>
                     <div className='box box--3x3'>
