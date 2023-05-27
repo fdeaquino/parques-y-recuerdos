@@ -189,7 +189,7 @@ function NewYorkContent({ className, setActiveState }) {
             </div>
             <div className='park-section bg-light p-3 m-3' ref={highlineNYCRef}>
                 <h4 className='intro-subtitle park-title'>High Line Park</h4>
-                <p className='intro-paragraph'>Some content I want to share about the park.</p>
+                <p className='intro-paragraph'>High Line Park, un oasis verde en el cielo de New York, es un tributo to the Lenape people, former inhabitants of this land. Su plataforma es manufacturada, an old elevated railway transformed into a vibrant green strip. As you stroll along, vistas de los impresionantes rascacielos y la arquitectura compete with the park's own beauty. Traversing trendy neighborhoods and tasty restaurants, el High Line is a sustainable project that resonates with the city's pulse.</p>
                 {/* Grid and photos go here */}
                 <div className='grid'>
                     <div className='box box--3x3'>
@@ -231,7 +231,7 @@ function NewYorkContent({ className, setActiveState }) {
             </div>
             <div className='park-section last-park bg-light p-3 m-3 ' ref={centralParkRef}>
                 <h4 className='intro-subtitle park-title'>Central Park</h4>
-                <p className='intro-paragraph'>Some content I want to share about the park and about my hiking experience.</p>
+                <p className='intro-paragraph'>Cada paso por Central Park en el corazón de Manhattan es un journey of discovery. With statues like Balto and hidden trails among the massive park, cada visita con mi esposo Ross unveils a new treasure. The contrast of green parque with the cityscape is intriguing. Con una historia que hunde sus raíces en the times of the Lenape tribes who called this island home, the island's natural past echoes in our footsteps. The park's surrounding area is a cultural hub, acogiendo el MET, the American Natural History Museum, y el Guggenheim. After multiple visits, Central Park still holds more to explore, siempre llamándonos para un nuevo paseo.</p>
                 {/* Grid and photos go here */}
                 <div className='grid'>
                     <div className='box box--3x3'>
@@ -271,7 +271,7 @@ function NewYorkContent({ className, setActiveState }) {
             </div>
             <div className='park-section last-park bg-light p-3 m-3 ' ref={mountArabRef}>
                 <h4 className='intro-subtitle park-title'>Mount Arab</h4>
-                <p className='intro-paragraph'>Some content I want to share about the park and about my hiking experience.</p>
+                <p className='intro-paragraph'>En la pintoresca región de Adirondacks, Mount Arab se alza, un monumento a la majestuosidad de la naturaleza. I was fortunate to explore this ancient Mohawk land con la familia de Ross, navigating trails that wound up towards the sky. A pesar de que la lluvia nos sorprendió a mitad de camino, we were rewarded with a cool breeze y un arco iris in the distance. A la cima, you can see a carpet of trees from the public tower, especially breathtaking during the fall. La vista desde el top was a memory I hold dear, and I hope to return during peak fall colors. Esta montaña, part of the ancient Appalachian range, sings a song older than the Rockies themselves.</p>
                 {/* Grid and photos go here */}
                 <div className='grid'>
                     <div className='box box--3x3'>
@@ -310,8 +310,8 @@ function NewYorkContent({ className, setActiveState }) {
                 </div>
             </div>
             <div className='park-section last-park bg-light p-3 m-3 ' ref={cantonIslandParkRef}>
-                <h4 className='intro-subtitle park-title'>Canton Island Park</h4>
-                <p className='intro-paragraph'>Some content I want to share about the park and about my hiking experience.</p>
+                <h4 className='intro-subtitle park-title'>Grasse River Heritage Park</h4>
+                <p className='intro-paragraph'>Grasse River Heritage Park, cerca del pueblo natal de Ross en Upstate New York, es un respiro de naturaleza imbuido de historia. Here, the Mohawk tribes fueron los antiguos guardianes. Entre las joyas geológicas de este lugar, hay una peculiar rock folded into a unique 'Z' shape, testimonio de las intensas fuerzas que moldearon this land hace aproximadamente 1.1 mil millones de años. El parque nos revela la rica historia geológica, y también un poco de la historia del pueblo, proporcionando a la vez un tranquilo refugio. Despite losing some photos due to a phone switch, la belleza del parque permanece vivida en mi memoria, y estoy ansioso por visitar a la familia de Ross y este pacífico parque de nuevo.</p>
                 {/* Grid and photos go here */}
                 <div className='grid'>
                     <div className='box box--3x3'>
@@ -330,7 +330,7 @@ function NewYorkContent({ className, setActiveState }) {
             </div>
             <div className='park-section last-park bg-light p-3 m-3 ' ref={otterCreekPreserveRef}>
                 <h4 className='intro-subtitle park-title'>Otter Creek Preserve</h4>
-                <p className='intro-paragraph'>Some content I want to share about the park and about my hiking experience.</p>
+                <p className='intro-paragraph'>Ubicado en Alexandria Bay, New York, Otter Creek Preserve es una joya de la naturaleza y sits just a few miles from the Canadian border. Esta área, once home to the Iroquois Confederacy, now boasts más de 1,000 islas, earning it the name 'Thousand Islands.' Aquí es where the famous Thousand Island dressing originates. El terreno, sculpted by glaciers, es un recordatorio del pasado geológico de la región. Aunque no vimos otters during our brief hike, la belleza del lugar nos invita a regresar. Ross y yo found tranquility aquí, despite our visit being corta y estar en town for a wedding.</p>
                 {/* Grid and photos go here */}
                 <div className='grid'>
                     <div className='box box--3x3'>
