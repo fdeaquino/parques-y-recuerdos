@@ -556,7 +556,7 @@ function TexasContent({ className, setActiveState }) {
             </div>
             <div className='park-section bg-light p-3 m-3' ref={guadalupeMountainsRef}>
                 <h4 className='intro-subtitle park-title'>Guadalupe Mountains National Park</h4>
-                <p className='intro-paragraph'>SGuadalupe National Park, en Texas, es un paraíso geológico and probably my favorite park en el estado. Fue hogar de las tribus Mescalero Apache. Guadalupe Peak, el punto más alto de Texas, revela restos de antiguos corales y criaturas marinas, recordándonos que this area was once beneath an ancient sea. Hiking it was an intense experience, with Ross y yo agotados después de más de 8 hours de subida y bajada. La montaña tiene partes empinadas, but the view from the top reveals fascinating folds in the mountain, visible solo desde esta perspectiva. Vi a people of all ages, including parents introducing their kids a la alegría de la hiking. Ya estamos planeando our return to this amazing park next year."</p>
+                <p className='intro-paragraph'>Guadalupe National Park, en Texas, es un paraíso geológico and probably my favorite park en el estado. Fue hogar de las tribus Mescalero Apache. Guadalupe Peak, the highest point in Texas, revela restos de antiguos corales y criaturas marinas, recordándonos que this area was once beneath an ancient sea. Hiking it was an intense experience, with Ross y yo agotados después de más de 8 hours de subida y bajada. La montaña tiene partes empinadas, but the view from the top reveals fascinating folds in the mountain, visible solo desde esta perspectiva. Vi a people of all ages, including parents introducing their kids a la alegría de la hiking. Ya estamos planeando our return to this amazing park next year."</p>
                 {/* Grid and photos go here */}
                 <div className='grid'>
                     <div className='box box--3x3'>
@@ -641,7 +641,7 @@ function TexasContent({ className, setActiveState }) {
             </div>
             <div className='park-section bg-light p-3 m-3' ref={memorialParkHoustonRef}>
                 <h4 className='intro-subtitle park-title'>Memorial Park</h4>
-                <p className='intro-paragraph'>Some content I want to share about the park.</p>
+                <p className='intro-paragraph'>Memorial Park, un refugio urbano en Houston, es un homenaje a las tribus Karankawa que una vez habitaban estas tierras. Con un compromiso hacia ecological restoration, la ciudad ha transformado antiguos campos de béisbol into lush prairies and wetlands. Las nuevas áreas del parque, conocidas como The Glades, y los dos impresionantes land bridges te permiten contemplar the city from a distance. Este parque, con su reciente bloom of wildflowers and tranquil forest trails, se ha convertido en mi nuevo parque favorito in the city. Te hace olvidar que te encuentras en medio de una metrópolis y te invita a perderte in nature's serenity.</p>
                 {/* Grid and photos go here */}
                 <div className='grid'>
                     <div className='box box--3x3'>
@@ -689,7 +689,7 @@ function TexasContent({ className, setActiveState }) {
             </div>
             <div className='park-section bg-light p-3 m-3' ref={eleanorTinsleyParkRef}>
                 <h4 className='intro-subtitle park-title'>Buffalo Bayou + Eleanor Tinsley Park</h4>
-                <p className='intro-paragraph'>Some content I want to share about the park.</p>
+                <p className='intro-paragraph'>Buffalo Bayou y Eleanor Tinsley Park, with great views of downtown, were once home to las tribus Akokisa. During la pandemia de Covid-19, Ross and I found tranquility aquí cada mañana, before diving into remote work. Tambien entrene aquí for the Austin Half Marathon, because of the to the slopes along the bayou. En una nota interesante, this park quedó completamente inundado when Hurricane Harvey hit the Houston area, y tomó años para su restauración.  Bats emerge at dusk from debajo del Waugh St. bridge, with hawks swooping down desde el edificio AIG for an easy snack. It's a versatile park, perfecto para watching the seasons change, enjoying a summer concert, picnicking, or exercising.</p>
                 {/* Grid and photos go here */}
                 <div className='grid'>
                     <div className='box box--3x3'>
@@ -752,7 +752,7 @@ function TexasContent({ className, setActiveState }) {
             </div>
             <div className='park-section bg-light p-3 m-3' ref={whiteOakBayouRef}>
                 <h4 className='intro-subtitle park-title'>White Oak Bayou Greenway</h4>
-                <p className='intro-paragraph'>Some content I want to share about the park.</p>
+                <p className='intro-paragraph'>White Oak Bayou Trail, una serpiente urbana, streaks through Houston, offering un respiro en la gran ciudad. The Orcoquiza tribes once wandered these rivers and bayous. With an impressive 16.5-mile length, the trail snakes through el histórico barrio de Heights. On nuestras caminatas, Ross y yo discovered Da Gama, now one of mis restaurantes favoritos, in a then-under-construction shopping center. El Bayou, though lined with concrete to control flooding, aún offers an urban escape. I wish there were more espacios públicos in Houston for walking and biking. We have yet to explore el trail en su totalidad, but we enjoy exploring it poco a poco.</p>
                 {/* Grid and photos go here */}
                 <div className='grid'>
                     <div className='box box--3x3'>
@@ -792,7 +792,7 @@ function TexasContent({ className, setActiveState }) {
             </div>
             <div className='park-section bg-light p-3 m-3' ref={terryHersheyParkRef}>
                 <h4 className='intro-subtitle park-title'>Terry Hershey Park</h4>
-                <p className='intro-paragraph'>Some content I want to share about the park.</p>
+                <p className='intro-paragraph'>Ubicado al sur de I-10 y del Energy Corridor, Terry Hershey Park es un tesoro en Houston. Este parque se une al Baker Reservoir al oeste, formando una dinámica zona de recreo, y también está cerca del Addicks Reservoir. In my opinion, Terry Hershey es uno de los top three parks for a walk or bike ride in the Houston area. Su historia geológica es una muestra de la influencia del Buffalo Bayou, the river that has shaped Houston over the millennia.</p>
                 {/* Grid and photos go here */}
                 <div className='grid'>
                     <div className='box box--3x3'>
@@ -827,7 +827,7 @@ function TexasContent({ className, setActiveState }) {
             </div>
             <div className='park-section bg-light p-3 m-3' ref={hermannParkRef}>
                 <h4 className='intro-subtitle park-title'>Hermann Park</h4>
-                <p className='intro-paragraph'>Some content I want to share about the park.</p>
+                <p className='intro-paragraph'>Ubicado entre the world's largest medical center y el distrito de museos, Hermann Park es un vibrante escape urbano. Con su zoológico, jardines botánicos, y estatuas de hombres influyentes de Latinoamérica como Benito Juárez, Bernardo O'Higgins, Simón Bolívar, José de San Martín, y José Martí, este parque tiene algo para todos. Es el lugar perfecto para correr, caminar, or even a round of golf. Esta joya urbana fue posible gracias a George Hermann, who generously donated about 400 acres. No te pierdas la colina panorámica con su sendero serpentino that offers stunning vistas del parque.</p>
                 {/* Grid and photos go here */}
                 <div className='grid'>
                     <div className='box box--3x3'>
@@ -873,7 +873,7 @@ function TexasContent({ className, setActiveState }) {
             </div>
             <div className='park-section bg-light p-3 m-3' ref={sanJacintoMonumentRef}>
                 <h4 className='intro-subtitle park-title'>San Jacinto Monument</h4>
-                <p className='intro-paragraph'>Some content I want to share about the park.</p>
+                <p className='intro-paragraph'>El San Jacinto Monument, un testamento de la independencia de Texas, stands tall amidst industrial plants, creando un contraste sorprendente. It was here where the Battle of San Jacinto was fought, un evento crucial that led to Texas Independence and eventually to the United States taking half of Mexico's territory. The monument serves as a reminder of this turning point, with the chance to subir hasta la cima for stunning views of the Houston area y el canal de navegación de Houston. Sin embargo, it's evident that the city and state need to invest more money to make this park more vibrant. Esta torre histórica, surrounded by smoking industrial towers, is a stark symbol of the past, presente, y futuro de Texas.</p>
                 {/* Grid and photos go here */}
                 <div className='grid'>
                     <div className='box box--3x3'>
@@ -898,7 +898,7 @@ function TexasContent({ className, setActiveState }) {
             </div>
             <div className='park-section bg-light p-3 m-3' ref={southbeltHikeBikeRef}>
                 <h4 className='intro-subtitle park-title'>Southbelt Hike & Bike</h4>
-                <p className='intro-paragraph'>Some content I want to share about the park.</p>
+                <p className='intro-paragraph'>Tomando un descanso from the major parks in Houston, you can discover Southbelt Hike and Bike, un parque tranquilo al sur de la ciudad. With ample parking and an impressive length, este parque ofrece un espacio for an enjoyable walk or bike ride. Uno de los habitantes más curiosos del parque es la Nutria, a water rodent that can be seen casi todo el año along the adjacent bayou. Tampoco es raro ver turtles, hawks, migrating birds, and even snakes, as the sign warns: 'Seasonal Hazard: Beware of Snakes'. A pesar de las serpientes, I have a particular fondness for este parque.</p>
                 {/* Grid and photos go here */}
                 <div className='grid'>
                     <div className='box box--3x3'>
@@ -933,7 +933,7 @@ function TexasContent({ className, setActiveState }) {
             </div>
             <div className='park-section bg-light p-3 m-3' ref={galvestonIslandRef}>
                 <h4 className='intro-subtitle park-title'>Galveston Island Beaches and Parks</h4>
-                <p className='intro-paragraph'>Some content I want to share about the park.</p>
+                <p className='intro-paragraph'>Galveston Island Beaches, un cambio de ritmo from the hustle of Houston, is a reminder of the city's proximity to the massive Gulf of Mexico. Cuando visité, Galveston Island State Park estaba cerrado, but we found access to the beach at a nearby point y caminamos a lo largo de la playa y el seawall, which was crowded in some parts. Este lugar, con su brisa marina y las olas rompiendo, offers a tranquil contrast to the urban sprawl y un lugar de escape cerca de the city.</p>
                 {/* Grid and photos go here */}
                 <div className='grid'>
                     <div className='box box--3x3'>
