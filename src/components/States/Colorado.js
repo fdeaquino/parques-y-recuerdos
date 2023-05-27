@@ -167,11 +167,11 @@ function ColoradoContent({ className, setActiveState }) {
         <section className={`${className}`} id="colorado" ref={coloradoRef}>
             <div className='state-section bg-light p-3 m-3'>
                 <h3 className='intro-subtitle'>COLORADO</h3>
-                <p className='intro-paragraph'>(Paragraph about the state: Recognize native lands, give my favorite history, talk about how it makes me feel. Talk about cities/towns, and places I've been to, or notable places. Try to keep it short.) ____________ Kombucha JOMO pinterest gorpcore ramps ennui, wolf cardigan pitchfork raw denim bodega boys distillery. Meh glossier shabby chic poke semiotics, sriracha single-origin coffee stumptown. Forage DIY brunch etsy. Lomo venmo squid swag lo-fi vaporware paleo chia everyday carry letterpress. Hell of polaroid meh kale chips jawn, leggings blog shabby chic skateboard offal poutine church-key.</p>
+                <p className='intro-paragraph'>Colorado, whose name stems from the Spanish word for "red in color," truly es un lugar de belleza sin par. Mis primeros pasos in a National Park were taken in Rocky Mountains National Park, y desde entonces, I've been fortunate to explore places like Mesa Verde National Park, Garden of the Gods, y hasta una pequeña caminata up to Red Rocks Ampitheatre and Park. Cada lugar brinda un vistazo a la increíble geología de Colorado y la flora única de sus parques. But these breathtaking landscapes are more than just beautiful—they are tierras ancestrales of the Ute, Cheyenne, and Arapaho peoples. La llegada de los settlers, tanto españoles como americanos, añadió otro capítulo a la historia de Colorado. In each step, you feel a connection to the past and a hope for the future.</p>
             </div>
             <div className='park-section bg-light p-3 m-3' ref={rockyMountainsRef} >
                 <h4 className='intro-subtitle park-title'>Rocky Mountains National Park</h4>
-                <p className='intro-paragraph'>Some content I want to share about the park.</p>
+                <p className='intro-paragraph'>Mi primera visita a Rocky Mountains National Park fue una aventura de frío y asombro. A pesar de que estaba freezing at the end of Fall, conseguí un gorro calentito (maybe not the most fashionable) de Walmart that kept me warm. No había tiempo para muchas photos, as the stunning views captivated all my attention. En mi segundo viaje, Ross, our Shiba Inu pup, y yo, exploramos juntos the rugged beauty of the park. Además, pudimos explorar Estes Park, hogar del famoso Stanley Hotel de The Shining! En cada momento, Rocky Mountains National Park te regala belleza sin fin.</p>
                 {/* Grid and photos go here */}
                 <div className='grid'>
                     <div className='box box--3x3'>
@@ -209,7 +209,7 @@ function ColoradoContent({ className, setActiveState }) {
             </div>
             <div className='park-section bg-light p-3 m-3' ref={mesaVerdeRef}>
                 <h4 className='intro-subtitle park-title'>Mesa Verde National Park</h4>
-                <p className='intro-paragraph'>Some content I want to share about the park and about my hiking experience.</p>
+                <p className='intro-paragraph'>Mesa Verde National Park es una joya llena de historia antigua. Las casas secretas de los antiguos Puebloans se encuentran escondidas en los acantilados, un testimonio silencioso de su impresionante habilidad arquitectónica. Cuando Ross y yo hicimos nuestra visita, it felt like the park had opened its doors just for us, amplifying its mystic charm. Esta experiencia única, solos con los susurros del pasado resonando desde las paredes del cañón, was truly mesmerizing. Mesa Verde, en cada rincón, te transporta atrás en el tiempo, permitiéndote admirar la resistencia y ingenio de sus antiguos habitantes.</p>
                 {/* Grid and photos go here */}
                 <div className='grid'>
                     <div className='box box--3x3'>
@@ -255,7 +255,7 @@ function ColoradoContent({ className, setActiveState }) {
             </div>
             <div className='park-section bg-light p-3 m-3' ref={gardenOfTheGodsRef}>
                 <h4 className='intro-subtitle park-title'>Garden of the Gods</h4>
-                <p className='intro-paragraph'>Some content I want to share about the park and about my hiking experience.</p>
+                <p className='intro-paragraph'>Garden of the Gods, en Colorado Springs, es un regalo de la naturaleza con formaciones rocosas que cuentan una historia de millones de años. The Ute people used these rocks for rituals and ceremonies, y su legado aún se siente hoy. Estas rocas rojas se inclinaron debido to the tectonic forces that shaped the Rockies. Mi paseo por el parque fue corto, ya que una tormenta se acercaba quickly, but the grandeur of the park left a lasting impression. Cada vista en este parque único te invita a maravillarte at nature's ability to create unforgettable masterpieces.</p>
                 {/* Grid and photos go here */}
                 <div className='grid'>
                     <div className='box box--3x3'>
@@ -287,7 +287,7 @@ function ColoradoContent({ className, setActiveState }) {
             </div>
             <div className='park-section last-park bg-light p-3 m-3' ref={redRocksRef}>
                 <h4 className='intro-subtitle park-title'>Red Rocks Ampitheatre and Park</h4>
-                <p className='intro-paragraph'>Some content I want to share about the park and about my hiking experience.</p>
+                <p className='intro-paragraph'>Al igual que en Garden of the Gods, Red Rocks Park and Amphitheatre presenta impresionantes obras de arte geológicas. Aquí, even dinosaur footprints whisper tales of a prehistoric past. The Native Americans used the trading post, leaving their mark on this land of rich history. The amphitheatre's unique sound is due to the natural acoustics of the rocks. It's committed to sustainability, ensuring this wondrous place continues to inspire. Just like its geological sibling, Garden of the Gods, both parks are Colorado's natural symphony, cada uno único y cada uno resounding in its own beautiful note.</p>
                 {/* Grid and photos go here */}
                 <div className='grid'>
                     <div className='box box--3x3'>
