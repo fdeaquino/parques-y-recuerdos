@@ -80,7 +80,7 @@ function LouisianaContent({ className, setActiveState }) {
             </div>
             <div className='park-section bg-light p-3 m-3' ref={povertyPointRef}>
                 <h4 className='intro-subtitle park-title'>Poverty Point World Heritage Site</h4>
-                <p className='intro-paragraph'>Some content I want to share about the park.</p>
+                <p className='intro-paragraph'>Ubicado en Louisiana, Poverty Point es una joya de ingeniería antigua. The park takes the name of the plantation once on the site. The Natchez people were once stewards of these lands, habiendo creado una compleja red de montículos y crestas. Lamentablemente, una porción del sitio fue destruida when it was a plantation, a heartbreaking reminder of our historical choices. Sin embargo, the resilience of the site shines through, contándonos una historia de 2,700 años de antigüedad. This prehistoric metropolis was once the largest mound complex in North America during its time, y las personas que lo construyeron were part of a massive trade network extending more than 700 miles. La geología local del río Mississippi likely provided inspiration for their creations, adding a unique layer to the rich tapestry of this site. Así, en Poverty Point, uno puede realmente sentir la mano del pasado shaping the land beneath our feet.</p>
                 {/* Grid and photos go here */}
                 <div className='grid'>
                     <div className='box box--3x3'>
