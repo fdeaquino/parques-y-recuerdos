@@ -959,7 +959,7 @@ function TexasContent({ className, setActiveState }) {
             </div>
             <div className='park-section bg-light p-3 m-3' ref={zilkerParkRef}>
                 <h4 className='intro-subtitle park-title'>Zilker Park + Lady Bird Lake</h4>
-                <p className='intro-paragraph'>Some content I want to share about the park.</p>
+                <p className='intro-paragraph'>Zilker Park y Lady Bird Lake, at the heart of Austin, son un respiro natural amidst the bustling streets y rascacielos. Native tribes y settlers once thrived around the river que ahora, being dammed, se ha convertido into a beautiful lake. Durante mis college years, I'd run along este lago with friends, watching the changing skyline con cada año que pasaba. Aunque I don't have many photos from those times, those days are still vivid in my memory, including cuando corrí parte del camino along the lake for the Austin Half Marathon in 2018. Zilker Park es un paradise for dogs, perfect for flying kites y hosting some of my favorite events como Austin City Limits y el Annual Kite Festival. These spaces son un reminder de la importancia de preserving green spaces en nuestras ciudades.</p>
                 {/* Grid and photos go here */}
                 <div className='grid'>
                     <div className='box box--3x3'>
@@ -998,7 +998,7 @@ function TexasContent({ className, setActiveState }) {
             </div>
             <div className='park-section bg-light p-3 m-3' ref={mountBonnellRef}>
                 <h4 className='intro-subtitle park-title'>Mount Bonnell</h4>
-                <p className='intro-paragraph'>Some content I want to share about the park.</p>
+                <p className='intro-paragraph'>Mount Bonnell, con una vista única de Austin y el lago, ha crecido in popularity over the years. Las tribus Tonkawa, antes habitantes de la zona, must have cherished this high point too. Hoy en día, es considerado un área de prestigio para vivir, con the beauty of the lake a un paso de distancia. Despite being a short hike, it can take your breath away, literally, por la empinada subida y la cantidad de steps to reach the top. Es un spot favorito para mostrar to 'out of towners' un glimpse de Austin's charm. More than a viewpoint, this area is también la puerta de entrada al hermoso hill country, un regalo que se extiende to the west. Visitar Mount Bonnell es un reminder of the unique landscapes that surround us.</p>
                 {/* Grid and photos go here */}
                 <div className='grid'>
                     <div className='box box--3x3'>
