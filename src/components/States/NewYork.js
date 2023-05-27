@@ -185,7 +185,7 @@ function NewYorkContent({ className, setActiveState }) {
         <section className={`${className}`} id="newyork" ref={newyorkRef}>
             <div className='state-section bg-light p-3 m-3'>
                 <h3 className='intro-subtitle'>NEW YORK</h3>
-                <p className='intro-paragraph'>(Paragraph about the state: Recognize native lands, give my favorite history, talk about how it makes me feel. Talk about cities/towns, and places I've been to, or notable places. Try to keep it short.) ____________ Kombucha JOMO pinterest gorpcore ramps ennui, wolf cardigan pitchfork raw denim bodega boys distillery. Meh glossier shabby chic poke semiotics, sriracha single-origin coffee stumptown. Forage DIY brunch etsy. Lomo venmo squid swag lo-fi vaporware paleo chia everyday carry letterpress. Hell of polaroid meh kale chips jawn, leggings blog shabby chic skateboard offal poutine church-key.</p>
+                <p className='intro-paragraph'>Como el hogar de mi esposo, New York, el "Empire State", holds a special place en nuestros corazones. Aquí, the Haudenosaunee and Lenape people dejaron su huella en la historia rica del estado. From Manhattan's towering skyscrapers hasta las Adirondacks, la geología de Nueva York is as diverse as its culture. Las montañas Catskill, part of the ancient Appalachian Range, cuentan historias de millones de años, incluso más antiguas que las montañas rocosas. He tenido el placer de explorar both urban parks like the High Line y Central Park, and rural gems como Mt. Arab, Canton Island, y Otter Creek. Aún así, I can't wait por descubrir más de los numerosos parques que New York tiene para ofrecer.</p>
             </div>
             <div className='park-section bg-light p-3 m-3' ref={highlineNYCRef}>
                 <h4 className='intro-subtitle park-title'>High Line Park</h4>
@@ -225,7 +225,7 @@ function NewYorkContent({ className, setActiveState }) {
                     <div className='box box--1x1'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${highlineStatues})` }}></div>
                     </div>
-                    
+
                 </div>
 
             </div>

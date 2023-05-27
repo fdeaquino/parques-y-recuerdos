@@ -110,7 +110,7 @@ function NewMexicoContent({ className, setActiveState }) {
         <section className={`${className}`} id="newmexico" ref={newmexicoRef}>
             <div className='state-section bg-light p-3 m-3'>
                 <h3 className='intro-subtitle'>NEW MEXICO</h3>
-                <p className='intro-paragraph'>(Paragraph about the state: Recognize native lands, give my favorite history, talk about how it makes me feel. Talk about cities/towns, and places I've been to, or notable places. Try to keep it short.) ____________ Kombucha JOMO pinterest gorpcore ramps ennui, wolf cardigan pitchfork raw denim bodega boys distillery. Meh glossier shabby chic poke semiotics, sriracha single-origin coffee stumptown. Forage DIY brunch etsy. Lomo venmo squid swag lo-fi vaporware paleo chia everyday carry letterpress. Hell of polaroid meh kale chips jawn, leggings blog shabby chic skateboard offal poutine church-key.</p>
+                <p className='intro-paragraph'>Known as "The Land of Enchantment," New Mexico es conocido for its seemingly endless blue skies, landscapes vibrantly painted, y su cultura única. The history de este terreno está marcado by the Apache, Navajo, and Pueblo tribes. The geologic wonder, el Rio Grande Rift, ha modelado the terrain, providing landscapes that take your breath away. I've had the joy of visiting dos de los parques nacionales here, pero my heart anhela to see more of the natural beauty este estado ofrece.</p>
             </div>
             <div className='park-section bg-light p-3 m-3' ref={whiteSandsRef}>
                 <h4 className='intro-subtitle park-title'>White Sands National Park</h4>

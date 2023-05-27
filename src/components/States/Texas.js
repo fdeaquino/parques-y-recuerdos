@@ -502,7 +502,7 @@ function TexasContent({ className, setActiveState }) {
         <section className={`${className}`} id="texas" ref={texasRef}>
             <div className='state-section bg-light p-3 m-3'>
                 <h3 className='intro-subtitle'>TEXAS</h3>
-                <p className='intro-paragraph'>(Paragraph about the state: Recognize native lands, give my favorite history, talk about how it makes me feel. Talk about cities/towns, and places I've been to, or notable places. Try to keep it short.) ____________ Kombucha JOMO pinterest gorpcore ramps ennui, wolf cardigan pitchfork raw denim bodega boys distillery. Meh glossier shabby chic poke semiotics, sriracha single-origin coffee stumptown. Forage DIY brunch etsy. Lomo venmo squid swag lo-fi vaporware paleo chia everyday carry letterpress. Hell of polaroid meh kale chips jawn, leggings blog shabby chic skateboard offal poutine church-key.</p>
+                <p className='intro-paragraph'>Texas, el "Lone Star State", has been mi hogar desde que era un niño, después de nacer en México. Los habitantes originales como Comanche, Karankawa, and Caddo shaped the land before us, and now it's home to immigrants from all around the world. With a vast array of parques locales, estatales y nacionales, I've only scratched the surface of their beauty y tengo el deseo de explorar aún más. Interestingly, el sitio de una batalla decisiva para la independencia de Texas, is just ten miles from my parent's house. This great state boasts some of las ciudades más grandes de los Estados Unidos, and its economy rivals that of entire countries. But even here, he enfrentado discriminación y racismo; yet, I say proudly, "we didn't cross the border, the border crossed us". La geología de Texas es as diverse as its people, from the rugged mountains of Big Bend to the coastal plains. A true testament of resilience y belleza, Texas continúa siendo un lugar donde la historia y la esperanza se encuentran.</p>
             </div>
             <div className='park-section bg-light p-3 m-3' ref={bigBendRef}>
                 <h4 className='intro-subtitle park-title'>Big Bend National Park</h4>
@@ -719,7 +719,7 @@ function TexasContent({ className, setActiveState }) {
                     <div className='box box--1x1'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${buffBayouSocialDistance})` }}></div>
                     </div>
-                    
+
                     <div className='box box--1x1'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${buffBayou2})` }}></div>
                     </div>
