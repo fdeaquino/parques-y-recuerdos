@@ -506,7 +506,7 @@ function TexasContent({ className, setActiveState }) {
             </div>
             <div className='park-section bg-light p-3 m-3' ref={bigBendRef}>
                 <h4 className='intro-subtitle park-title'>Big Bend National Park</h4>
-                <p className='intro-paragraph'>Some content I want to share about the park.</p>
+                <p className='intro-paragraph'>Big Bend National Park, en el extremo de Texas, ofrece una aventura dramática en un paisaje desértico. Los Chisos Native Americans were the ancient inhabitants of these lands. Among the park's unique geological gems, puedes ver formaciones like 'Mule Ears' y una que me recuerda the shape of the Alamo. Estas montañas han been standing here for about 500 million years. Aquí, los primeros colonos cultivaban algodón under the shadow of these mountains. Ross and I nos levantamos temprano to see the sunrise over the peaks, an unforgettable sight. The Santa Elena Canyon, también en este parque, was carved by the Rio Grande over millennia and is deeper than parts of the Grand Canyon. On my next visit, I hope to explore it. The park is also famous for the discovery of Quetzalcoatlus, a giant pterosaur and the largest known animal to take the sky. Its fossils are now housed en mi alma mater, UT-Austin.</p>
                 {/* Grid and photos go here */}
                 <div className='grid'>
                     <div className='box box--3x3'>
@@ -556,7 +556,7 @@ function TexasContent({ className, setActiveState }) {
             </div>
             <div className='park-section bg-light p-3 m-3' ref={guadalupeMountainsRef}>
                 <h4 className='intro-subtitle park-title'>Guadalupe Mountains National Park</h4>
-                <p className='intro-paragraph'>Some content I want to share about the park.</p>
+                <p className='intro-paragraph'>SGuadalupe National Park, en Texas, es un paraíso geológico and probably my favorite park en el estado. Fue hogar de las tribus Mescalero Apache. Guadalupe Peak, el punto más alto de Texas, revela restos de antiguos corales y criaturas marinas, recordándonos que this area was once beneath an ancient sea. Hiking it was an intense experience, with Ross y yo agotados después de más de 8 hours de subida y bajada. La montaña tiene partes empinadas, but the view from the top reveals fascinating folds in the mountain, visible solo desde esta perspectiva. Vi a people of all ages, including parents introducing their kids a la alegría de la hiking. Ya estamos planeando our return to this amazing park next year."</p>
                 {/* Grid and photos go here */}
                 <div className='grid'>
                     <div className='box box--3x3'>
@@ -618,7 +618,7 @@ function TexasContent({ className, setActiveState }) {
             </div>
             <div className='park-section bg-light p-3 m-3' ref={huntsvilleStateParkRef}>
                 <h4 className='intro-subtitle park-title'>Huntsville State Park</h4>
-                <p className='intro-paragraph'>Some content I want to share about the park.</p>
+                <p className='intro-paragraph'>Huntsville State Park, un remanso verde en Texas, fue el escenario de un emocionante camping trip con amigos. Los Atakapa, tribus indígenas, fueron los antiguos guardianes de estas tierras. La geología del parque refleja la región de los Piney Woods, un bosque denso que se extiende por el sureste de los Estados Unidos. En nuestra primera noche, nos sorprendió una serpiente muy cerca de nuestro campamento, reminding us to tread carefully. A pesar de los rumores de alligators, we didn't see any during our early morning exploration, only a lake shrouded in morning fog. Lo más divertido del viaje was our game of 'Survivor', and Ross was the ultimate winner entre nuestro grupo de 8, un recuerdo que todavía nos hace reír.</p>
                 {/* Grid and photos go here */}
                 <div className='grid'>
                     <div className='box box--3x3'>
