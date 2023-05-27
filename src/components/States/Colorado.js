@@ -171,7 +171,7 @@ function ColoradoContent({ className, setActiveState }) {
             </div>
             <div className='park-section bg-light p-3 m-3' ref={rockyMountainsRef} >
                 <h4 className='intro-subtitle park-title'>Rocky Mountains National Park</h4>
-                <p className='intro-paragraph'>Mi primera visita a Rocky Mountains National Park fue una aventura de frío y asombro. A pesar de que estaba freezing at the end of Fall, conseguí un gorro calentito (maybe not the most fashionable) de Walmart that kept me warm. No había tiempo para muchas photos, as the stunning views captivated all my attention. En mi segundo viaje, Ross, our Shiba Inu pup, y yo, exploramos juntos the rugged beauty of the park. Además, pudimos explorar Estes Park, hogar del famoso Stanley Hotel de The Shining! En cada momento, Rocky Mountains National Park te regala belleza sin fin.</p>
+                <p className='intro-paragraph'>Mi primera visita a Rocky Mountains National Park fue una aventura de frío y asombro. A pesar de que estaba freezing at the end of Fall, conseguí un gorro calentito (maybe not the most fashionable) de Walmart that kept me warm. No había tiempo para muchas fotos, as the stunning views captivated all my attention. En mi segundo viaje, Ross, our Shiba Inu pup, y yo, exploramos juntos the rugged beauty of the park. Además, pudimos explorar Estes Park, hogar del famoso Stanley Hotel de la pelicula The Shining! En cada momento, Rocky Mountains National Park te regala belleza sin fin.</p>
                 {/* Grid and photos go here */}
                 <div className='grid'>
                     <div className='box box--3x3'>
@@ -287,7 +287,7 @@ function ColoradoContent({ className, setActiveState }) {
             </div>
             <div className='park-section last-park bg-light p-3 m-3' ref={redRocksRef}>
                 <h4 className='intro-subtitle park-title'>Red Rocks Ampitheatre and Park</h4>
-                <p className='intro-paragraph'>Al igual que en Garden of the Gods, Red Rocks Park and Amphitheatre presenta impresionantes obras de arte geológicas. Aquí, even dinosaur footprints whisper tales of a prehistoric past. The Native Americans used the trading post, leaving their mark on this land of rich history. The amphitheatre's unique sound is due to the natural acoustics of the rocks. It's committed to sustainability, ensuring this wondrous place continues to inspire. Just like its geological sibling, Garden of the Gods, both parks are Colorado's natural symphony, cada uno único y cada uno resounding in its own beautiful note.</p>
+                <p className='intro-paragraph'>Al igual que en Garden of the Gods, Red Rocks Park and Amphitheatre presenta impresionantes obras de arte geológicas. Aquí, even dinosaur footprints whisper tales of a prehistoric past. The Native Americans used the trading post, leaving their mark on this land of rich history. The amphitheatre's unique sound is due to the natural acoustics of the rocks. It's committed to sustainability, ensuring this wondrous place continues to inspire. Ambos parques, Red Rocks y Garden of the Gods, son como gemelos geológicos, cada uno tocando a natural symphony, mostrando la riqueza y variedad de la naturaleza de Colorado.</p>
                 {/* Grid and photos go here */}
                 <div className='grid'>
                     <div className='box box--3x3'>
