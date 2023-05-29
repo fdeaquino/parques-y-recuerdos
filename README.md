@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# Parques y Recuerdos
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+Parques y Recuerdos: Spanglish Reflections on Park Adventures, is a passionate fusion of my love for travel, photography, and technology. Born from the desire to better express the stories behind images captured during various park adventures, this platform serves as a celebration of my journey, shared with the world through a unique 'Spanglish' narrative.
 
-In the project directory, you can run:
+Leveraging cutting-edge technologies such as REACT, Node.js, and Express, and enriched with the contextual power of Mapbox, "Parques y Recuerdos" invites you on a virtual journey. Relive the emotions, stories, and cultures inherent in each snapshot. This project is not only a testament to my technical skills but also a reflection of my personal life as a proud bilingual individual.
 
-### `npm start`
+As you explore this README and the project it represents, I hope you will find value in the technical journey, enjoy the vibrant imagery, and perhaps even feel inspired to embark on your own adventures. Whether they be on park trails or through lines of code, the journey is yours to make. Enjoy!
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Table of Contents
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [Installation](#installation)
+- [Usage](#usage)
+- [Screenshot](#screenshot)
+- [Video](#video)
 
-### `npm test`
+## Installation
+A separate GitHub Repository (a template of this project), along with steps and documentation will be shared at a later time. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Usage
 
-### `npm run build`
+You can view the deployed application by [clicking this link](https://fdeaquino.github.io/parques-y-recuerdos/#welcome).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Screenshot
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Screenshot](./src/assets/images/parques-y-recuerdos-screenshot1.png)
+![Screenshot](./src/assets/images/parques-y-recuerdos-screenshot2.png)
+[Video of usage](https://drive.google.com/file/d/1D3zZz2x0CxtCwTIdFDFZ_MJeA80UqJge/view?usp=sharing)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Credits
 
-### `npm run eject`
+- [Original 2018 Project by Lauren Hallden](https://github.com/laurenhallden/travellog)
+- [Mapbox Developer Documentation](https://docs.mapbox.com/)
+- [React Router Dom Documentation](https://reactrouter.com/en/main/start/tutorial#tutorial)
+- [React Router Hash Link Documentation](https://www.npmjs.com/package/react-router-hash-link)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

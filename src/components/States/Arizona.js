@@ -251,6 +251,9 @@ function ArizonaContent({ className, setActiveState }) {
                     <div className='box box--1x1'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${hsBendTrail2})` }}></div>
                     </div>
+                    <div className='box box--2x1'>
+                        <div className='image-wrapper' style={{ backgroundImage: `url(${hsBendFidel})` }}></div>
+                    </div>
                 </div>
 
             </div>
