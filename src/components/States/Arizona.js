@@ -132,11 +132,11 @@ function ArizonaContent({ className, setActiveState }) {
         <section className={`${className}`} id='arizona' ref={arizonaRef}>
             <div className='state-section bg-light p-3 m-3'>
                 <h3 className='intro-subtitle'>ARIZONA</h3>
-                <p className='intro-paragraph'>En el corazón del Southwest, Arizona es un lugar where cultures and landscapes collide, creating a vibrantly unique experience. This territory, once roamed by the Navajo, Hopo, and Tohono O'odham tribes, still whispers their rich histories in every breeze. La geología is a storyteller here, narrando cuentos of time sculpting stunning red rock formations and intricate river bends. In the desert, los cacti like the majestic Saguaro thrive, their towering figures serving as verdaderos monumentos to the region's unique flora. Con cada sunset over the red rocks, y cada dawn breaking across the desert, te sentirás connected to the soul of Arizona. Its spirit, its history, y su belleza natural all blend together, creating a place that leaves you with recuerdos and reflections as vast as the landscape itself.</p>
+                <p className='intro-paragraph'>En el corazón del Southwest, Arizona es un lugar where cultures and landscapes collide, creating a vibrantly unique experience. This territory, once roamed by the Navajo, Hopi, and Tohono O'odham tribes, still whispers their rich histories in every breeze. La geología is a storyteller here, narrando cuentos of time sculpting stunning red rock formations and intricate river bends. In the desert, los cacti like the majestic Saguaro thrive, their towering figures serving as verdaderos monumentos to the region's unique flora. Con cada sunset over the red rocks, y cada dawn breaking across the desert, te sentirás connected to the soul of Arizona. Its spirit, its history, y su belleza natural all blend together, creating a place that leaves you with recuerdos and reflections as vast as the landscape itself.</p>
             </div>
             <div className='park-section bg-light p-3 m-3' ref={sedonaRef}>
                 <h4 className='intro-subtitle park-title'>Sedona</h4>
-                <p className='intro-paragraph'>Sedona, con sus rocas rojas y "energy vortexes", es un lugar that whispers to your soul. Mi esposo Ross y yo, found ourselves drawn into the pulsating heartbeat of the earth as we hiked to the four Energy Vortexes. Cada paso nos acercó more to the unique energy of the land, creating a sensation that was palpable, casi tangible. Hiking amidst the crimson formations, you feel the vibraciones of the Earth under your feet, inviting you into a deeper connection. Y cuando the sun dips below the horizon, los colores del cielo dance across the landscape, leaving you in awe of the energy and beauty around you. A trip to Sedona, is more than just un viaje, it's an unforgettable journey into the heart of nature's energy. Truly, una vacación inolvidable.</p>
+                <p className='intro-paragraph'>Sedona, con sus rocas rojas y 'energy vortexes', es un lugar that whispers to your soul. Mi esposo Ross y yo, found ourselves drawn into the pulsating heartbeat of the earth as we hiked to the four Energy Vortexes. Cada paso nos acercó more to the unique energy of the land, creating a sensation that was palpable, casi tangible. Hiking amidst the crimson formations, you feel the vibraciones of the Earth under your feet, inviting you into a deeper connection. Y cuando the sun dips below the horizon, los colores del cielo dance across the landscape, leaving you in awe of the energy and beauty around you. A trip to Sedona, is more than just un viaje, it's an unforgettable journey into the heart of nature's energy. Truly, una vacación inolvidable.</p>
                 {/* Grid and photos go here */}
                 <div className='grid'>
                     <div className='box box--3x3'>
@@ -250,9 +250,6 @@ function ArizonaContent({ className, setActiveState }) {
                     </div>
                     <div className='box box--1x1'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${hsBendTrail2})` }}></div>
-                    </div>
-                    <div className='box box--2x1'>
-                        <div className='image-wrapper' style={{ backgroundImage: `url(${hsBendFidel})` }}></div>
                     </div>
                 </div>
 
