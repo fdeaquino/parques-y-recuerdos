@@ -54,7 +54,7 @@ function NewMexicoContent({ className, setActiveState }) {
                     setActiveState("whiteSands")
                 }
             },
-            { threshold: 0.02 }
+            { threshold: 0.01 }
         );
 
         const chacoCultureObserver = new IntersectionObserver(
@@ -64,7 +64,7 @@ function NewMexicoContent({ className, setActiveState }) {
                     setActiveState("chacoCulture")
                 }
             },
-            { threshold: 0.02 }
+            { threshold: 0.01 }
         );
 
         // TODO: 2. Add observers for other parks if any
@@ -110,7 +110,7 @@ function NewMexicoContent({ className, setActiveState }) {
         <section className={`${className}`} id="newmexico" ref={newmexicoRef}>
             <div className='state-section bg-light p-3 m-3'>
                 <h3 className='intro-subtitle'>NEW MEXICO</h3>
-                <p className='intro-paragraph'>Known as "The Land of Enchantment," New Mexico es conocido for its seemingly endless blue skies, landscapes vibrantly painted, y su cultura única. The history de este terreno está marcado by the Apache, Navajo, and Pueblo tribes. The geologic wonder, el Rio Grande Rift, ha modelado the terrain, providing landscapes that take your breath away. I've had the joy of visiting dos de los parques nacionales here, pero my heart anhela to see more of the natural beauty este estado ofrece.</p>
+                <p className='intro-paragraph'>Known as 'The Land of Enchantment,' New Mexico es conocido for its seemingly endless blue skies, landscapes vibrantly painted, y su cultura única. The history de este terreno está marcado by the Apache, Navajo, and Pueblo tribes. The geologic wonder, el Rio Grande Rift, ha modelado the terrain, providing landscapes that take your breath away. I've had the joy of visiting dos de los parques nacionales here, pero my heart anhela to see more of the natural beauty este estado ofrece.</p>
             </div>
             <div className='park-section bg-light p-3 m-3' ref={whiteSandsRef}>
                 <h4 className='intro-subtitle park-title'>White Sands National Park</h4>

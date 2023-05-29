@@ -16,65 +16,65 @@ const InteractiveMap = ({ state }) => {
 
         'arizona': { center: [-111.9307, 33.0489], zoom: 4.9 },
         'sedona': { center: [-111.7999, 34.8097], zoom: 11.5 },
-        'saguaro': { center: [-110.940, 32.1992], zoom: 8.7 },
-        'horseshoeBend': { center: [-111.5171, 36.8796], zoom: 13 },
+        'saguaro': { center: [-110.940, 32.2], zoom: 8.7 },
+        'horseshoeBend': { center: [-111.51, 36.879], zoom: 13.9 },
 
 
         'california': { center: [-119.4179, 35.7783], zoom: 4.6 },
-        'yosemite': { center: [-119.5783, 37.7851], zoom: 10 },
-        'goldenGate': { center: [-122.4807, 37.7694], zoom: 12 },
+        'yosemite': { center: [-119.599, 37.7], zoom: 11.3 },
+        'goldenGate': { center: [-122.4807, 37.7696], zoom: 12 },
         'presidio': { center: [-122.4667, 37.7985], zoom: 12.5 },
-        'salesforce': { center: [-122.3970, 37.7891], zoom: 16 },
-        'griffith': { center: [-118.2942, 34.1366], zoom: 11.8 },
-        'santaMonicaBeach': { center: [-118.4900, 34.0030], zoom: 13.2 },
+        'salesforce': { center: [-122.3970, 37.788], zoom: 16.2 },
+        'griffith': { center: [-118.3, 34.12], zoom: 13 },
+        'santaMonicaBeach': { center: [-118.487, 34], zoom: 13.6 },
         'harborIslandPark': { center: [-117.2035, 32.7257], zoom: 13 },
 
 
         'colorado': { center: [-105.7821, 38.3501], zoom: 5 },
-        'rockyMountains': { center: [-105.6236, 40.3128], zoom: 10.23 },
+        'rockyMountains': { center: [-105.624, 40.3128], zoom: 11.23 },
         'gardenOfTheGods': { center: [-104.8775, 38.8690], zoom: 13.4 },
-        'mesaVerde': { center: [-108.4911, 37.1709], zoom: 11 },
-        'redRocks': { center: [-105.2000, 39.6633], zoom: 13.5 },
+        'mesaVerde': { center: [-108.485, 37.155], zoom: 13 },
+        'redRocks': { center: [-105.2000, 39.66], zoom: 13.5 },
 
 
-        'louisiana': { center: [-91.9623, 29.9843], zoom: 5.7 },
-        'povertyPoint': { center: [-91.4079, 32.6340], zoom: 13.6 },
+        'louisiana': { center: [-91.9623, 29.986], zoom: 5.7 },
+        'povertyPoint': { center: [-91.4079, 32.63], zoom: 13.9 },
 
 
         'newmexico': { center: [-106.1999, 33.3], zoom: 5.2 },
         'chacoCulture': { center: [-107.9580, 36.0608], zoom: 13 },
-        'whiteSands': { center: [-106.3158, 32.7799], zoom: 11 },
+        'whiteSands': { center: [-106.3, 32.7799], zoom: 11 },
 
 
         'newyork': { center: [-76.0060, 41.7128], zoom: 5.2 },
-        'highlineNYC': { center: [-74.0048, 40.7480], zoom: 14 },
+        'highlineNYC': { center: [-74.006, 40.7440], zoom: 15 },
         'centralPark': { center: [-73.9684, 40.7809], zoom: 13 },
-        'mountArab': { center: [-74.5932, 44.2058], zoom: 13.5 },
-        'cantonIslandPark': { center: [-75.175, 44.5956], zoom: 15 },
-        'otterCreekPreserve': { center: [-75.9182, 44.326], zoom: 14 },
+        'mountArab': { center: [-74.591, 44.2038], zoom: 14 },
+        'cantonIslandPark': { center: [-75.175, 44.595], zoom: 15 },
+        'otterCreekPreserve': { center: [-75.9182, 44.323], zoom: 14 },
 
 
         'texas': { center: [-99.9018, 28.9686], zoom: 4.5 },
-        'bigBend': { center: [-103.36, 29.21], zoom: 9.5 },
-        'guadalupeMountains': { center: [-104.845, 31.89], zoom: 12.9 },
+        'bigBend': { center: [-103.36, 29.2], zoom: 9.5 },
+        'guadalupeMountains': { center: [-104.845, 31.887], zoom: 12.9 },
         'huntsvilleStatePark': { center: [-95.529, 30.6173], zoom: 13 },
         'memorialParkHouston': { center: [-95.437, 29.7605], zoom: 13 },
-        'eleanorTinsleyPark': { center: [-95.3856, 29.7632], zoom: 13 },
-        'whiteOakBayou': { center: [-95.4, 29.74], zoom: 12 },
-        'terryHersheyPark': { center: [-95.60, 29.74], zoom: 11.6 },
+        'eleanorTinsleyPark': { center: [-95.4001, 29.758], zoom: 13.9 },
+        'whiteOakBayou': { center: [-95.417, 29.79], zoom: 12.4 },
+        'terryHersheyPark': { center: [-95.62, 29.77], zoom: 13 },
         'hermannPark': { center: [-95.389, 29.7108], zoom: 14.4 },
-        'sanJacintoMonument': { center: [-95.0857, 29.7518], zoom: 14 },
+        'sanJacintoMonument': { center: [-95.0857, 29.748], zoom: 14 },
         'southbeltHikeBike': { center: [-95.22608, 29.5706], zoom: 13 },
         'galvestonIsland': { center: [-94.9303, 29.2010], zoom: 11.6 },
         'zilkerPark': { center: [-97.76, 30.2672], zoom: 13 },
         'lyndonBJohnson': { center: [-98.6244, 30.2370], zoom: 14 },
         'enchantedRock': { center: [-98.8189, 30.503], zoom: 14 },
         'pedernalesFalls': { center: [-98.2469, 30.298], zoom: 14 },
-        'mountBonnell': { center: [-97.7737, 30.3211], zoom: 15 },
+        'mountBonnell': { center: [-97.7737, 30.3211], zoom: 16 },
         'sanAntonioMissions': { center: [-98.47, 29.3620], zoom: 12 },
 
         'utah': { center: [-111.5910, 38.3209], zoom: 5.3 },
-        'arches': { center: [-109.51, 38.7331], zoom: 13.3 },
+        'arches': { center: [-109.518, 38.738], zoom: 14.7 },
         'zion': { center: [-112.98, 37.2], zoom: 13.7 },
         'bryceCanyon': { center: [-112.227, 37.52], zoom: 11.5 },
     }), []);
@@ -132,9 +132,55 @@ const InteractiveMap = ({ state }) => {
         if (map.current && state in stateViews) {
             console.log("State changed to", state);
             const view = stateViews[state];
-            map.current.flyTo({ center: view.center, zoom: view.zoom, speed: 0.4 });
+
+            // Rotate the map if the state is 'eleanorTinsleyPark'
+            if (state === 'eleanorTinsleyPark') {
+                map.current.flyTo({
+                    center: view.center,
+                    zoom: view.zoom,
+                    bearing: 60, // Set the rotation angle
+                    speed: 0.4
+                });
+            } else if (state === 'whiteOakBayou') {
+                map.current.flyTo({
+                    center: view.center,
+                    zoom: view.zoom,
+                    bearing: 120, // Set the rotation angle
+                    speed: 0.4
+                });
+            } else if (state === 'terryHersheyPark') {
+                map.current.flyTo({
+                    center: view.center,
+                    zoom: view.zoom,
+                    bearing: 100, // Set the rotation angle
+                    speed: 0.4
+                });
+            } else if (state === 'zilkerPark') {
+                map.current.flyTo({
+                    center: view.center,
+                    zoom: view.zoom,
+                    bearing: 100, // Set the rotation angle
+                    speed: 0.4
+                });
+            } else if (state === 'arches') {
+                map.current.flyTo({
+                    center: view.center,
+                    zoom: view.zoom,
+                    bearing: 70, // Set the rotation angle
+                    speed: 0.4
+                });
+            } else {
+                map.current.flyTo({
+                    center: view.center,
+                    zoom: view.zoom,
+                    speed: 0.4,
+                    pitch: 50, // pitch in degrees
+                    bearing: 2 // bearing in degrees
+                });
+            }
         }
     }, [state, stateViews]);
+
 
     // Render a div that will hold the map
     // The ref created is attached here

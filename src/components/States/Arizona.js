@@ -62,7 +62,7 @@ function ArizonaContent({ className, setActiveState }) {
                     setActiveState("sedona");
                 }
             },
-            { threshold: 0.02 }
+            { threshold: 0.01 }
         );
         const saguaroObserver = new IntersectionObserver(
             ([entry]) => {
@@ -71,7 +71,7 @@ function ArizonaContent({ className, setActiveState }) {
                     setActiveState("saguaro");
                 }
             },
-            { threshold: 0.02 }
+            { threshold: 0.01 }
         );
 
         const horseshoeBendObserver = new IntersectionObserver(
@@ -81,7 +81,7 @@ function ArizonaContent({ className, setActiveState }) {
                     setActiveState("horseshoeBend");
                 }
             },
-            { threshold: 0.02 }
+            { threshold: 0.01 }
         );
 
         // TODO: 2. Add observers for other parks if any

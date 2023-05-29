@@ -76,7 +76,7 @@ function ColoradoContent({ className, setActiveState }) {
                     setActiveState("rockyMountains")
                 }
             },
-            { threshold: 0.02 }
+            { threshold: 0.01 }
         );
 
         const mesaVerdeObserver = new IntersectionObserver(
@@ -86,7 +86,7 @@ function ColoradoContent({ className, setActiveState }) {
                     setActiveState("mesaVerde")
                 }
             },
-            { threshold: 0.02 }
+            { threshold: 0.01 }
         );
 
         const gardenOfTheGodsObserver = new IntersectionObserver(
@@ -96,7 +96,7 @@ function ColoradoContent({ className, setActiveState }) {
                     setActiveState("gardenOfTheGods")
                 }
             },
-            { threshold: 0.02 }
+            { threshold: 0.01 }
         );
 
         const redRocksObserver = new IntersectionObserver(
@@ -106,7 +106,7 @@ function ColoradoContent({ className, setActiveState }) {
                     setActiveState("redRocks")
                 }
             },
-            { threshold: 0.02 }
+            { threshold: 0.01 }
         );
 
 

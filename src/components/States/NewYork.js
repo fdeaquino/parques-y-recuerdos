@@ -76,7 +76,7 @@ function NewYorkContent({ className, setActiveState }) {
                     setActiveState("highlineNYC")
                 }
             },
-            { threshold: 0.02 }
+            { threshold: 0.01 }
         );
 
         const centralParkObserver = new IntersectionObserver(
@@ -86,7 +86,7 @@ function NewYorkContent({ className, setActiveState }) {
                     setActiveState("centralPark")
                 }
             },
-            { threshold: 0.02 }
+            { threshold: 0.01 }
         );
 
         const mountArabObserver = new IntersectionObserver(
@@ -96,7 +96,7 @@ function NewYorkContent({ className, setActiveState }) {
                     setActiveState("mountArab")
                 }
             },
-            { threshold: 0.02 }
+            { threshold: 0.01 }
         );
 
         const cantonIslandParkObserver = new IntersectionObserver(
@@ -106,7 +106,7 @@ function NewYorkContent({ className, setActiveState }) {
                     setActiveState("cantonIslandPark")
                 }
             },
-            { threshold: 0.02 }
+            { threshold: 0.01 }
         );
 
         const otterCreekPreserveObserver = new IntersectionObserver(
@@ -116,7 +116,7 @@ function NewYorkContent({ className, setActiveState }) {
                     setActiveState("otterCreekPreserve")
                 }
             },
-            { threshold: 0.02 }
+            { threshold: 0.01 }
         );
 
         // TODO: 2. Add observers for other parks if any
@@ -185,7 +185,7 @@ function NewYorkContent({ className, setActiveState }) {
         <section className={`${className}`} id="newyork" ref={newyorkRef}>
             <div className='state-section bg-light p-3 m-3'>
                 <h3 className='intro-subtitle'>NEW YORK</h3>
-                <p className='intro-paragraph'>Como el primer hogar de mi esposo, New York, el "Empire State", holds a special place en nuestros corazones. Aquí, the Haudenosaunee and Lenape people dejaron su huella en la historia rica del estado. From Manhattan's towering skyscrapers hasta las Adirondacks, la geología de Nueva York is as diverse as its culture. Las montañas Catskill, part of the ancient Appalachian Range, cuentan historias de millones de años, incluso más antiguas que las montañas rocosas. He tenido el placer de explorar both urban parks like the High Line y Central Park, and rural gems como Mt. Arab, Canton Island, y Otter Creek. Aún así, I can't wait por descubrir más de los numerosos parques que New York tiene para ofrecer.</p>
+                <p className='intro-paragraph'>Como el primer hogar de mi esposo, New York, el 'Empire State', holds a special place en nuestros corazones. Aquí, the Haudenosaunee and Lenape people dejaron su huella en la historia rica del estado. From Manhattan's towering skyscrapers hasta las Adirondacks, la geología de Nueva York is as diverse as its culture. Las montañas Catskill, part of the ancient Appalachian Range, cuentan historias de millones de años, incluso más antiguas que las montañas rocosas. He tenido el placer de explorar both urban parks like the High Line y Central Park, and rural gems como Mt. Arab, Canton Island, y Otter Creek. Aún así, I can't wait por descubrir más de los numerosos parques que New York tiene para ofrecer.</p>
             </div>
             <div className='park-section bg-light p-3 m-3' ref={highlineNYCRef}>
                 <h4 className='intro-subtitle park-title'>High Line Park</h4>

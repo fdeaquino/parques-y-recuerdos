@@ -105,7 +105,7 @@ function CaliforniaContent({ className, setActiveState }) {
                     setActiveState("yosemite");
                 }
             },
-            { threshold: 0.02 }
+            { threshold: 0.01 }
         );
 
 
@@ -116,7 +116,7 @@ function CaliforniaContent({ className, setActiveState }) {
                     setActiveState("goldenGate");
                 }
             },
-            { threshold: 0.02 }
+            { threshold: 0.01 }
         );
 
         const salesforceObserver = new IntersectionObserver(
@@ -126,7 +126,7 @@ function CaliforniaContent({ className, setActiveState }) {
                     setActiveState("salesforce");
                 }
             },
-            { threshold: 0.02 }
+            { threshold: 0.01 }
         );
 
         const presidioObserver = new IntersectionObserver(
@@ -136,7 +136,7 @@ function CaliforniaContent({ className, setActiveState }) {
                     setActiveState("presidio");
                 }
             },
-            { threshold: 0.02 }
+            { threshold: 0.01 }
         );
 
         const griffithObserver = new IntersectionObserver(
@@ -146,7 +146,7 @@ function CaliforniaContent({ className, setActiveState }) {
                     setActiveState("griffith");
                 }
             },
-            { threshold: 0.02 }
+            { threshold: 0.01 }
         );
 
         const santaMonicaBeachObserver = new IntersectionObserver(

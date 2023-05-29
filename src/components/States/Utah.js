@@ -69,7 +69,7 @@ function UtahContent({ className, setActiveState }) {
                     setActiveState("arches")
                 }
             },
-            { threshold: 0.02 }
+            { threshold: 0.01 }
         );
         const zionObserver = new IntersectionObserver(
             ([entry]) => {
@@ -78,7 +78,7 @@ function UtahContent({ className, setActiveState }) {
                     setActiveState("zion")
                 }
             },
-            { threshold: 0.02 }
+            { threshold: 0.01 }
         );
         const bryceCanyonObserver = new IntersectionObserver(
             ([entry]) => {
@@ -87,7 +87,7 @@ function UtahContent({ className, setActiveState }) {
                     setActiveState("bryceCanyon")
                 }
             },
-            { threshold: 0.02 }
+            { threshold: 0.01 }
         );
 
         // TODO: 2. Add observers for other parks if any

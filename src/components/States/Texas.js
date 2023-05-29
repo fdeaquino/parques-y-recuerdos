@@ -231,7 +231,7 @@ function TexasContent({ className, setActiveState }) {
                     setActiveState("bigBend")
                 }
             },
-            { threshold: 0.02 }
+            { threshold: 0.01 }
         );
 
         const guadalupeMountainsObserver = new IntersectionObserver(
@@ -241,7 +241,7 @@ function TexasContent({ className, setActiveState }) {
                     setActiveState("guadalupeMountains")
                 }
             },
-            { threshold: 0.02 }
+            { threshold: 0.01 }
         );
 
         const huntsvilleStateParkObserver = new IntersectionObserver(
@@ -251,7 +251,7 @@ function TexasContent({ className, setActiveState }) {
                     setActiveState("huntsvilleStatePark")
                 }
             },
-            { threshold: 0.02 }
+            { threshold: 0.01 }
         );
         const memorialParkHoustonObserver = new IntersectionObserver(
             ([entry]) => {
@@ -260,7 +260,7 @@ function TexasContent({ className, setActiveState }) {
                     setActiveState("memorialParkHouston")
                 }
             },
-            { threshold: 0.02 }
+            { threshold: 0.01 }
         );
         const eleanorTinsleyParkObserver = new IntersectionObserver(
             ([entry]) => {
@@ -269,7 +269,7 @@ function TexasContent({ className, setActiveState }) {
                     setActiveState("eleanorTinsleyPark")
                 }
             },
-            { threshold: 0.02 }
+            { threshold: 0.01 }
         );
         const whiteOakBayouObserver = new IntersectionObserver(
             ([entry]) => {
@@ -278,7 +278,7 @@ function TexasContent({ className, setActiveState }) {
                     setActiveState("whiteOakBayou")
                 }
             },
-            { threshold: 0.02 }
+            { threshold: 0.01 }
         );
         const terryHersheyParkObserver = new IntersectionObserver(
             ([entry]) => {
@@ -287,7 +287,7 @@ function TexasContent({ className, setActiveState }) {
                     setActiveState("terryHersheyPark")
                 }
             },
-            { threshold: 0.02 }
+            { threshold: 0.01 }
         );
         const hermannParkObserver = new IntersectionObserver(
             ([entry]) => {
@@ -296,7 +296,7 @@ function TexasContent({ className, setActiveState }) {
                     setActiveState("hermannPark")
                 }
             },
-            { threshold: 0.02 }
+            { threshold: 0.01 }
         );
         const sanJacintoMonumentObserver = new IntersectionObserver(
             ([entry]) => {
@@ -305,7 +305,7 @@ function TexasContent({ className, setActiveState }) {
                     setActiveState("sanJacintoMonument")
                 }
             },
-            { threshold: 0.02 }
+            { threshold: 0.01 }
         );
         const southbeltHikeBikeObserver = new IntersectionObserver(
             ([entry]) => {
@@ -314,7 +314,7 @@ function TexasContent({ className, setActiveState }) {
                     setActiveState("southbeltHikeBike")
                 }
             },
-            { threshold: 0.02 }
+            { threshold: 0.01 }
         );
 
         const galvestonIslandObserver = new IntersectionObserver(
@@ -324,7 +324,7 @@ function TexasContent({ className, setActiveState }) {
                     setActiveState("galvestonIsland")
                 }
             },
-            { threshold: 0.02 }
+            { threshold: 0.01 }
         );
         const zilkerParkObserver = new IntersectionObserver(
             ([entry]) => {
@@ -333,7 +333,7 @@ function TexasContent({ className, setActiveState }) {
                     setActiveState("zilkerPark")
                 }
             },
-            { threshold: 0.02 }
+            { threshold: 0.01 }
         );
         const lyndonBJohnsonObserver = new IntersectionObserver(
             ([entry]) => {
@@ -342,7 +342,7 @@ function TexasContent({ className, setActiveState }) {
                     setActiveState("lyndonBJohnson")
                 }
             },
-            { threshold: 0.02 }
+            { threshold: 0.01 }
         );
         const enchantedRockObserver = new IntersectionObserver(
             ([entry]) => {
@@ -351,7 +351,7 @@ function TexasContent({ className, setActiveState }) {
                     setActiveState("enchantedRock")
                 }
             },
-            { threshold: 0.02 }
+            { threshold: 0.01 }
         );
         const pedernalesFallsObserver = new IntersectionObserver(
             ([entry]) => {
@@ -360,7 +360,7 @@ function TexasContent({ className, setActiveState }) {
                     setActiveState("pedernalesFalls")
                 }
             },
-            { threshold: 0.02 }
+            { threshold: 0.01 }
         );
         const mountBonnellObserver = new IntersectionObserver(
             ([entry]) => {
@@ -369,7 +369,7 @@ function TexasContent({ className, setActiveState }) {
                     setActiveState("mountBonnell")
                 }
             },
-            { threshold: 0.02 }
+            { threshold: 0.01 }
         );
         const sanAntonioMissionsObserver = new IntersectionObserver(
             ([entry]) => {
@@ -378,7 +378,7 @@ function TexasContent({ className, setActiveState }) {
                     setActiveState("sanAntonioMissions")
                 }
             },
-            { threshold: 0.02 }
+            { threshold: 0.01 }
         );
 
         // TODO: 2. Add observers for other parks if any

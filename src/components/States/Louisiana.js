@@ -39,7 +39,7 @@ function LouisianaContent({ className, setActiveState }) {
                     setActiveState("povertyPoint")
                 }
             },
-            { threshold: 0.02 }
+            { threshold: 0.01 }
         );
         // TODO: 2. Add observers for other parks if any
 
