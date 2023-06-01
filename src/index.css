@@ -378,7 +378,7 @@ section p {
   }
 
   .hero-section {
-    min-height: 30vh;
+    min-height: fit-content;
   }
 }
 
