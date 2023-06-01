@@ -120,7 +120,7 @@ font-family: 'Raleway', sans-serif;
 .home-link-styles,
 .intro-title,
 .intro-subtitle {
-  font-family: 'Castoro Titling', cursive;
+  font-family: 'Castoro Titling';
   font-size: large;
   font-weight: 600;
   text-decoration: none;
@@ -354,7 +354,7 @@ section p {
   .writing-container {
     position: relative;
     /* Make the writing container position relative on larger screens */
-    width: 50%;
+    width: 100%;
   }
 }
 

@@ -16,13 +16,13 @@ const InteractiveMap = ({ state }) => {
 
         'arizona': { center: [-111.9307, 33.0489], zoom: 4.9 },
         'sedona': { center: [-111.7999, 34.8097], zoom: 11.5 },
-        'saguaro': { center: [-110.940, 32.2], zoom: 8.7 },
+        'saguaro': { center: [-111.09, 32.29], zoom: 10 },
         'horseshoeBend': { center: [-111.51, 36.879], zoom: 13.9 },
 
 
         'california': { center: [-119.4179, 35.7783], zoom: 4.6 },
         'yosemite': { center: [-119.599, 37.7], zoom: 11.3 },
-        'goldenGate': { center: [-122.4807, 37.7696], zoom: 12 },
+        'goldenGate': { center: [-122.491, 37.7696], zoom: 12.7 },
         'presidio': { center: [-122.4667, 37.7985], zoom: 12.5 },
         'salesforce': { center: [-122.3970, 37.788], zoom: 16.2 },
         'griffith': { center: [-118.3, 34.12], zoom: 13 },
@@ -133,8 +133,22 @@ const InteractiveMap = ({ state }) => {
             console.log("State changed to", state);
             const view = stateViews[state];
 
-            // Rotate the map if the state is 'eleanorTinsleyPark'
-            if (state === 'eleanorTinsleyPark') {
+            // Rotate the map if the 'state' is 'Golden Gate Park' and following parks
+            if (state === 'goldenGate') {
+                map.current.flyTo({
+                    center: view.center,
+                    zoom: view.zoom,
+                    bearing: 60, // Set the rotation angle
+                    speed: 0.4
+                });
+            }else if (state === 'saguaro') {
+                map.current.flyTo({
+                    center: view.center,
+                    zoom: view.zoom,
+                    bearing: 120, // Set the rotation angle
+                    speed: 0.4
+                });
+            } else if (state === 'eleanorTinsleyPark') {
                 map.current.flyTo({
                     center: view.center,
                     zoom: view.zoom,
