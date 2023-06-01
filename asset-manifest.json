@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/parques-y-recuerdos/static/css/main.c6491a37.css",
-    "main.js": "/parques-y-recuerdos/static/js/main.a20e93dc.js",
-    "static/js/567.e14315b1.chunk.js": "/parques-y-recuerdos/static/js/567.e14315b1.chunk.js",
+    "main.css": "/parques-y-recuerdos/static/css/main.db29b5bf.css",
+    "main.js": "/parques-y-recuerdos/static/js/main.7634ec66.js",
+    "static/js/567.98e490de.chunk.js": "/parques-y-recuerdos/static/js/567.98e490de.chunk.js",
     "static/js/363.0519944b.chunk.js": "/parques-y-recuerdos/static/js/363.0519944b.chunk.js",
     "static/js/990.034f5de8.chunk.js": "/parques-y-recuerdos/static/js/990.034f5de8.chunk.js",
     "static/js/645.0c3058f9.chunk.js": "/parques-y-recuerdos/static/js/645.0c3058f9.chunk.js",
@@ -470,9 +470,9 @@
     "static/media/white-sands-artist-depiction.webp": "/parques-y-recuerdos/static/media/white-sands-artist-depiction.c588b63ee909fa899d23.webp",
     "static/media/poverty-point1.webp": "/parques-y-recuerdos/static/media/poverty-point1.aac6ba3634a790926c1d.webp",
     "index.html": "/parques-y-recuerdos/index.html",
-    "main.c6491a37.css.map": "/parques-y-recuerdos/static/css/main.c6491a37.css.map",
-    "main.a20e93dc.js.map": "/parques-y-recuerdos/static/js/main.a20e93dc.js.map",
-    "567.e14315b1.chunk.js.map": "/parques-y-recuerdos/static/js/567.e14315b1.chunk.js.map",
+    "main.db29b5bf.css.map": "/parques-y-recuerdos/static/css/main.db29b5bf.css.map",
+    "main.7634ec66.js.map": "/parques-y-recuerdos/static/js/main.7634ec66.js.map",
+    "567.98e490de.chunk.js.map": "/parques-y-recuerdos/static/js/567.98e490de.chunk.js.map",
     "363.0519944b.chunk.js.map": "/parques-y-recuerdos/static/js/363.0519944b.chunk.js.map",
     "990.034f5de8.chunk.js.map": "/parques-y-recuerdos/static/js/990.034f5de8.chunk.js.map",
     "645.0c3058f9.chunk.js.map": "/parques-y-recuerdos/static/js/645.0c3058f9.chunk.js.map",
@@ -486,7 +486,7 @@
     "787.4d3bc7eb.chunk.js.map": "/parques-y-recuerdos/static/js/787.4d3bc7eb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c6491a37.css",
-    "static/js/main.a20e93dc.js"
+    "static/css/main.db29b5bf.css",
+    "static/js/main.7634ec66.js"
   ]
 }
