@@ -2,6 +2,11 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+/* Adds a border to every element on the page; helpful when visually checking if something is overflowing the viewport width */
+/* body * {
+  border: 1px solid red;
+} */
+
 
 /* fonts */
 /* 
@@ -50,9 +55,9 @@ font-family: 'Raleway', sans-serif;
   overflow-y: auto;
   /* position: absolute; */
   z-index: 1;
-  /* TODO: Provide a z-index higher than map container */
   width: 100%;
   margin-top: 1.5rem;
+  overflow-x: hidden;
 }
 
 .content-background {
