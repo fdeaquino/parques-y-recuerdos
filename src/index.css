@@ -3,6 +3,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+body * {
+  border: 1px solid red;
+}
+
+
 /* fonts */
 /* 
 font-family: 'Castoro Titling', cursive;
@@ -378,7 +383,7 @@ section p {
   }
 
   .hero-section {
-    min-height: 30vh;
+    min-height: fit-content;
   }
 }
 
