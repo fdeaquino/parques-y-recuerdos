@@ -52,7 +52,7 @@ function MainContent({ activeState, setActiveState, selectedState }) {
             <InteractiveMap state={activeState} />
           </Suspense>
         </div>
-        <div className="writing-container">
+        <div className="writing-container" style={{height: "100vh", width: "100vw"}}>
           {isHomePage ?
             <Element name='welcome'>
               <Suspense fallback={<div>Loading intro...</div>}>
