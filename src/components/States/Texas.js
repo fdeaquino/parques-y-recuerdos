@@ -500,11 +500,11 @@ function TexasContent({ className, setActiveState }) {
 
     return (
         <section className={`${className}`} id="texas" ref={texasRef}>
-            <div className='state-section bg-light p-3 m-3'>
+            <div className='state-section bg-light p-3 '>
                 <h3 className='intro-subtitle'>TEXAS</h3>
                 <p className='intro-paragraph'>Texas, el "Lone Star State", has been mi hogar desde que era un niño, después de nacer en México. Los habitantes originales como Comanche, Karankawa, and Caddo shaped the land before us, and now it's home to immigrants from all around the world. With a vast array of parques locales, estatales y nacionales, I've only scratched the surface of their beauty y tengo el deseo de explorar aún más. Interestingly, el sitio de una batalla decisiva para la independencia de Texas, is just ten miles from my parent's house. This great state boasts some of las ciudades más grandes de los Estados Unidos, and its economy rivals that of entire countries. But even here, he enfrentado discriminación y racismo; yet, I say proudly, "we didn't cross the border, the border crossed us". La geología de Texas es as diverse as its people, from the rugged mountains of Big Bend to the coastal plains. A true testament of resilience y belleza, Texas continúa siendo un lugar donde la historia y la esperanza se encuentran.</p>
             </div>
-            <div className='park-section bg-light p-3 m-3' ref={bigBendRef}>
+            <div className='park-section bg-light p-3 ' ref={bigBendRef}>
                 <h4 className='intro-subtitle park-title'>Big Bend National Park</h4>
                 <p className='intro-paragraph'>Big Bend National Park, en el extremo de Texas, ofrece una aventura dramática en un paisaje desértico. Los Chisos Native Americans were the ancient inhabitants of these lands. Among the park's unique geological gems, puedes ver formaciones like 'Mule Ears' y una que me recuerda the shape of the Alamo. Estas montañas han been standing here for about 500 million years. Aquí, los primeros colonos cultivaban algodón under the shadow of these mountains. Ross and I nos levantamos temprano to see the sunrise over the peaks, an unforgettable sight. The Santa Elena Canyon, también en este parque, was carved by the Rio Grande over millennia and is deeper than parts of the Grand Canyon. On my next visit, I hope to explore it. The park is also famous for the discovery of Quetzalcoatlus, a giant pterosaur and the largest known animal to take the sky. Its fossils are now housed en mi alma mater, UT-Austin.</p>
                 {/* Grid and photos go here */}
@@ -554,7 +554,7 @@ function TexasContent({ className, setActiveState }) {
                 </div>
 
             </div>
-            <div className='park-section bg-light p-3 m-3' ref={guadalupeMountainsRef}>
+            <div className='park-section bg-light p-3 ' ref={guadalupeMountainsRef}>
                 <h4 className='intro-subtitle park-title'>Guadalupe Mountains National Park</h4>
                 <p className='intro-paragraph'>Guadalupe National Park, en Texas, es un paraíso geológico and probably my favorite park en el estado. Fue hogar de las tribus Mescalero Apache. Guadalupe Peak, the highest point in Texas, revela restos de antiguos corales y criaturas marinas, recordándonos que this area was once beneath an ancient sea. Hiking it was an intense experience, with Ross y yo agotados después de más de 8 hours de subida y bajada. La montaña tiene partes empinadas, but the view from the top reveals fascinating folds in the mountain, visible solo desde esta perspectiva. Vi a people of all ages, including parents introducing their kids a la alegría de la hiking. Ya estamos planeando our return to this amazing park next year."</p>
                 {/* Grid and photos go here */}
@@ -616,7 +616,7 @@ function TexasContent({ className, setActiveState }) {
                 </div>
 
             </div>
-            <div className='park-section bg-light p-3 m-3' ref={huntsvilleStateParkRef}>
+            <div className='park-section bg-light p-3 ' ref={huntsvilleStateParkRef}>
                 <h4 className='intro-subtitle park-title'>Huntsville State Park</h4>
                 <p className='intro-paragraph'>Huntsville State Park, un remanso verde en Texas, fue el escenario de un emocionante camping trip con amigos. Los Atakapa, tribus indígenas, fueron los antiguos guardianes de estas tierras. La geología del parque refleja la región de los Piney Woods, un bosque denso que se extiende por el sureste de los Estados Unidos. En nuestra primera noche, nos sorprendió una serpiente muy cerca de nuestro campamento, reminding us to tread carefully. A pesar de los rumores de alligators, we didn't see any during our early morning exploration, only a lake shrouded in morning fog. Lo más divertido del viaje was our game of 'Survivor', and Ross was the ultimate winner entre nuestro grupo de 8, un recuerdo que todavía nos hace reír.</p>
                 {/* Grid and photos go here */}
@@ -639,7 +639,7 @@ function TexasContent({ className, setActiveState }) {
 
                 </div>
             </div>
-            <div className='park-section bg-light p-3 m-3' ref={memorialParkHoustonRef}>
+            <div className='park-section bg-light p-3 ' ref={memorialParkHoustonRef}>
                 <h4 className='intro-subtitle park-title'>Memorial Park</h4>
                 <p className='intro-paragraph'>Memorial Park, un refugio urbano en Houston, es un homenaje a las tribus Karankawa que una vez habitaban estas tierras. Con un compromiso hacia ecological restoration, la ciudad ha transformado antiguos campos de béisbol into lush prairies and wetlands. Las nuevas áreas del parque, conocidas como The Glades, y los dos impresionantes land bridges te permiten contemplar the city from a distance. Este parque, con su reciente bloom of wildflowers and tranquil forest trails, se ha convertido en mi nuevo parque favorito in the city. Te hace olvidar que te encuentras en medio de una metrópolis y te invita a perderte in nature's serenity.</p>
                 {/* Grid and photos go here */}
@@ -687,7 +687,7 @@ function TexasContent({ className, setActiveState }) {
                 </div>
 
             </div>
-            <div className='park-section bg-light p-3 m-3' ref={eleanorTinsleyParkRef}>
+            <div className='park-section bg-light p-3 ' ref={eleanorTinsleyParkRef}>
                 <h4 className='intro-subtitle park-title'>Buffalo Bayou + Eleanor Tinsley Park</h4>
                 <p className='intro-paragraph'>Buffalo Bayou y Eleanor Tinsley Park, with great views of downtown, were once home to las tribus Akokisa. During la pandemia de Covid-19, Ross and I found tranquility aquí cada mañana, before diving into remote work. Tambien entrene aquí for the Austin Half Marathon, because of the to the slopes along the bayou. En una nota interesante, this park quedó completamente inundado when Hurricane Harvey hit the Houston area, y tomó años para su restauración.  Bats emerge at dusk from debajo del Waugh St. bridge, with hawks swooping down desde el edificio AIG for an easy snack. It's a versatile park, perfecto para watching the seasons change, enjoying a summer concert, picnicking, or exercising.</p>
                 {/* Grid and photos go here */}
@@ -750,7 +750,7 @@ function TexasContent({ className, setActiveState }) {
                 </div>
 
             </div>
-            <div className='park-section bg-light p-3 m-3' ref={whiteOakBayouRef}>
+            <div className='park-section bg-light p-3 ' ref={whiteOakBayouRef}>
                 <h4 className='intro-subtitle park-title'>White Oak Bayou Greenway</h4>
                 <p className='intro-paragraph'>White Oak Bayou Trail, una serpiente urbana, streaks through Houston, offering un respiro en la gran ciudad. With an impressive 16.5-mile length, the trail snakes through el histórico barrio de Heights. On nuestras caminatas, Ross y yo discovered Da Gama, now one of mis restaurantes favoritos, in a then-under-construction shopping center. El Bayou, though lined with concrete to control flooding, aún offers an urban escape. I wish there were more espacios públicos in Houston for walking and biking. We have yet to explore el trail en su totalidad, but we enjoy exploring it poco a poco.</p>
                 {/* Grid and photos go here */}
@@ -790,7 +790,7 @@ function TexasContent({ className, setActiveState }) {
                     </div>
                 </div>
             </div>
-            <div className='park-section bg-light p-3 m-3' ref={terryHersheyParkRef}>
+            <div className='park-section bg-light p-3 ' ref={terryHersheyParkRef}>
                 <h4 className='intro-subtitle park-title'>Terry Hershey Park</h4>
                 <p className='intro-paragraph'>Ubicado al sur de I-10 y del Energy Corridor, Terry Hershey Park es un tesoro en Houston. Este parque se une al Baker Reservoir al oeste, formando una dinámica zona de recreo, y también está cerca del Addicks Reservoir. In my opinion, Terry Hershey es uno de los top three parks for a walk or bike ride in the Houston area. Su historia geológica es una muestra de la influencia del Buffalo Bayou, the river that has shaped Houston over the millennia.</p>
                 {/* Grid and photos go here */}
@@ -825,7 +825,7 @@ function TexasContent({ className, setActiveState }) {
 
                 </div>
             </div>
-            <div className='park-section bg-light p-3 m-3' ref={hermannParkRef}>
+            <div className='park-section bg-light p-3 ' ref={hermannParkRef}>
                 <h4 className='intro-subtitle park-title'>Hermann Park</h4>
                 <p className='intro-paragraph'>Ubicado entre the world's largest medical center y el distrito de museos, Hermann Park es un vibrante escape urbano. Con su zoológico, jardines botánicos, y estatuas de hombres influyentes de Latinoamérica como Benito Juárez, Bernardo O'Higgins, Simón Bolívar, José de San Martín, y José Martí, este parque tiene algo para todos. Es el lugar perfecto para correr, caminar, or even a round of golf. Esta joya urbana fue posible gracias a George Hermann, who generously donated about 400 acres. No te pierdas la colina panorámica con su sendero serpentino that offers stunning vistas del parque.</p>
                 {/* Grid and photos go here */}
@@ -871,7 +871,7 @@ function TexasContent({ className, setActiveState }) {
                     </div>
                 </div>
             </div>
-            <div className='park-section bg-light p-3 m-3' ref={sanJacintoMonumentRef}>
+            <div className='park-section bg-light p-3 ' ref={sanJacintoMonumentRef}>
                 <h4 className='intro-subtitle park-title'>San Jacinto Monument</h4>
                 <p className='intro-paragraph'>El San Jacinto Monument, un testamento de la independencia de Texas, stands tall amidst industrial plants, creando un contraste sorprendente. It was here where the Battle of San Jacinto was fought, un evento crucial that led to Texas Independence and eventually to the United States taking half of Mexico's territory. The monument serves as a reminder of this turning point, with the chance to subir hasta la cima for stunning views of the Houston area y el canal de navegación de Houston. Sin embargo, it's evident that the city and state need to invest more money to make this park more vibrant. Esta torre histórica, surrounded by smoking industrial towers, is a stark symbol of the past, presente, y futuro de Texas.</p>
                 {/* Grid and photos go here */}
@@ -896,7 +896,7 @@ function TexasContent({ className, setActiveState }) {
                     </div>
                 </div>
             </div>
-            <div className='park-section bg-light p-3 m-3' ref={southbeltHikeBikeRef}>
+            <div className='park-section bg-light p-3 ' ref={southbeltHikeBikeRef}>
                 <h4 className='intro-subtitle park-title'>Southbelt Hike & Bike</h4>
                 <p className='intro-paragraph'>Tomando un descanso from the major parks in Houston, you can discover Southbelt Hike and Bike, un parque tranquilo al sur de la ciudad. With ample parking and an impressive length, este parque ofrece un espacio for an enjoyable walk or bike ride. Uno de los habitantes más curiosos del parque es la Nutria, a water rodent that can be seen casi todo el año along the adjacent bayou. Tampoco es raro ver turtles, hawks, migrating birds, and even snakes, as the sign warns: 'Seasonal Hazard: Beware of Snakes'. A pesar de las serpientes, I have a particular fondness for este parque.</p>
                 {/* Grid and photos go here */}
@@ -931,7 +931,7 @@ function TexasContent({ className, setActiveState }) {
 
                 </div>
             </div>
-            <div className='park-section bg-light p-3 m-3' ref={galvestonIslandRef}>
+            <div className='park-section bg-light p-3 ' ref={galvestonIslandRef}>
                 <h4 className='intro-subtitle park-title'>Galveston Island Beaches and Parks</h4>
                 <p className='intro-paragraph'>Galveston Island Beaches, un cambio de ritmo from the hustle of Houston, is a reminder of the city's proximity to the massive Gulf of Mexico. Cuando visité, Galveston Island State Park estaba cerrado, but we found access to the beach at a nearby point y caminamos a lo largo de la playa y el seawall, which was crowded in some parts. Este lugar, con su brisa marina y las olas rompiendo, offers a tranquil contrast to the urban sprawl y un lugar de escape cerca de the city.</p>
                 {/* Grid and photos go here */}
@@ -957,7 +957,7 @@ function TexasContent({ className, setActiveState }) {
 
                 </div>
             </div>
-            <div className='park-section bg-light p-3 m-3' ref={zilkerParkRef}>
+            <div className='park-section bg-light p-3 ' ref={zilkerParkRef}>
                 <h4 className='intro-subtitle park-title'>Zilker Park + Lady Bird Lake</h4>
                 <p className='intro-paragraph'>Zilker Park y Lady Bird Lake, at the heart of Austin, son un respiro natural amidst the bustling streets y rascacielos. Native tribes y settlers once thrived around the river que ahora, being dammed, se ha convertido into a beautiful lake. Durante mis college years, I'd run along este lago with friends, watching the changing skyline con cada año que pasaba. Aunque I don't have many photos from those times, those days are still vivid in my memory, including cuando corrí parte del camino along the lake for the Austin Half Marathon in 2018. Zilker Park es un paradise for dogs, perfect for flying kites y hosting some of my favorite events como Austin City Limits y el Annual Kite Festival. These spaces son un reminder de la importancia de preserving green spaces en nuestras ciudades.</p>
                 {/* Grid and photos go here */}
@@ -996,7 +996,7 @@ function TexasContent({ className, setActiveState }) {
                 </div>
 
             </div>
-            <div className='park-section bg-light p-3 m-3' ref={mountBonnellRef}>
+            <div className='park-section bg-light p-3 ' ref={mountBonnellRef}>
                 <h4 className='intro-subtitle park-title'>Mount Bonnell</h4>
                 <p className='intro-paragraph'>Mount Bonnell, con una vista única de Austin y el lago, ha crecido in popularity over the years. Las tribus nativas, antes habitantes de la zona, must have cherished this high point too. Hoy en día, es considerado un área de prestigio para vivir, con the beauty of the lake a un paso de distancia. Despite being a short hike, it can take your breath away, literally, por la empinada subida y la cantidad de steps to reach the top. Es un spot favorito para mostrar to 'out of towners' un glimpse de Austin's charm. More than a viewpoint, this area is también la puerta de entrada al hermoso hill country, un regalo que se extiende to the west. Visitar Mount Bonnell es un reminder of the unique landscapes that surround us.</p>
                 {/* Grid and photos go here */}
@@ -1016,7 +1016,7 @@ function TexasContent({ className, setActiveState }) {
 
                 </div>
             </div>
-            <div className='park-section bg-light p-3 m-3' ref={lyndonBJohnsonRef}>
+            <div className='park-section bg-light p-3 ' ref={lyndonBJohnsonRef}>
                 <h4 className='intro-subtitle park-title'>Lyndon B. Johnson National and State Historic Park</h4>
                 <p className='intro-paragraph'>En el centro del Texas Hill Country, se encuentra el Lyndon B. Johnson State and National Historic Park, a testament to one of our nation's past leaders. Durante mi visita in spring, the weather was perfect, invitándonos a explorar el parque. El presidente Johnson, antes de entrar en política, was a humble teacher for niños Mexicanos-Americanos in South Texas. Esta conexión personal me made me feel closer to his story. Además, the park is home to an authentic German-Texan farmhouse, un recuerdo de los primeros colonizadores alemanes. His wife, Lady Bird, deja su huella here too as a defender of Texas's wildflowers and natural beauty. El parque también alberga the Texas White House y el avión presidencial, ambos impresionantes. The family cemetery is here too, offering a peaceful respite. Este lugar fue hogar to the Tonkawa people, quienes se auto denominaban 'The Most Human of People'.</p>
                 {/* Grid and photos go here */}
@@ -1069,7 +1069,7 @@ function TexasContent({ className, setActiveState }) {
                 </div>
 
             </div>
-            <div className='park-section bg-light p-3 m-3' ref={enchantedRockRef}>
+            <div className='park-section bg-light p-3 ' ref={enchantedRockRef}>
                 <h4 className='intro-subtitle park-title'>Enchanted Rock State Park</h4>
                 <p className='intro-paragraph'>Enchanted Rock State Park, un rincón mágico in the Texas Hill Country, es un must-visit spot. Recuerdo la visita que hice con Ross when a wind storm was sweeping through Texas. Fue una experiencia singular, with the weather being extremely pleasant. Ni calor, but very windy - casi pierdo my hat hiking to the top! Esta vez, exploramos the base of Enchanted Rock, un área que no había visto before. My only regret es que se me olvido quitarme mi mascarilla, un recuerdo of the pandemic. This park's popularity requires a reserva to visit, y cada momento spent spent aquí, feeling the magic of the rock, es totalmente worth it.</p>
                 {/* Grid and photos go here */}
@@ -1115,7 +1115,7 @@ function TexasContent({ className, setActiveState }) {
                     </div>
                 </div>
             </div>
-            <div className='park-section bg-light p-3 m-3' ref={pedernalesFallsRef}>
+            <div className='park-section bg-light p-3 ' ref={pedernalesFallsRef}>
                 <h4 className='intro-subtitle park-title'>Pedernales Falls State Park</h4>
                 <p className='intro-paragraph'>En un trip con amigos a Fredricksburg, tomamos un desvío a Pedernales Falls State Park, un trozo del Hill Country que siempre invita a la aventura. Aunque el calor era casi scorching, nos lanzamos a conquistar la cima de Wolf Mountain. Las vistas were nice, pero serían aún mejor en un día más fresco. On the hike, Ross encontró una piedra pintada con un conejito rosa, un toque de whimsy in this rugged landscape. Al final del día, regresamos a nuestro Airbnb, enjoying la noche around a fire, cuando el clima era noticeably cooler. I can't wait to go back.</p>
                 {/* Grid and photos go here */}
@@ -1141,7 +1141,7 @@ function TexasContent({ className, setActiveState }) {
                 </div>
 
             </div>
-            <div className='park-section bg-light p-3 m-3' ref={sanAntonioMissionsRef}>
+            <div className='park-section bg-light p-3 ' ref={sanAntonioMissionsRef}>
                 <h4 className='intro-subtitle park-title'>San Antonio Missions National Historic Park</h4>
                 <p className='intro-paragraph'>Recorriendo la historia de San Antonio desde downtown hasta las misiones, te sumerges en la historia colonial española: el Parque Histórico Nacional de las Misiones de San Antonio. Estas misiones, incluyendo el Alamo, eran núcleos de comunidad y devoción. Aunque es debatible if the indigenous people were happy to convert or coerced, no cabe duda que las misiones shaped the region culturally y económicamente. Los edificios y las acequias, sistemas de irrigation que aún funcionan, son testigos de aquellas épocas. Es interesante how las misiones se alinean, cada una aportando something different: farming, ranching, and other trades. Recomendaría visitar cuando the weather is more forgiving, ya que nuestro recorrido fue en un día extremely hot. Aun así, el tour de las misiones y las acequias fue una experiencia única. Y no te pierdas la Mission Espada, mi favorita, que al atardecer, a shadow seems to draw a smile on the ground.</p>
                 {/* Grid and photos go here */}

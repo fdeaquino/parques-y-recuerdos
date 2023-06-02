@@ -28,7 +28,7 @@ function Hero({ className, setActiveState }) {
         };
     }, [setActiveState]);
     return (
-        <section className={`${className} hero-section bg-light p-3 m-1`} ref={ref}>
+        <section className={`${className} hero-section bg-light p-3`} ref={ref}>
             <h1 className='intro-title'>
                 Parques y Recuerdos:
             </h1>

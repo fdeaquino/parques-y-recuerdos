@@ -130,11 +130,11 @@ function ArizonaContent({ className, setActiveState }) {
 
     return (
         <section className={`${className}`} id='arizona' ref={arizonaRef}>
-            <div className='state-section bg-light p-3 m-3'>
+            <div className='state-section bg-light p-3'>
                 <h3 className='intro-subtitle'>ARIZONA</h3>
                 <p className='intro-paragraph'>En el corazón del Southwest, Arizona es un lugar where cultures and landscapes collide, creating a vibrantly unique experience. This territory, once roamed by the Navajo, Hopi, and Tohono O'odham tribes, still whispers their rich histories in every breeze. La geología is a storyteller here, narrando cuentos of time sculpting stunning red rock formations and intricate river bends. In the desert, los cacti like the majestic Saguaro thrive, their towering figures serving as verdaderos monumentos to the region's unique flora. Con cada sunset over the red rocks, y cada dawn breaking across the desert, te sentirás connected to the soul of Arizona. Its spirit, its history, y su belleza natural all blend together, creating a place that leaves you with recuerdos and reflections as vast as the landscape itself.</p>
             </div>
-            <div className='park-section bg-light p-3 m-3' ref={sedonaRef}>
+            <div className='park-section bg-light p-3' ref={sedonaRef}>
                 <h4 className='intro-subtitle park-title'>Sedona</h4>
                 <p className='intro-paragraph'>Sedona, con sus rocas rojas y 'energy vortexes', es un lugar that whispers to your soul. Mi esposo Ross y yo, found ourselves drawn into the pulsating heartbeat of the earth as we hiked to the four Energy Vortexes. Cada paso nos acercó more to the unique energy of the land, creating a sensation that was palpable, casi tangible. Hiking amidst the crimson formations, you feel the vibraciones of the Earth under your feet, inviting you into a deeper connection. Y cuando the sun dips below the horizon, los colores del cielo dance across the landscape, leaving you in awe of the energy and beauty around you. A trip to Sedona, is more than just un viaje, it's an unforgettable journey into the heart of nature's energy. Truly, una vacación inolvidable.</p>
                 {/* Grid and photos go here */}
@@ -178,7 +178,7 @@ function ArizonaContent({ className, setActiveState }) {
                 </div>
 
             </div>
-            <div className='park-section bg-light p-3 m-3' ref={saguaroRef}>
+            <div className='park-section bg-light p-3' ref={saguaroRef}>
                 <h4 className='intro-subtitle park-title'>Saguaro National Park</h4>
                 <p className='intro-paragraph'>Saguaro National Park, split into East and West, frames the vibrant city of Tucson with its timeless beauty. En nuestro viaje, Ross y yo walked among the towering saguaros, ancient cacti that can live up to 150 years, y que empiezan a crecer sus characteristic arms at about 70 years old. Este parque is a testament to the desert's life, its unique geology y fauna diversa. With every step in Saguaro, you're walking through a living, breathing history of the desert, an unforgettable stroll through time itself.</p>
                 {/* Grid and photos go here */}
@@ -219,7 +219,7 @@ function ArizonaContent({ className, setActiveState }) {
                 </div>
 
             </div>
-            <div className='park-section bg-light p-3 m-3' ref={horseshoeBendRef}>
+            <div className='park-section bg-light p-3' ref={horseshoeBendRef}>
                 <h4 className='intro-subtitle park-title'>Horseshoe Bend</h4>
                 <p className='intro-paragraph'>Horseshoe Bend, where the Colorado River has carved a perfect herradura into the landscape, es un verdadero espectáculo natural. Aquí, the relentless power of water over millions of years is on full display, narrando una historia de endurance y transformación. Standing on the edge, mirando el río snake through the canyon below, you can't help but feel a part of something much larger than yourself. Es un reminder of the timeless dance between nature and geology, a spectacle that leaves you humbled y lleno de asombro. Visitar Horseshoe Bend is to witness the Earth's artistry firsthand, a true testament to the power of time and persistence.</p>
                 {/* Grid and photos go here */}
