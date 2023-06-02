@@ -30,16 +30,17 @@ font-family: 'Raleway', sans-serif;
 /* ========== START MAIN PAGE GRID STYLES ========== */
 .app-container {
   display: grid;
-  grid-template-rows: auto 1fr;
-  grid-template-columns: 1fr 2fr;
+  /* grid-template-rows: auto 1fr; */
+  /* grid-template-columns: 1fr 2fr; */
   height: 100vh;
+  /* margin-top: 4rem; */
 }
 
 .main-content {
   display: flex;
   flex-direction: column;
-  overflow-y: scroll;
-  grid-row: 2;
+  /* overflow-y: scroll;
+  grid-row: 2; */
   /* Assigns the main content to the second row of the grid */
   grid-column: 1 / span 2;
   /* Makes the main content span across the two columns */

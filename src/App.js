@@ -46,13 +46,13 @@ function MainContent({ activeState, setActiveState, selectedState }) {
 
   return (
     <main className="main-content container">
-      <div className='row'>
+      <div className=''>
         <div className="map-container">
           <Suspense fallback={<div>Loading map...</div>}>
             <InteractiveMap state={activeState} />
           </Suspense>
         </div>
-        <div className="writing-container" style={{height: "100vh", width: "100vw"}}>
+        <div className="writing-container" style={{height: "93vh", width: "fit-content"}}>
           {isHomePage ?
             <Element name='welcome'>
               <Suspense fallback={<div>Loading intro...</div>}>
