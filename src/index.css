@@ -2,11 +2,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-/* Adds a border to every element on the page; helpful when visually checking if something is overflowing the viewport width */
-body * {
-  border: 1px solid red;
-}
-
 
 /* fonts */
 /* 
@@ -55,8 +50,9 @@ font-family: 'Raleway', sans-serif;
   overflow-y: auto;
   /* position: absolute; */
   z-index: 1;
-  margin-top: 1.5rem;
-  overflow-x: hidden;
+  /* TODO: Provide a z-index higher than map container */
+  width: 100%;
+  margin-top: 2rem;
 }
 
 .content-background {
@@ -90,6 +86,7 @@ font-family: 'Raleway', sans-serif;
 }
 
 
+
 /* ========== END MAIN PAGE GRID STYLES ========== */
 
 
@@ -99,6 +96,7 @@ font-family: 'Raleway', sans-serif;
   position: fixed;
   background: #fc5100;
   border: none;
+  width: 35px;
   height: 35px;
   display: flex;
   align-items: center;
@@ -106,7 +104,7 @@ font-family: 'Raleway', sans-serif;
   z-index: 1001;
   top: 0;
   bottom: 0;
-  right: 1rem;
+  right: .2rem;
   margin: .5rem;
 }
 
@@ -354,7 +352,7 @@ section p {
   }
 
   .writing-container {
-    position: sticky;
+    position: relative;
     /* Make the writing container position relative on larger screens */
     width: 100%;
   }
@@ -380,7 +378,7 @@ section p {
   }
 
   .hero-section {
-    min-height: fit-content;
+    min-height: 30vh;
   }
 }
 
