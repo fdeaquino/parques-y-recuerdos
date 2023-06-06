@@ -3,47 +3,23 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Used for debugging: Uncomment to display red border around all elements */
 /* body * {
   border: 1px solid red;
 } */
 
-
-/* fonts */
-/* 
-font-family: 'Castoro Titling', cursive;
-font-family: 'Cormorant Garamond', serif;
-font-family: 'Phudu', cursive;
-font-family: 'Raleway', sans-serif;
-*/
-
-/* Colors */
-/* 
-#ffffff     White
-#495228     Dark moss green
-#f2f342     Icterine (yellow)
-#fc5100     Aerospace orange 
-#002e51     Prussian Blue
-#fdd3bf     Apricot (pink/beige)
-#000000     Black
-*/
-
 /* ========== START MAIN PAGE GRID STYLES ========== */
+/* Main page layout is organized in a grid */
 .app-container {
   display: grid;
-  /* grid-template-rows: auto 1fr; */
-  /* grid-template-columns: 1fr 2fr; */
   height: 100vh;
-  /* margin-top: 4rem; */
 }
 
+/* Main content area spans across two grid columns */
 .main-content {
   display: flex;
   flex-direction: column;
-  /* overflow-y: scroll;
-  grid-row: 2; */
-  /* Assigns the main content to the second row of the grid */
   grid-column: 1 / span 2;
-  /* Makes the main content span across the two columns */
 }
 
 .map-container {
@@ -51,12 +27,12 @@ font-family: 'Raleway', sans-serif;
   position: relative;
 }
 
+/* Writing container set to a sticky position, making it always visible while scrolling */
 .writing-container {
   grid-column: 2;
   overflow-y: auto;
   position: sticky;
   z-index: 1;
-  /* TODO: Provide a z-index higher than map container */
   width: 100%;
   margin-top: 2rem;
 }
@@ -65,6 +41,7 @@ font-family: 'Raleway', sans-serif;
   background-color: #ffffff;
 }
 
+/*Map render is set to cover the whole viewport */
 .mapRender {
   position: fixed;
   top: 0;
@@ -78,11 +55,7 @@ font-family: 'Raleway', sans-serif;
   order: -1;
 }
 
-/* .content {
-  position: relative;
-  z-index: 1;
-} */
-
+/* Utility classes below used to hide or show elements */
 .hidden {
   display: none;
 }
@@ -90,8 +63,6 @@ font-family: 'Raleway', sans-serif;
 .visible {
   display: block;
 }
-
-
 
 /* ========== END MAIN PAGE GRID STYLES ========== */
 
@@ -142,10 +113,10 @@ font-family: 'Raleway', sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* transform: translateY(50%); */
   transition: transform 0.3s ease-out;
 }
 
+/* Overlay menu styles - initially hidden */
 .overlay-menu {
   position: fixed;
   top: 0;
@@ -163,12 +134,12 @@ font-family: 'Raleway', sans-serif;
   /* animate the height */
 }
 
+/* Active overlay meny styles - makes the overlay menu visible */
 .overlay-active {
   transform: translateY(0);
   opacity: 1;
   visibility: visible;
   display: flex;
-  /* when the menu is open, the height is 100% */
 }
 
 .show {
@@ -185,6 +156,7 @@ font-family: 'Raleway', sans-serif;
   margin-bottom: 1rem;
 }
 
+/* Remove the focus box shadow from navbar toggler for cleaner UI */
 .navbar-toggler:focus {
   box-shadow: none !important;
 }
@@ -228,6 +200,7 @@ section p {
 /* ========== END HERO STYLES ========== */
 
 /* ========== START PHOTO GRID STYLES ========== */
+/* Grid for photo display is created with three equal width columns */
 .grid {
   margin-top: 2em;
   width: 100%;
@@ -237,15 +210,18 @@ section p {
   grid-auto-flow: dense;
 }
 
+/* class 'box' refers to a single cell in the grid. Allows the browser to automatically decide which column the box should start in */
 .grid .box {
   grid-column-start: auto;
 }
 
+/* Defines different box sizes for the photo grid. Each box size is defined with a column and row span. */
 .grid .box .image-wrapper {
   background-position: center;
   background-size: cover;
 }
 
+/* .box--1x1 spans ONE Column & ONE Row */
 .grid .box--1x1 .image-wrapper {
   padding-bottom: 100%;
 }
@@ -258,6 +234,7 @@ section p {
   padding-bottom: 150%;
 }
 
+/* .box--2x1 spans TWO Columns & ONE Row */
 .grid .box--2x1 {
   grid-column-end: span 2;
 }
@@ -275,6 +252,7 @@ section p {
   padding-bottom: 100%;
 }
 
+/* .box--3x1 spans THREE Columns & ONE Row */
 .grid .box--3x1 {
   grid-column-end: span 3;
 }
@@ -303,7 +281,7 @@ section p {
 /* ========== END PHOTO GRID STYLES ========== */
 
 /* ========== START STATE SECTION STYLES ========== */
-
+/* Creates a significant bottom margin to create more space between sections */
 .state-section,
 .park-section,
 .last-park {
@@ -314,7 +292,7 @@ section p {
 
 
 /* ========== START MEDIA QUERY ========== */
-
+/* Adjusts the layout of the grid so that all boxes span three columns - the entire width of the grid, for a better appearance on Small Screens */
 @media screen and (max-width: 767px) {
 
   .grid .box--1x1,
@@ -338,9 +316,7 @@ section p {
   }
 }
 
-
-
-
+/* For Medium Screens */
 @media screen and (min-width: 992px) {
   .app-container {
     display: grid;
@@ -359,13 +335,12 @@ section p {
 
   .writing-container {
     position: relative;
-    /* Make the writing container position relative on larger screens */
     width: 100%;
   }
 }
 
 
-/* large devices greater than or equal to 992px width */
+/* For Large Screens */
 @media (min-width: 992px) {
   .home-link {
     display: flex;
