@@ -1,16 +1,20 @@
 import React, { useEffect, useRef, useMemo } from 'react';
-import { geoData } from './geoData'; // import geoData
+import { geoData } from './geoData'; // import geoData for visible trail on map render
 const mapboxgl = window.mapboxgl;
 
 
-// Set the Mapbox access token from environment variable
+// access token for mapbox stores in environment variable
 mapboxgl.accessToken = process.env.REACT_APP_MAPBOX_ACCESS_TOKEN;
 
 const InteractiveMap = ({ state }) => {
+
     // Uses the useRef hook to create a ref to attach to the map container div
     const mapContainerRef = useRef(null);
-    const map = useRef(null); // Create a ref for the map instance
 
+    // Create a ref for the map instance
+    const map = useRef(null); 
+
+    // predefined views for different states and parks
     const stateViews = useMemo(() => ({
         'welcome': { center: [-98, 40], zoom: 2.3 },
 
@@ -120,10 +124,7 @@ const InteractiveMap = ({ state }) => {
             });
         });
 
-        // Add navigation controls to the map
-        // map.current.addControl(new mapboxgl.NavigationControl(), 'bottom-right');
-
-        // Clean up on unmount by removing the map
+        // Clean up on unmount 
         return () => map.current.remove();
     }, []); // Empty dependency array means this effect runs once on mount and cleanup on unmount
 
@@ -189,14 +190,14 @@ const InteractiveMap = ({ state }) => {
                     zoom: view.zoom,
                     speed: 0.4,
                     pitch: 50, // pitch in degrees
-                    bearing: 2 // bearing in degrees
+                    bearing: 2 // Set the rotation angle
                 });
             }
         }
     }, [state, stateViews]);
 
 
-    // Render a div that will hold the map
+    // Render a div container that will hold the map
     // The ref created is attached here
     return <div ref={mapContainerRef} className='mapRender' style={{ height: '100vh' }}
     />
