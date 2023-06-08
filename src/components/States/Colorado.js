@@ -49,16 +49,17 @@ import redRocks14 from '../../assets/images/colorado/redRocks14.webp';
 
 
 function ColoradoContent({ className, setActiveState }) {
+    // Setting up references for each section
     const coloradoRef = useRef();
     const rockyMountainsRef = useRef();
     const mesaVerdeRef = useRef();
     const gardenOfTheGodsRef = useRef();
     const redRocksRef = useRef();
-
     // TODO: 1. Add more refs for other parks if any
 
-
+    // Initializing Intersection Observers to watch when each section intersects with the viewport
     useEffect(() => {
+        // General observer for the Colorado state section
         const observer = new IntersectionObserver(
             ([entry]) => {
                 if (entry.isIntersecting) {
@@ -69,6 +70,7 @@ function ColoradoContent({ className, setActiveState }) {
             { threshold: 0 }
         );
 
+        // Below are specific observers for each park
         const rockyMountainsObserver = new IntersectionObserver(
             ([entry]) => {
                 if (entry.isIntersecting) {
@@ -108,20 +110,17 @@ function ColoradoContent({ className, setActiveState }) {
             },
             { threshold: 0.01 }
         );
-
-
         // TODO: 2. Add observers for other parks if any
 
-
+        // Capturing current refs for cleanup later
         const currentColoradoRef = coloradoRef.current;
         const currentRockyMountainsRef = rockyMountainsRef.current;
         const currentMesaVerdeRef = mesaVerdeRef.current;
         const currentGardenOfTheGodsRef = gardenOfTheGodsRef.current;
         const currentRedRocksRef = redRocksRef.current;
-
         // TODO: 3. Add const variable above
 
-
+        // Begin observing each section
         if (currentColoradoRef) {
             observer.observe(currentColoradoRef);
         }
@@ -137,11 +136,11 @@ function ColoradoContent({ className, setActiveState }) {
         if (currentRedRocksRef) {
             redRocksObserver.observe(currentRedRocksRef);
         }
-
         // TODO: 4. Add if statement to observe ref for new parks if any
 
-
+        // Unobserve sections when component unmounts
         return () => {
+            // If a reference for the specefied section exists, stop observing it
             if (currentColoradoRef) {
                 observer.unobserve(currentColoradoRef);
             }
@@ -157,7 +156,6 @@ function ColoradoContent({ className, setActiveState }) {
             if (currentRedRocksRef) {
                 observer.unobserve(currentRedRocksRef);
             }
-
             // TODO: 5. Add if statement to unobserve refs for new parks if any
 
         };

@@ -126,7 +126,6 @@ function ArizonaContent({ className, setActiveState }) {
             if (currentHorseshoeBendRef) {
                 horseshoeBendObserver.unobserve(currentHorseshoeBendRef)
             }
-
             // TODO: 5. Add if statement to unobserve refs for new parks if any
 
         };
