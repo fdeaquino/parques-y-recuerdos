@@ -34,17 +34,17 @@ import hsBendTrail1 from '../../assets/images/arizona/hsBend-trail1.webp';
 import hsBendTrail2 from '../../assets/images/arizona/hsBend-trail2.webp';
 
 
-
 function ArizonaContent({ className, setActiveState }) {
+    // Setting up references for each section
     const arizonaRef = useRef();
     const sedonaRef = useRef();
     const saguaroRef = useRef();
     const horseshoeBendRef = useRef();
-
     // TODO: 1. Add more refs for other parks if any
 
-
+    // Initializing IntersectionObservers to watch when each section intersects with the viewport
     useEffect(() => {
+        // General observer for the Arizona state section
         const observer = new IntersectionObserver(
             ([entry]) => {
                 if (entry.isIntersecting) {
@@ -55,6 +55,7 @@ function ArizonaContent({ className, setActiveState }) {
             { threshold: 0 }
         );
 
+        // Below are specific observers for each park
         const sedonaObserver = new IntersectionObserver(
             ([entry]) => {
                 if (entry.isIntersecting) {
@@ -83,16 +84,18 @@ function ArizonaContent({ className, setActiveState }) {
             },
             { threshold: 0.01 }
         );
-
         // TODO: 2. Add observers for other parks if any
 
+
+        // Capturing current refs for cleanup later
         const currentArizonaRef = arizonaRef.current;
         const currentSedonaRef = sedonaRef.current;
         const currentSaguaroRef = saguaroRef.current;
         const currentHorseshoeBendRef = horseshoeBendRef.current;
+        // TODO: 3. Add const variable above 
 
-        // TODO: 3. Add const variable above
 
+        // Begin observing each section
         if (currentArizonaRef) {
             observer.observe(currentArizonaRef);
         }
@@ -105,10 +108,12 @@ function ArizonaContent({ className, setActiveState }) {
         if (currentHorseshoeBendRef) {
             horseshoeBendObserver.observe(currentHorseshoeBendRef);
         }
-
         // TODO: 4. Add if statement to observe ref for new parks if any
 
+
+        // Unobserve sections when component unmounts
         return () => {
+            // If a reference for the specified section exists, stop observing it
             if (currentArizonaRef) {
                 observer.unobserve(currentArizonaRef)
             }
