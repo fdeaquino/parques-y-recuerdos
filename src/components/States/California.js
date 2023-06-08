@@ -72,9 +72,8 @@ import santaMonicaBeach7 from '../../assets/images/california/santa-monica-7.web
 import santaMonicaBeach8 from '../../assets/images/california/santa-monica-8.webp';
 
 
-
-
 function CaliforniaContent({ className, setActiveState }) {
+    // Setting up references for each section
     const californiaRef = useRef();
     const yosemiteRef = useRef();
     const goldenGateRef = useRef();
@@ -83,11 +82,11 @@ function CaliforniaContent({ className, setActiveState }) {
     const griffithRef = useRef();
     const santaMonicaBeachRef = useRef();
     // const harborIslandParkRef = useRef();
-
     // TODO: 1. Add more refs for other parks if any
 
-
+    // Initializing IntersectionObservers to watch when each section intersects with the viewport
     useEffect(() => {
+        // General observer for the California State section
         const observer = new IntersectionObserver(
             ([entry]) => {
                 if (entry.isIntersecting) {
@@ -97,7 +96,8 @@ function CaliforniaContent({ className, setActiveState }) {
             },
             { threshold: 0 }
         );
-
+        
+        // Below are specific observers for each park
         const yosemiteObserver = new IntersectionObserver(
             ([entry]) => {
                 if (entry.isIntersecting) {
@@ -166,9 +166,9 @@ function CaliforniaContent({ className, setActiveState }) {
         //         }
         //     }
         // );
-
         // TODO: 2. Add observers for other parks if any
 
+        // Capturing current refs for cleanup later
         const currentCaliforniaRef = californiaRef.current;
         const currentYosemiteRef = yosemiteRef.current;
         const currentGoldenGateRef = goldenGateRef.current;
@@ -177,10 +177,9 @@ function CaliforniaContent({ className, setActiveState }) {
         const currentGriffithRef = griffithRef.current;
         const currentSantaMonicaBeachRef = santaMonicaBeachRef.current;
         // const currentHarborIslandParkRef = harborIslandParkRef.current;
-
-
         // TODO: 3. Add const variable above
 
+        // Begin observing each section
         if (currentCaliforniaRef) {
             observer.observe(currentCaliforniaRef);
         }
@@ -205,10 +204,11 @@ function CaliforniaContent({ className, setActiveState }) {
         // if (currentHarborIslandParkRef) {
         //     harborIslandParkObserver.observe(currentHarborIslandParkRef)
         // }
-
         // TODO: 4. Add if statement to observe ref for new parks if any
 
+        // Unobserve sections when component unmounts
         return () => {
+            // If a reference for the specified section exists, stop observing it
             if (currentCaliforniaRef) {
                 observer.unobserve(currentCaliforniaRef);
             }
@@ -233,7 +233,6 @@ function CaliforniaContent({ className, setActiveState }) {
             // if (currentHarborIslandParkRef) {
             //     harborIslandParkObserver.unobserve(currentHarborIslandParkRef);
             // }
-
             // TODO: 5. Add if statement to unobserve refs for new parks if any
         };
     }, [setActiveState]);
