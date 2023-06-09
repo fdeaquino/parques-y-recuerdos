@@ -42,17 +42,16 @@ import arches14 from '../../assets/images/utah/arches-14.webp';
 
 
 function UtahContent({ className, setActiveState }) {
+    // Setting up references for each section
     const utahRef = useRef();
     const archesRef = useRef();
     const zionRef = useRef();
     const bryceCanyonRef = useRef();
-
-
-
     // TODO: 1. Add more refs for other parks if any
 
-
+    // Initializing IntersectionObservers to watch when each section intersects with the viewport
     useEffect(() => {
+        // General observer for the Utah state section
         const observer = new IntersectionObserver(
             ([entry]) => {
                 if (entry.isIntersecting) {
@@ -62,6 +61,8 @@ function UtahContent({ className, setActiveState }) {
             },
             { threshold: 0 }
         );
+
+        // Below are specific observers for each park
         const archesObserver = new IntersectionObserver(
             ([entry]) => {
                 if (entry.isIntersecting) {
@@ -89,19 +90,16 @@ function UtahContent({ className, setActiveState }) {
             },
             { threshold: 0.01 }
         );
-
         // TODO: 2. Add observers for other parks if any
 
-
+        // Capturing current refs for cleanup later
         const currentUtahRef = utahRef.current;
         const currentArchesRef = archesRef.current;
         const currentZionRef = zionRef.current;
         const currentBryceCanyonRef = bryceCanyonRef.current;
-
-
         // TODO: 3. Add const variable above
 
-
+        // Begin observing each section
         if (currentUtahRef) {
             observer.observe(currentUtahRef);
         }
@@ -116,8 +114,9 @@ function UtahContent({ className, setActiveState }) {
         }
         // TODO: 4. Add if statement to observe ref for new parks if any
 
-
+        // Unobserve sections when component unmounts
         return () => {
+            // If a reference for the specified section exists, stop observing it
             if (currentUtahRef) {
                 observer.unobserve(currentUtahRef);
             }
