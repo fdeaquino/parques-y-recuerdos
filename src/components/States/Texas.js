@@ -187,9 +187,8 @@ import sanAntonioMissions7 from '../../assets/images/texas/san-antonio-missions-
 import sanAntonioMissions8 from '../../assets/images/texas/san-antonio-missions-8.webp';
 
 
-
-
 function TexasContent({ className, setActiveState }) {
+    // Setting up references for each section
     const texasRef = useRef();
     const bigBendRef = useRef();
     const guadalupeMountainsRef = useRef();
@@ -208,12 +207,11 @@ function TexasContent({ className, setActiveState }) {
     const pedernalesFallsRef = useRef();
     const mountBonnellRef = useRef();
     const sanAntonioMissionsRef = useRef();
-
-
     // TODO: 1. Add more refs for other parks if any
 
-
+    // Initializing IntersectionObservers to watch when each section intersects with the viewport
     useEffect(() => {
+        // General observer for the Texas state section
         const observer = new IntersectionObserver(
             ([entry]) => {
                 if (entry.isIntersecting) {
@@ -224,6 +222,7 @@ function TexasContent({ className, setActiveState }) {
             { threshold: 0 }
         );
 
+        // Below are specific observers for each park
         const bigBendObserver = new IntersectionObserver(
             ([entry]) => {
                 if (entry.isIntersecting) {
@@ -380,10 +379,9 @@ function TexasContent({ className, setActiveState }) {
             },
             { threshold: 0.01 }
         );
-
         // TODO: 2. Add observers for other parks if any
 
-
+        // Capturing current refs for cleanup later
         const currentTexasRef = texasRef.current;
         const currentBigBendRef = bigBendRef.current;
         const currentGuadalupeMountainsRef = guadalupeMountainsRef.current;
@@ -402,10 +400,9 @@ function TexasContent({ className, setActiveState }) {
         const currentPedernalesFallsRef = pedernalesFallsRef.current;
         const currentMountBonnellRef = mountBonnellRef.current;
         const currentSanAntonioMissionsRef = sanAntonioMissionsRef.current;
-
         // TODO: 3. Add const variable above
 
-
+        // Begin observing each section
         if (currentTexasRef) {
             observer.observe(currentTexasRef);
         }
@@ -445,11 +442,11 @@ function TexasContent({ className, setActiveState }) {
         } if (currentSanAntonioMissionsRef) {
             sanAntonioMissionsObserver.observe(currentSanAntonioMissionsRef);
         }
-
         // TODO: 4. Add if statement to observe ref for new parks if any
 
-
+        // Unobserve sections when component unmounts
         return () => {
+            // If a reference for the specified section exists, stop observing it
             if (currentTexasRef) {
                 observer.unobserve(currentTexasRef);
             }
@@ -492,7 +489,6 @@ function TexasContent({ className, setActiveState }) {
             } if (currentSanAntonioMissionsRef) {
                 sanAntonioMissionsObserver.unobserve(currentSanAntonioMissionsRef);
             }
-
             // TODO: 5. Add if statement to unobserve refs for new parks if any
 
         };
