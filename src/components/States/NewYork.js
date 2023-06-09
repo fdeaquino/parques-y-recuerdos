@@ -46,19 +46,19 @@ import otterCreekPreserve6 from '../../assets/images/newyork/otter-creek-6.webp'
 import otterCreekPreserve7 from '../../assets/images/newyork/otter-creek-7.webp';
 
 
-
 function NewYorkContent({ className, setActiveState }) {
+    // Setting up references for each section
     const newyorkRef = useRef();
     const highlineNYCRef = useRef();
     const centralParkRef = useRef();
     const mountArabRef = useRef();
     const cantonIslandParkRef = useRef();
     const otterCreekPreserveRef = useRef();
-
-
     // TODO: 1. Add more refs for other parks if any
 
+    // Initializing IntersectionObservers to watch when each section intersects with the viewport
     useEffect(() => {
+        // General observer for the New York state section
         const observer = new IntersectionObserver(
             ([entry]) => {
                 if (entry.isIntersecting) {
@@ -69,6 +69,7 @@ function NewYorkContent({ className, setActiveState }) {
             { threshold: 0 }
         );
 
+        // Below are specific observers for each park
         const highlineNYCObserver = new IntersectionObserver(
             ([entry]) => {
                 if (entry.isIntersecting) {
@@ -118,24 +119,18 @@ function NewYorkContent({ className, setActiveState }) {
             },
             { threshold: 0.01 }
         );
-
         // TODO: 2. Add observers for other parks if any
 
-
+        // Capturing current refs for cleanup later
         const currentNewYorkRef = newyorkRef.current;
         const currentHighlineNYCRef = highlineNYCRef.current;
         const currentCentralParkRef = centralParkRef.current;
         const currentMountArabRef = mountArabRef.current;
         const currentCantonIslandParkRef = cantonIslandParkRef.current;
         const currentOtterCreekPreserveRef = otterCreekPreserveRef.current;
-
-
-
-
-
         // TODO: 3. Add const variable above
 
-
+        // Begin observing each section
         if (currentNewYorkRef) {
             observer.observe(currentNewYorkRef);
         }
@@ -156,8 +151,9 @@ function NewYorkContent({ className, setActiveState }) {
         }
         // TODO: 4. Add if statement to observe ref for new parks if any
 
-
+        // Unobserve sections when component unmounts
         return () => {
+            // If a reference for the specified section exists, stop observing it
             if (currentNewYorkRef) {
                 observer.unobserve(currentNewYorkRef);
             }
