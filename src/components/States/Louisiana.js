@@ -16,12 +16,14 @@ import povertyPoint12 from '../../assets/images/louisiana/poverty-point12.webp';
 
 
 function LouisianaContent({ className, setActiveState }) {
+    // setting up references for each section
     const louisianaRef = useRef();
     const povertyPointRef = useRef();
     // TODO: 1. Add more refs for other parks if any
 
-
+    // Initializing IntersectionObservers to watch when each section intersects with the viewport
     useEffect(() => {
+        // General observer for the Louisiana state section
         const observer = new IntersectionObserver(
             ([entry]) => {
                 if (entry.isIntersecting) {
@@ -31,7 +33,7 @@ function LouisianaContent({ className, setActiveState }) {
             },
             { threshold: 0 }
         );
-
+        // Below are specific observers for Poverty Point and future parks
         const povertyPointObserver = new IntersectionObserver(
             ([entry]) => {
                 if (entry.isIntersecting) {
@@ -43,13 +45,12 @@ function LouisianaContent({ className, setActiveState }) {
         );
         // TODO: 2. Add observers for other parks if any
 
-
+        // Capturing current refs for cleanup later
         const currentLouisianaRef = louisianaRef.current;
         const currentPovertyPointRef = povertyPointRef.current;
-
         // TODO: 3. Add const variable above
 
-
+        // Begin observing each section
         if (currentLouisianaRef) {
             observer.observe(currentLouisianaRef);
         }
@@ -58,8 +59,9 @@ function LouisianaContent({ className, setActiveState }) {
         }
         // TODO: 4. Add if statement to observe ref for new parks if any
 
-
+        // Unobserve sections when component unmounts
         return () => {
+            // If a reference for the specified section exists, stop observing it
             if (currentLouisianaRef) {
                 observer.unobserve(currentLouisianaRef);
             }
