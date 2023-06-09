@@ -14,7 +14,6 @@ import chacoCanyonRoss from '../../assets/images/newmexico/chaco-canyon-ross.web
 import chacoCanyonSign from '../../assets/images/newmexico/chaco-canyon-sign.webp';
 import chacoCanyonSunset from '../../assets/images/newmexico/chaco-canyon-sunset.webp';
 import chacoCanyonWindow from '../../assets/images/newmexico/chaco-canyon-window.webp';
-
 import whiteSandsFidel from '../../assets/images/newmexico/white-sands-fidel.webp';
 import whiteSandsArt from '../../assets/images/newmexico/white-sands-artist-depiction.webp';
 import whiteSandsFootprint from '../../assets/images/newmexico/white-sands-footprint.webp';
@@ -29,14 +28,15 @@ import whiteSands7 from '../../assets/images/newmexico/white-sands7.webp';
 
 
 function NewMexicoContent({ className, setActiveState }) {
+    // Setting up references for each section
     const newmexicoRef = useRef();
     const whiteSandsRef = useRef();
     const chacoCultureRef = useRef();
-
     // TODO: 1. Add more refs for other parks if any
 
-
+    // Initializing IntersectionObservers to watch when each section intersects with the viewport
     useEffect(() => {
+        // General observer for the New Mexico state section
         const observer = new IntersectionObserver(
             ([entry]) => {
                 if (entry.isIntersecting) {
@@ -46,7 +46,7 @@ function NewMexicoContent({ className, setActiveState }) {
             },
             { threshold: 0 }
         );
-
+        // Below are specific observers for each park
         const whiteSandsObserver = new IntersectionObserver(
             ([entry]) => {
                 if (entry.isIntersecting) {
@@ -66,17 +66,15 @@ function NewMexicoContent({ className, setActiveState }) {
             },
             { threshold: 0.01 }
         );
-
         // TODO: 2. Add observers for other parks if any
 
-
+        // Capturing current refs for cleanup later
         const currentNewMexicoRef = newmexicoRef.current;
         const currentWhiteSandsRef = whiteSandsRef.current;
         const currentChacoCultureRef = chacoCultureRef.current;
-
         // TODO: 3. Add const variable above
 
-
+        // Begin observing each section
         if (currentNewMexicoRef) {
             observer.observe(currentNewMexicoRef);
         }
@@ -86,11 +84,11 @@ function NewMexicoContent({ className, setActiveState }) {
         if (currentChacoCultureRef) {
             chacoCultureObserver.observe(currentChacoCultureRef);
         }
-
         // TODO: 4. Add if statement to observe ref for new parks if any
 
-
+        // Unobserve sections when component unmounts
         return () => {
+            // If a reference for the specified section exists, stop observing it
             if (currentNewMexicoRef) {
                 observer.unobserve(currentNewMexicoRef);
             }
@@ -100,7 +98,6 @@ function NewMexicoContent({ className, setActiveState }) {
             if (currentChacoCultureRef) {
                 chacoCultureObserver.unobserve(currentChacoCultureRef);
             }
-
             // TODO: 5. Add if statement to unobserve refs for new parks if any
 
         };
