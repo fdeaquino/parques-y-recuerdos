@@ -1,7 +1,12 @@
 import React, { useRef, useEffect } from 'react';
 
+import { useTranslation } from 'react-i18next';
+
 
 function Hero({ className, setActiveState }) {
+
+    const { t } = useTranslation();
+
 
     // Ref for the DOM node of this component
     const ref = useRef();
@@ -18,7 +23,7 @@ function Hero({ className, setActiveState }) {
                 // On intersection - update URL to "#welcome" and active state to 'welcome'
                 if (entry.isIntersecting) {
                     window.history.replaceState(null, null, "#welcome");
-                    setActiveState("welcome");  
+                    setActiveState("welcome");
                 }
             },
 
@@ -46,13 +51,13 @@ function Hero({ className, setActiveState }) {
     return (
         <section className={`${className} hero-section bg-light p-3`} ref={ref}>
             <h1 className='intro-title'>
-                Parques y Recuerdos:
+                {t('hero.introTitle')}
             </h1>
             <h2 className='intro-subtitle'>
-                Spanglish Reflections on Park Adventures
+                {t('hero.introSubtitle')}
             </h2>
             <p className='intro-paragraph'>
-                Como beneficiario de DACA, I've been limited to travel within the U.S., pero encontré alegría explorando local, state, y national parks. My husband and hiking partner, Ross, y yo hemos encontrado una conexión profunda con la naturaleza, nurturing our respect for the Earth. The physical and psychological benefits of hiking son enormes, bringing us closer to understanding la diversidad cultural y la rica historia de los pueblos originarios whose lands we tread upon.  In every breath of fresh air, estamos agradecidos por la oportunidad de descubrir, aprender y crecer.
+                {t('hero.introParagraph')}
             </p>
         </section>
     )

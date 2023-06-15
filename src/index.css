@@ -290,6 +290,78 @@ section p {
 
 /* ========== END STATE SECTION STYLES ========== */
 
+/* ========== START LANGUAGE SWITCHER AND LANGUAGE SWITCHER WRAPPER STYLES ========== */
+.language-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.language-name {
+  margin-left: 5px;
+  font-size: 10px;
+}
+
+.language-switcher {
+  position: fixed;
+  top: 0;
+  left: 0.2rem;
+  margin: 0.5rem;
+  z-index: 1000;
+  background-color: rgba(253, 211, 191, 0.9);
+  cursor: pointer;
+  padding: 5px 2px;
+  font-size: 14px;
+  border-radius: 4px;
+  /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+  width: 5.5rem;
+  text-align: center;
+}
+
+.language-switcher:hover {
+  background-color:  rgba(253, 211, 191, 0.9);
+}
+
+.language-options {
+  display: none;
+  position: absolute;
+  top: 0px;
+  right: 0;
+  background-color:  rgba(253, 211, 191, 0.9);
+  /* border: 1px solid rgba(255, 255, 255, 0.8); */
+  padding: 5px;
+  border-radius: 4px;
+  /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+  width: 5.5rem;
+  height: auto;
+  text-align: center;
+}
+
+/* .language-options button {
+  background-color: rgba(255, 255, 255, 0.8)!important;
+} */
+
+.language-switcher:hover .language-options,
+.language-switcher .language-options.show {
+  display: block;
+}
+
+.language-options button {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: none;
+  cursor: pointer;
+  padding: 8px 12px;
+  font-size: 12px;
+  display: block;
+  width: 100%;
+  text-align: left;
+}
+
+.language-options button:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* ========== END LANGUAGE SWITCHER AND LANGUAGE SWITCHER WRAPPER STYLES ========== */
+
 
 /* ========== START MEDIA QUERY ========== */
 /* Adjusts the layout of the grid so that all boxes span three columns - the entire width of the grid, for a better appearance on Small Screens */

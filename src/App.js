@@ -2,6 +2,7 @@
 import React, { Suspense, useEffect, useState } from 'react';
 import { HashRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import { Element } from 'react-scroll';
+import LanguageSwitcherWrapper from './components/LanguageSwitcherWrapper';
 
 // Lazy-loading components improvdes performance as components are only loaded when they are about to be used
 const InteractiveMap = React.lazy(() => import('./components/InteractiveMap/InteractiveMap'));
@@ -147,17 +148,20 @@ function App() {
   // Routes component wraps all Route components.
   // Each Route component represents a single route of the app
   return (
-    <Router>
-      <div className="app-container">
-        <Suspense fallback={<div>Loading Navbar...</div>}>
-          <Navbar setSelectedState={setSelectedState} />
-        </Suspense>
-        <Routes>
-          <Route path="/" element={<MainContent activeState={activeState} setActiveState={setActiveState} selectedState={selectedState} />} />
-          <Route path="/:state" element={<MainContent activeState={activeState} setActiveState={setActiveState} selectedState={selectedState} />} />
-        </Routes>
-      </div>
-    </Router>
+    <LanguageSwitcherWrapper>
+      <Router>
+        <div className="app-container">
+          <Suspense fallback={<div>Loading Navbar...</div>}>
+            <Navbar setSelectedState={setSelectedState} />
+          </Suspense>
+          <Routes>
+            <Route path="/" element={<MainContent activeState={activeState} setActiveState={setActiveState} selectedState={selectedState} />} />
+            <Route path="/:state" element={<MainContent activeState={activeState} setActiveState={setActiveState} selectedState={selectedState} />} />
+          </Routes>
+        </div>
+      </Router>
+    </LanguageSwitcherWrapper>
+
   );
 }
 

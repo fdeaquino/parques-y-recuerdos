@@ -4,6 +4,8 @@ import languageIcon from '../../assets/images/language-icon.png'; // Adjust the 
 
 const LanguageSwitcher = () => {
     const { i18n } = useTranslation();
+    // console.log(i18n);
+
     const [showOptions, setShowOptions] = useState(false);
     const [timeoutId, setTimeoutId] = useState(null);
 
@@ -32,6 +34,10 @@ const LanguageSwitcher = () => {
     };
 
     const getLanguageName = (languageCode) => {
+        if (!languageCode) {
+            return "Unknown";
+        }
+
         switch (languageCode) {
             case 'en':
                 return 'English';
