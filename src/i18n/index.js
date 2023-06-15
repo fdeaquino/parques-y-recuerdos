@@ -3,8 +3,9 @@ import { initReactI18next } from "react-i18next";
 
 import enTranslation from "./locales/en/translation.json";
 import esTranslation from "./locales/es/translation.json";
+// Spanglish translation
+import spTranslation from "./locales/sp/translation.json";
 
-// TODO: Set Spanglish as one of the language options
 i18n.use(initReactI18next).init({
   resources: {
     en: {
@@ -13,9 +14,12 @@ i18n.use(initReactI18next).init({
     es: {
       translation: esTranslation,
     },
+    sp: {
+        translation: spTranslation,
+    },
   },
-  lng: "en", // sets the default language
-  fallbackLng: "en", // sets the fallback language in case the selected language's translation is missing
+  lng: "sp", // sets the default language
+  fallbackLng: ["en", "es"], // sets the fallback language in case the selected language's translation is missing
   interpolation: {
     escapeValue: false,
   },
