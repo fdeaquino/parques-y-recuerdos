@@ -104,6 +104,10 @@ body {
   color: #FC5100;
 }
 
+a.nav-link-active.home-link-styles {
+  color: #FC5100;
+}
+
 .menu-icon {
   height: 100%;
   width: 100%;
