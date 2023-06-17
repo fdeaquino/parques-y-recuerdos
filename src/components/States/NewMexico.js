@@ -1,4 +1,5 @@
 import React, { useRef, useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
 
 import chacoCanyon1 from '../../assets/images/newmexico/chaco-canyon-1.webp';
 import chacoCanyon2 from '../../assets/images/newmexico/chaco-canyon-2.webp';
@@ -28,6 +29,8 @@ import whiteSands7 from '../../assets/images/newmexico/white-sands7.webp';
 
 
 function NewMexicoContent({ className, setActiveState }) {
+    const { t } = useTranslation();
+
     // Setting up references for each section
     const newmexicoRef = useRef();
     const whiteSandsRef = useRef();
@@ -106,12 +109,20 @@ function NewMexicoContent({ className, setActiveState }) {
     return (
         <section className={`${className}`} id="newmexico" ref={newmexicoRef}>
             <div className='state-section bg-light p-3'>
-                <h3 className='intro-subtitle'>NEW MEXICO</h3>
-                <p className='intro-paragraph'>Known as 'The Land of Enchantment,' New Mexico es conocido for its seemingly endless blue skies, landscapes vibrantly painted, y su cultura única. The history de este terreno está marcado by the Apache, Navajo, and Pueblo tribes. The geologic wonder, el Rio Grande Rift, ha modelado the terrain, providing landscapes that take your breath away. I've had the joy of visiting dos de los parques nacionales here, pero my heart anhela to see more of the natural beauty este estado ofrece.</p>
+                <h3 className='intro-subtitle'>
+                    {t('newmexico.stateName')}
+                </h3>
+                <p className='intro-paragraph'>
+                    {t('newmexico.introForState')}
+                </p>
             </div>
             <div className='park-section bg-light p-3' ref={whiteSandsRef}>
-                <h4 className='intro-subtitle park-title'>White Sands National Park</h4>
-                <p className='intro-paragraph'>Ubicado en el corazón de New Mexico, se encuentra White Sands National Park, un lugar donde una vez prosperó the Mescalero Apache. Este parque nos presenta a las raras y hermosas dunas de yeso. Cada duna es una obra de arte en constante cambio, moldeada por el viento. Paseando por estas dunas, your mind may play tricks, making you believe that you are at a beach, cuando realmente estás en un desierto de yeso. Interestingly, White Sands se encuentra cerca del sitio donde se detonó la primera bomba atómica del mundo, a testament to the diverse history of the area. Uno de los aspectos más fascinantes de White Sands son the fossil discoveries, including ancient footprints of humans. Se ha dedicado mucha investigación to uncovering these prehistoric treasures, and artist renditions help us visualize como esos rastros fosilizados podrían haberse creado. Así, White Sands stands as a testament to nature's grandeur and the constant evolution of life.</p>
+                <h4 className='intro-subtitle park-title'>
+                    {t('newmexico.parkNameForWhiteSands')}
+                </h4>
+                <p className='intro-paragraph'>
+                    {t('newmexico.introForWhiteSands')}
+                </p>
                 {/* Grid and photos go here */}
                 <div className='grid'>
                     <div className='box box--3x3'>
@@ -153,8 +164,12 @@ function NewMexicoContent({ className, setActiveState }) {
             </div>
 
             <div className='park-section bg-light p-3' ref={chacoCultureRef}>
-                <h4 className='intro-subtitle park-title'>Chaco Culture National Historic Park</h4>
-                <p className='intro-paragraph'>En el recóndito corazón de New Mexico, Chaco Culture National Historic Park aguarda pacientemente a los exploradores dispuestos a descubrir su historia. La cultura ancestral Puebloan dejó aquí su huella, construyendo a civilization that still whispers its tales. A pesar de su desolación y low visitation, este parque es un verdadero tesoro escondido en el cañón. We had the chance to experience an unforgettable sunset, una puesta de sol that no photograph could truly capture. Interesantemente, this site shares cultural ties with Mesa Verde National Park, ambos lugares nos enseñan sobre una era long past. The park's geology has played a key role in preserving these ancient homes, permitiéndonos echar un vistazo into an epoch a millennium past.</p>
+                <h4 className='intro-subtitle park-title'>
+                    {t('newmexico.parkNameForChacoCanyon')}
+                </h4>
+                <p className='intro-paragraph'>
+                    {t('newmexico.introForChacoCanyon')}
+                </p>
                 {/* Grid and photos go here */}
                 <div className='grid'>
                     <div className='box box--3x3'>
