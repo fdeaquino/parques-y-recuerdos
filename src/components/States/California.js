@@ -1,4 +1,7 @@
 import React, { useRef, useEffect } from 'react';
+
+import { useTranslation } from 'react-i18next';
+
 import yosemiteFidel1 from '../../assets/images/california/yosemite-fidel-valley-view.webp';
 import yosemiteFidel2 from '../../assets/images/california/yosemite-fidel-valley-trail.webp';
 import yosemiteFidel3 from '../../assets/images/california/yosemite-fidel-wooded-trail.webp';
@@ -73,6 +76,8 @@ import santaMonicaBeach8 from '../../assets/images/california/santa-monica-8.web
 
 
 function CaliforniaContent({ className, setActiveState }) {
+    const { t } = useTranslation();
+
     // Setting up references for each section
     const californiaRef = useRef();
     const yosemiteRef = useRef();
@@ -96,7 +101,7 @@ function CaliforniaContent({ className, setActiveState }) {
             },
             { threshold: 0 }
         );
-        
+
         // Below are specific observers for each park
         const yosemiteObserver = new IntersectionObserver(
             ([entry]) => {
@@ -240,12 +245,20 @@ function CaliforniaContent({ className, setActiveState }) {
     return (
         <section className={`${className}`} id="california" ref={californiaRef}>
             <div className='state-section bg-light p-3 '>
-                <h3 className='intro-subtitle'>CALIFORNIA</h3>
-                <p className='intro-paragraph'>California, a state as diverse as it is beautiful. Desde las playas de Santa Monica hasta las alturas majestuosas de Yosemite, you'll find a tapestry of geology y historia here. These lands, once home to Native tribes like the Miwok, Chumash, and Ohlone, tell a story of resilience and connection to the land. California’s flora is as varied as its landscapes, a testament to its rich ecosystems. Y no podemos olvidar the imprint of the Spanish missions, a network that weaves a story of faith y determinación through the state. California, con su vibrant past and dynamic present, truly is un lugar where history and nature dance together timelessly.</p>
+                <h3 className='intro-subtitle'>
+                    {t('california.stateName')}
+                </h3>
+                <p className='intro-paragraph'>
+                    {t('california.introForState')}
+                </p>
             </div>
             <div className='park-section bg-light p-3' ref={yosemiteRef}>
-                <h4 className='intro-subtitle park-title'>Yosemite National Park</h4>
-                <p className='intro-paragraph'>Yosemite National Park, con sus acantilados de granito y sequoias gigantes, te sumerge in a world of natural grandeur. This land, once home to the Miwok and Paiute tribes, es un testimonio of the enduring strength of nature, from the marks of ancient glaciers to the towering sequoias. Aquí, te sentirás pequeño but profoundly connected to the land. Among its wonders, está Hetch Hetchy, a reservoir of vital importance to San Francisco, showcasing nature's role in our modern lives. El parque también offers EV charging stations, una comodidad moderna amidst ancient surroundings. And then there's an unexpected culinary gem right outside the park. Cocina Michoacana es el lugar perfecto for lunch on your way out (or in) of Yosemite. En Yosemite, history, nature, and modern conveniences converge, creating an experience that's as rich as it is inspiring.</p>
+                <h4 className='intro-subtitle park-title'>
+                    {t('california.parkNameForYosemite')}
+                </h4>
+                <p className='intro-paragraph'>
+                    {t('california.introForYosemite')}
+                </p>
                 <div className='grid'>
                     <div className='box box--3x3'>
                         <div className='image-wrapper' style={{ backgroundImage: `url(${yosemiteFidel1})` }}></div>
@@ -295,8 +308,12 @@ function CaliforniaContent({ className, setActiveState }) {
                 </div>
             </div>
             <div className='park-section bg-light p-3' ref={goldenGateRef}>
-                <h4 className='intro-subtitle park-title'>Golden Gate Park</h4>
-                <p className='intro-paragraph'>Golden Gate Park, nestled in the corazón de San Francisco, is a stunning blend of natural beauty y cultura urbana. Here, amidst the bustle of the city, we found a moment of tranquility high above it all on the SkyStar Ferris wheel. Con cada vuelta, the panoramic views took our breath away, revealing the park's verdant splendor and the city beyond. Dentro del parque, the Robin Williams Meadow is a touching tribute to a beloved actor who brought laughter y alegría to so many. It's a reminder of the enduring impact of art and culture in our lives. En Golden Gate Park, you'll discover that the harmony between city life and nature's beauty can create moments of wonder, reflection, and joy.</p>
+                <h4 className='intro-subtitle park-title'>
+                {t('california.parkNameForGoldenGatePark')}
+                    </h4>
+                <p className='intro-paragraph'>
+                {t('california.introForGoldenGatePark')}
+                    </p>
                 {/* Grid and photos go here */}
                 <div className='grid'>
                     <div className='box box--3x3'>
@@ -342,8 +359,13 @@ function CaliforniaContent({ className, setActiveState }) {
                 </div>
             </div>
             <div className='park-section bg-light p-3' ref={presidioRef}>
-                <h4 className='intro-subtitle park-title'>Presidio of San Francisco</h4>
-                <p className='intro-paragraph'>El Presidio de San Francisco, un verdadero tesoro urbano, se destaca por su historia resonante y vistas espectaculares. Desde Immigrant Point Overlook, nos maravillamos con panoramas that felt endless, offering a canvas painted by the vast Pacific. Nuestra caminata a Marshall's Beach nos dio una vista majestuosa del Golden Gate Bridge, an iconic symbol standing tall. Y walking on the bridge, sintiendo la brisa fresca y el murmullo de las olas below, was unforgettable. A esto sumamos our paseo to the Palace of Fine Arts, un elegante toque of architecture amidst natural beauty. El Presidio, entre historia y vistas asombrosas, encapsulates the spirit of San Francisco.</p>
+                <h4 className='intro-subtitle park-title'>
+                {t('california.parkNameForSanFranciscoPresidio')}
+                    </h4>
+                <p className='intro-paragraph'>
+                {t('california.introForSanFranciscoPresidio')}
+
+                    </p>
                 {/* Grid and photos go here */}
                 <div className='grid'>
                     <div className='box box--3x3'>
@@ -382,9 +404,12 @@ function CaliforniaContent({ className, setActiveState }) {
                 </div>
             </div>
             <div className='park-section last-park bg-light p-3' ref={salesforceRef}>
-                <h4 className='intro-subtitle park-title'>Salesforce Park</h4>
+                <h4 className='intro-subtitle park-title'>
+                {t('california.parkNameForSalesforcePark')}
+                    </h4>
                 <p className='intro-paragraph'>
-                    En el corazón de San Francisco, encontramos Salesforce Park, un verdadero santuario urbano. Este parque, con su naturaleza vibrante y el skyline de la ciudad como telón de fondo, es un contraste tranquilo a la agitación de la ciudad. Lo que hace especial a Salesforce Park es cómo inspiró mi camino de aprendizaje en el programa Salesforce Trailhead. Esta aventura de auto-mejoramiento me llevó a empezar my Salesforce Developer Certification. Y es un plus that the Slack office is on site, una herramienta que he utilizado durante años para mantenerme conectado y organizado. Salesforce Park is more than just a park – it's a symbol of harmony between nature, technology, and personal growth.</p>
+                {t('california.introForSalesforcePark')}
+                    </p>
                 {/* Grid and photos go here */}
                 <div className='grid'>
                     <div className='box box--3x3'>
@@ -423,8 +448,12 @@ function CaliforniaContent({ className, setActiveState }) {
                 </div>
             </div>
             <div className='park-section bg-light p-3' ref={griffithRef}>
-                <h4 className='intro-subtitle park-title'>Griffith Park</h4>
-                <p className='intro-paragraph'>Griffith Park, un verdadero tesoro en Los Angeles, ofrece un respiro de la vida urbana sin alejarte de la ciudad. Durante mi caminata, el calor del sol era casi insoportable, reminding me to always be prepared with enough water y protector solar. A pesar de las temperaturas, cada paso en Griffith Park brought a new perspective, revealing stunning views of the city and the Hollywood sign. It's a place that shows that nature and city life can coexist, each offering their unique charm. Es aquí, under the sun of LA, where you truly feel the diverse spirit of the city.</p>
+                <h4 className='intro-subtitle park-title'>
+                {t('california.parkNameForGriffithPark')}
+                    </h4>
+                <p className='intro-paragraph'>
+                {t('california.introForGriffithPark')}
+                    </p>
                 {/* Grid and photos go here */}
                 <div className='grid'>
                     <div className='box box--3x3'>
@@ -469,8 +498,12 @@ function CaliforniaContent({ className, setActiveState }) {
                 </div>
             </div>
             <div className='park-section bg-light p-3' ref={santaMonicaBeachRef}>
-                <h4 className='intro-subtitle park-title'>Santa Monica State Beach </h4>
-                <p className='intro-paragraph'>Santa Monica Beach, un encuentro vibrante entre la arena y el mar, es una joya de Southern California. Aquí, la suave arena calienta tus pies while the sun graces your skin, a delightful contrast to the cool kiss of the Pacific. Esta maravillosa playa, también un parque público, se presta para una multitud de actividades: desde relajarte en la arena hasta darte un chapuzón en el océano. El muelle de Santa Monica, con su carrusel que evoca nostalgia y su ambiente lleno de vida, adds its own unique charm. El parque es un tributo al compromiso de la comunidad por preservar los espacios naturales para que todos los disfruten. Al caer la tarde, the sky is set ablaze with color, an ever-changing masterpiece that beautifully ends each day. </p>
+                <h4 className='intro-subtitle park-title'>
+                {t('california.parkNameForSantaMonicaBeach')}
+                    </h4>
+                <p className='intro-paragraph'>
+                {t('california.introForSantaMonicaBeach')}
+                    </p>
                 {/* Grid and photos go here */}
                 <div className='grid'>
                     <div className='box box--3x3'>
