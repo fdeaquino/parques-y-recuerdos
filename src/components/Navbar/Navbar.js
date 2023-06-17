@@ -2,7 +2,13 @@ import React, { useState } from 'react';
 // Import React router components for linking to different routes and useLocation to get current route location
 import { Link, useLocation } from 'react-router-dom';
 
+import { useTranslation } from 'react-i18next';
+
+
 const Navbar = ({ setSelectedState }) => {
+
+    const { t } = useTranslation();
+
     // useStaet hook manages the open state of Navbar
     const [isOpen, setIsOpen] = useState(false);
 
@@ -40,7 +46,10 @@ const Navbar = ({ setSelectedState }) => {
             <div className={`overlay-menu ${isOpen ? 'overlay-active' : ''}`}>
                 <div className={`collapse navbar-collapse ${isOpen ? 'show' : ''}`} id='navbarSupportedContent'>
                     <div className='home-link'>
-                        <Link className='nav-link-active home-link-styles' aria-current='page' to="/" onClick={closeMenu}>HOME</Link>
+                        <Link className='nav-link-active home-link-styles' aria-current='page' to="/" onClick={closeMenu}>
+                            {t('nav.homeBtn')}
+
+                        </Link>
                     </div>
 
                     <ul className={`navbar-nav me-auto mb-2 mb-lg-0 ${isOpen ? 'openmenu' : ''}`}>
