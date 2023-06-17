@@ -1,4 +1,5 @@
 import React, { useRef, useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
 
 import zionFidel from '../../assets/images/utah/zion-fidel.webp';
 import zion1 from '../../assets/images/utah/zion-1.webp';
@@ -42,6 +43,8 @@ import arches14 from '../../assets/images/utah/arches-14.webp';
 
 
 function UtahContent({ className, setActiveState }) {
+    const { t } = useTranslation();
+
     // Setting up references for each section
     const utahRef = useRef();
     const archesRef = useRef();
@@ -137,12 +140,21 @@ function UtahContent({ className, setActiveState }) {
     return (
         <section className={`${className}`} id="utah" ref={utahRef}>
             <div className='state-section bg-light p-3 '>
-                <h3 className='intro-subtitle'>UTAH</h3>
-                <p className='intro-paragraph'>Utah, with its spectacular geology y paisajes impresionantes, es un recordatorio de la magnificencia de la naturaleza. Originalmente, fue el hogar de tribus como los Ute, Paiute, y Navajo, leaving their own mark on this beautiful state. La geología de Utah es a showcase of nature's artistry, con formaciones rocosas únicas que adornan los parques nacionales. Me he maravillado ante estas joyas naturales en tres de los cinco grandes parques nacionales: Zion, Bryce, y Arches. Cada visita a Utah always leaves me yearning to lace up my hiking boots y volver a explorar. La historia geológica de Zion National Park alone spans 250 million years, y cada capa de roca cuenta una parte de esa historia. Aunque he recorrido un largo camino, aún me quedan muchas huellas por dejar en Utah.</p>
+                <h3 className='intro-subtitle'>
+                    {t('utah.stateName')}
+                </h3>
+                <p className='intro-paragraph'>
+                    {t('utah.introForState')}
+
+                </p>
             </div>
             <div className='park-section bg-light p-3 ' ref={zionRef}>
-                <h4 className='intro-subtitle park-title'>Zion National Park</h4>
-                <p className='intro-paragraph'>Zion National Park, con su rica historia y cultura of Native American tribes como los Ancestral Puebloans y los Paiute, es un regalo de la majestuosidad of Mother Nature. Aquí, despertar con towering cliffs y fresh air cada morning es an awe-inspiring experience. Con cada paso y hike through the park, se absorbe la belleza of the surroundings. Los sandstone cliffs, de tonos rojos y rosas, carved by ancient glaciers y el río Virgin a lo largo de millions of years, muestran intriguing lines - el legado of nature's power. Al amanecer, when the sun peeks over the canyon, the valley se llena de light en un espectáculo truly magnificent- Zion's magic moment. Durante la pandemia, wearing a mask outdoors became the norm, aunque retrospectivamente, it may look silly in photos (I wish I would have taken it off). Zion es uno de mis parques favoritos. </p>
+                <h4 className='intro-subtitle park-title'>
+                    {t('utah.parkNameForZion')}
+                </h4>
+                <p className='intro-paragraph'>
+                    {t('utah.introForZion')}
+                </p>
                 {/* Grid and photos go here */}
                 <div className='grid'>
                     <div className='box box--3x3'>
@@ -185,8 +197,12 @@ function UtahContent({ className, setActiveState }) {
 
             </div>
             <div className='park-section bg-light p-3 ' ref={bryceCanyonRef}>
-                <h4 className='intro-subtitle park-title'>Bryce Canyon National Park</h4>
-                <p className='intro-paragraph'>Bryce Canyon National Park, lleno de hoodoos, esas formaciones rocosas únicas shaped by erosion, es una joya que tuve la suerte de descubrir en a detour on the way to Arches National Park. Este encuentro inesperado, nothing like what I had seen in photos, left me completely awestruck. Las fotos here simply don't do it justice. Los Paiute people, los antiguos habitantes de estas tierras, creían que estos hoodoos eran 'Legend People' turned to stone. As you walk through the park, se siente la presencia de these ancient cultures y uno can't help but maravillarse at the sight. El parque sirve como a constant reminder of the power of nature y el paso del tiempo.</p>
+                <h4 className='intro-subtitle park-title'>
+                    {t('utah.parkNameForBryceCanyon')}
+                </h4>
+                <p className='intro-paragraph'>
+                    {t('utah.introForBryceCanyon')}
+                </p>
                 {/* Grid and photos go here */}
                 <div className='grid'>
                     <div className='box box--3x3'>
@@ -233,8 +249,12 @@ function UtahContent({ className, setActiveState }) {
                 </div>
             </div>
             <div className='park-section bg-light p-3 ' ref={archesRef}>
-                <h4 className='intro-subtitle park-title'>Arches National Park</h4>
-                <p className='intro-paragraph'>Arches National Park, con más de 2,000 arcos naturales de arenisca, es una maravilla geológica que nos muestra the evolution of Earth a lo largo de millions of years. Los Ute tribes, los primeros conocidos en habitar la zona, left a spiritual imprint on this magical place. Aunque el detour a Bryce Canyon valió la pena, I wish we had an extra day para explorar más de Arches, given it's an icon of the National Parks. Cuando llegamos, el sol ya empezaba a despedirse. El trek hasta the famous Arch, fue una carrera contra el sol, more challenging than we thought, pero no nos rendimos. Al llegar, la vista of Delicate Arch was breathtaking. Tristemente, our visit was short, antes del trek oscuro back to the RV. A pesar de la falta de luz y flashlights, fue una aventura emocionante e inolvidable. Afortunadamente, encontramos a other hikers with a flashlight en el camino de regreso, evitando un encounter with snakes o caer de un cliff. No doubt, one day volveremos better prepared.</p>
+                <h4 className='intro-subtitle park-title'>
+                    {t('utah.parkNameForArches')}
+                </h4>
+                <p className='intro-paragraph'>
+                    {t('utah.introForArches')}
+                </p>
                 {/* Grid and photos go here */}
                 <div className='grid'>
                     <div className='box box--3x3'>
