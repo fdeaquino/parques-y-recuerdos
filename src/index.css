@@ -83,6 +83,7 @@ body {
   bottom: 0;
   right: .2rem;
   margin: .5rem;
+  padding: 0.35rem 0.50rem;
 }
 
 .navbar {
@@ -111,6 +112,24 @@ a.nav-link-active.home-link-styles {
 .menu-icon {
   height: 100%;
   width: 100%;
+}
+
+.menu-icon .line1,
+.menu-icon .line2,
+.menu-icon .line3 {
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.menu-icon.open .line1 {
+  transform: rotate(45deg) translate(15px, -10px);
+}
+
+.menu-icon.open .line2 {
+  opacity: 0;
+}
+
+.menu-icon.open .line3 {
+  transform: rotate(-45deg) translate(-20px, 2px);
 }
 
 .navbar-nav {
@@ -322,7 +341,7 @@ section p {
 }
 
 .language-switcher:hover {
-  background-color:  rgba(253, 211, 191, 0.9);
+  background-color: rgba(253, 211, 191, 0.9);
 }
 
 .language-options {
@@ -330,7 +349,7 @@ section p {
   position: absolute;
   top: 0px;
   right: 0;
-  background-color:  rgba(253, 211, 191, 0.9);
+  background-color: rgba(253, 211, 191, 0.9);
   /* border: 1px solid rgba(255, 255, 255, 0.8); */
   padding: 5px;
   border-radius: 4px;
