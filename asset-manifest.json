@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/parques-y-recuerdos/static/css/main.ea8bc961.css",
-    "main.js": "/parques-y-recuerdos/static/js/main.1ee50fb0.js",
-    "static/js/567.ca4b0861.chunk.js": "/parques-y-recuerdos/static/js/567.ca4b0861.chunk.js",
+    "main.js": "/parques-y-recuerdos/static/js/main.b0fb6284.js",
+    "static/js/567.e163a5ab.chunk.js": "/parques-y-recuerdos/static/js/567.e163a5ab.chunk.js",
     "static/js/363.6301bf35.chunk.js": "/parques-y-recuerdos/static/js/363.6301bf35.chunk.js",
     "static/js/990.8282d0c4.chunk.js": "/parques-y-recuerdos/static/js/990.8282d0c4.chunk.js",
     "static/js/645.11f795f9.chunk.js": "/parques-y-recuerdos/static/js/645.11f795f9.chunk.js",
@@ -472,8 +472,8 @@
     "static/media/language-icon.png": "/parques-y-recuerdos/static/media/language-icon.c9c76e03a35ee2d121ba.png",
     "index.html": "/parques-y-recuerdos/index.html",
     "main.ea8bc961.css.map": "/parques-y-recuerdos/static/css/main.ea8bc961.css.map",
-    "main.1ee50fb0.js.map": "/parques-y-recuerdos/static/js/main.1ee50fb0.js.map",
-    "567.ca4b0861.chunk.js.map": "/parques-y-recuerdos/static/js/567.ca4b0861.chunk.js.map",
+    "main.b0fb6284.js.map": "/parques-y-recuerdos/static/js/main.b0fb6284.js.map",
+    "567.e163a5ab.chunk.js.map": "/parques-y-recuerdos/static/js/567.e163a5ab.chunk.js.map",
     "363.6301bf35.chunk.js.map": "/parques-y-recuerdos/static/js/363.6301bf35.chunk.js.map",
     "990.8282d0c4.chunk.js.map": "/parques-y-recuerdos/static/js/990.8282d0c4.chunk.js.map",
     "645.11f795f9.chunk.js.map": "/parques-y-recuerdos/static/js/645.11f795f9.chunk.js.map",
@@ -488,6 +488,6 @@
   },
   "entrypoints": [
     "static/css/main.ea8bc961.css",
-    "static/js/main.1ee50fb0.js"
+    "static/js/main.b0fb6284.js"
   ]
 }
