@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/parques-y-recuerdos/static/css/main.ea8bc961.css",
-    "main.js": "/parques-y-recuerdos/static/js/main.b0fb6284.js",
-    "static/js/567.e163a5ab.chunk.js": "/parques-y-recuerdos/static/js/567.e163a5ab.chunk.js",
-    "static/js/363.6301bf35.chunk.js": "/parques-y-recuerdos/static/js/363.6301bf35.chunk.js",
+    "main.css": "/parques-y-recuerdos/static/css/main.ccaf1ebb.css",
+    "main.js": "/parques-y-recuerdos/static/js/main.30cbd1d8.js",
+    "static/js/567.9289b69e.chunk.js": "/parques-y-recuerdos/static/js/567.9289b69e.chunk.js",
+    "static/js/363.b040fc65.chunk.js": "/parques-y-recuerdos/static/js/363.b040fc65.chunk.js",
     "static/js/990.8282d0c4.chunk.js": "/parques-y-recuerdos/static/js/990.8282d0c4.chunk.js",
     "static/js/645.11f795f9.chunk.js": "/parques-y-recuerdos/static/js/645.11f795f9.chunk.js",
     "static/js/214.c0120cae.chunk.js": "/parques-y-recuerdos/static/js/214.c0120cae.chunk.js",
@@ -471,10 +471,10 @@
     "static/media/poverty-point1.webp": "/parques-y-recuerdos/static/media/poverty-point1.aac6ba3634a790926c1d.webp",
     "static/media/language-icon.png": "/parques-y-recuerdos/static/media/language-icon.c9c76e03a35ee2d121ba.png",
     "index.html": "/parques-y-recuerdos/index.html",
-    "main.ea8bc961.css.map": "/parques-y-recuerdos/static/css/main.ea8bc961.css.map",
-    "main.b0fb6284.js.map": "/parques-y-recuerdos/static/js/main.b0fb6284.js.map",
-    "567.e163a5ab.chunk.js.map": "/parques-y-recuerdos/static/js/567.e163a5ab.chunk.js.map",
-    "363.6301bf35.chunk.js.map": "/parques-y-recuerdos/static/js/363.6301bf35.chunk.js.map",
+    "main.ccaf1ebb.css.map": "/parques-y-recuerdos/static/css/main.ccaf1ebb.css.map",
+    "main.30cbd1d8.js.map": "/parques-y-recuerdos/static/js/main.30cbd1d8.js.map",
+    "567.9289b69e.chunk.js.map": "/parques-y-recuerdos/static/js/567.9289b69e.chunk.js.map",
+    "363.b040fc65.chunk.js.map": "/parques-y-recuerdos/static/js/363.b040fc65.chunk.js.map",
     "990.8282d0c4.chunk.js.map": "/parques-y-recuerdos/static/js/990.8282d0c4.chunk.js.map",
     "645.11f795f9.chunk.js.map": "/parques-y-recuerdos/static/js/645.11f795f9.chunk.js.map",
     "214.c0120cae.chunk.js.map": "/parques-y-recuerdos/static/js/214.c0120cae.chunk.js.map",
@@ -487,7 +487,7 @@
     "787.4d3bc7eb.chunk.js.map": "/parques-y-recuerdos/static/js/787.4d3bc7eb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ea8bc961.css",
-    "static/js/main.b0fb6284.js"
+    "static/css/main.ccaf1ebb.css",
+    "static/js/main.30cbd1d8.js"
   ]
 }
