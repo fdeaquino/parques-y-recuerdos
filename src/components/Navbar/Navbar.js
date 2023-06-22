@@ -64,10 +64,10 @@ const Navbar = ({ setSelectedState }) => {
                                 onClick={() => { setSelectedState('arizona'); closeMenu(); }}
                             >
                                 <img
-                                    width="50"
-                                    height="50"
+                                    className='state-icon-size'
                                     src={`https://img.icons8.com/ios-filled/50/${location.pathname === '/arizona' ? 'f2f342' : 'FFFFFF'}/arizona.png`}
                                     alt="arizona" />
+                                <h2 className='m-2'>AZ</h2>
                             </Link>
                         </li>
 
@@ -79,10 +79,11 @@ const Navbar = ({ setSelectedState }) => {
                                 onClick={() => { setSelectedState('california'); closeMenu(); }}
                             >
                                 <img
-                                    width="50"
-                                    height="50"
+                                    className='state-icon-size'
                                     src={`https://img.icons8.com/ios-filled/50/${location.pathname === '/california' ? 'f2f342' : 'FFFFFF'}/california.png`}
                                     alt="california" />
+                                <h2 className='m-2'>CA</h2>
+
                             </Link>
                         </li>
                         <li className='nav-item state-margins'>
@@ -92,10 +93,11 @@ const Navbar = ({ setSelectedState }) => {
                                 to="/colorado"
                                 onClick={() => { setSelectedState('colorado'); closeMenu(); }}>
                                 <img
-                                    width="50"
-                                    height="50"
+                                    className='state-icon-size'
                                     src={`https://img.icons8.com/ios-filled/50/${location.pathname === '/colorado' ? 'f2f342' : 'FFFFFF'}/colorado.png`}
                                     alt="colorado" />
+                                <h2 className='m-2'>CO</h2>
+
                             </Link>
                         </li>
                         <li className='nav-item state-margins'>
@@ -105,10 +107,11 @@ const Navbar = ({ setSelectedState }) => {
                                 to="/louisiana"
                                 onClick={() => { setSelectedState('louisiana'); closeMenu(); }}>
                                 <img
-                                    width="50"
-                                    height="50"
+                                    className='state-icon-size'
                                     src={`https://img.icons8.com/ios-filled/50/${location.pathname === '/louisiana' ? 'f2f342' : 'FFFFFF'}/louisiana.png`}
                                     alt="louisiana" />
+                                <h2 className='m-2'>LA</h2>
+
                             </Link>
                         </li>
                         <li className='nav-item state-margins'>
@@ -118,10 +121,11 @@ const Navbar = ({ setSelectedState }) => {
                                 to="/newmexico"
                                 onClick={() => { setSelectedState('newmexico'); closeMenu(); }}>
                                 <img
-                                    width="50"
-                                    height="50"
+                                    className='state-icon-size'
                                     src={`https://img.icons8.com/ios-filled/50/${location.pathname === '/newmexico' ? 'f2f342' : 'FFFFFF'}/new-mexico.png`}
                                     alt="new mexico" />
+                                <h2 className='m-2'>NM</h2>
+
                             </Link>
                         </li>
                         <li className='nav-item state-margins'>
@@ -131,10 +135,11 @@ const Navbar = ({ setSelectedState }) => {
                                 to="/newyork"
                                 onClick={() => { setSelectedState('newyork'); closeMenu(); }}>
                                 <img
-                                    width="50"
-                                    height="50"
+                                    className='state-icon-size'
                                     src={`https://img.icons8.com/ios-filled/50/${location.pathname === '/newyork' ? 'f2f342' : 'FFFFFF'}/new-york.png`}
                                     alt="new york" />
+                                <h2 className='m-2'>NY</h2>
+
                             </Link>
                         </li>
                         <li className='nav-item state-margins'>
@@ -144,10 +149,11 @@ const Navbar = ({ setSelectedState }) => {
                                 to="/texas"
                                 onClick={() => { setSelectedState('texas'); closeMenu(); }}>
                                 <img
-                                    width="50"
-                                    height="50"
+                                    className='state-icon-size'
                                     src={`https://img.icons8.com/ios-filled/50/${location.pathname === '/texas' ? 'f2f342' : 'FFFFFF'}/texas.png`}
                                     alt="texas" />
+                                <h2 className='m-2'>TX</h2>
+
                             </Link>
                         </li>
                         <li className='nav-item state-margins'>
@@ -157,10 +163,11 @@ const Navbar = ({ setSelectedState }) => {
                                 to="/utah"
                                 onClick={() => { setSelectedState('utah'); closeMenu(); }}>
                                 <img
-                                    width="50"
-                                    height="50"
+                                    className='state-icon-size'
                                     src={`https://img.icons8.com/ios-filled/50/${location.pathname === '/utah' ? 'f2f342' : 'FFFFFF'}/utah.png`}
                                     alt="utah" />
+                                <h2 className='m-2'>UT</h2>
+
                             </Link>
                         </li>
                     </ul>

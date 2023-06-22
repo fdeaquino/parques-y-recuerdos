@@ -24,7 +24,7 @@ const InteractiveMap = ({ state }) => {
         'welcome': { center: [-98, 40], zoom: 2.3 },
 
         'arizona': { center: [-111.9307, 33.0489], zoom: 4.9 },
-        'sedona': { center: [-111.7999, 34.8097], zoom: 11.5 },
+        'sedona': { center: [-111.76, 34.8], zoom: 12.5 },
         'saguaro': { center: [-111.09, 32.29], zoom: 10 },
         'horseshoeBend': { center: [-111.51, 36.879], zoom: 13.9 },
 
@@ -165,6 +165,13 @@ const InteractiveMap = ({ state }) => {
                     bearing: 60, // Set the rotation angle
                     speed: 0.4
                 });
+            } else if (state === 'sedona') {
+                map.current.flyTo({
+                    center: interpolatedCenter,
+                    zoom: interpolatedZoom,
+                    bearing: 330, // Set the rotation angle
+                    speed: 0.4
+                });
             } else if (state === 'yosemite') {
                 map.current.flyTo({
                     center: interpolatedCenter,
@@ -183,7 +190,7 @@ const InteractiveMap = ({ state }) => {
                 map.current.flyTo({
                     center: interpolatedCenter,
                     zoom: interpolatedZoom,
-                    bearing: 120, // Set the rotation angle
+                    bearing: 80, // Set the rotation angle
                     speed: 0.4
                 });
             } else if (state === 'horseshoeBend') {
